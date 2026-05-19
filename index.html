@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morning Brief — Markets in plain English</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>Morning Brief</h1>
+      <p class="tagline">Markets in plain English — for students and everyone else.</p>
+    </div>
+    <div class="controls">
+      <label class="toggle">
+        <input type="checkbox" id="explain-toggle" />
+        <span>Explain like I'm starting out</span>
+      </label>
+      <span id="generated-at" class="generated-at"></span>
+    </div>
+  </header>
+
+  <main id="brief">
+    <section class="hero">
+      <h2>Today at a glance</h2>
+      <p id="hero-summary" class="hero-summary">Loading the brief…</p>
+    </section>
+
+    <section class="watchlist" id="watchlist-section" hidden>
+      <h2>Stocks to watch today</h2>
+      <p class="muted">Aggregated from today's stories. Direction and size are the model's read — not price targets.</p>
+      <div id="watchlist"></div>
+    </section>
+
+    <section class="themed">
+      <h2>Today's stories</h2>
+      <p class="muted">Tap a card to expand. Each story shows which companies are affected and three ways it could play out.</p>
+      <div id="cards"></div>
+      <p id="empty-state" class="muted" hidden>
+        No <code>data.json</code> yet. Run <code>python pipeline.py</code> with <code>GEMINI_API_KEY</code> set to generate today's brief.
+      </p>
+    </section>
+
+    <p class="disclaimer">For learning only — not investment advice. Cards and scenarios are model-generated and may be wrong.</p>
+  </main>
+
+  <footer>
+    <p class="muted">Built with free RSS feeds + Gemini. Source links on each card. No paywalled sources.</p>
+  </footer>
+
+  <template id="card-template">
+    <article class="card" data-impact="medium" data-theme="Other">
+      <header class="card-head">
+        <div class="card-head-text">
+          <span class="theme-tag"></span>
+          <span class="impact-tag"></span>
+          <h3 class="card-headline"></h3>
+        </div>
+        <button class="expand-btn" aria-label="Expand">+</button>
+      </header>
+      <div class="card-body">
+        <p class="what-happened concise"></p>
+        <p class="what-happened verbose" hidden></p>
+
+        <div class="section-label">Who's affected</div>
+        <ul class="affected"></ul>
+
+        <div class="section-label">Scenarios <span class="likelihood-note">— likelihood is the model's qualitative read, not calibrated probability</span></div>
+        <div class="scenarios">
+          <div class="scenario base">
+            <div class="scenario-title">
+              <span class="scenario-kind">Base case</span>
+              <span class="likelihood-badge"></span>
+              <span class="scenario-label"></span>
+            </div>
+            <div class="scenario-meta"><span class="condition"></span> <span class="horizon"></span></div>
+            <ul class="scenario-tickers"></ul>
+          </div>
+          <div class="scenario upside">
+            <div class="scenario-title">
+              <span class="scenario-kind">Upside</span>
+              <span class="likelihood-badge"></span>
+              <span class="scenario-label"></span>
+            </div>
+            <div class="scenario-meta"><span class="condition"></span> <span class="horizon"></span></div>
+            <ul class="scenario-tickers"></ul>
+          </div>
+          <div class="scenario downside">
+            <div class="scenario-title">
+              <span class="scenario-kind">Downside</span>
+              <span class="likelihood-badge"></span>
+              <span class="scenario-label"></span>
+            </div>
+            <div class="scenario-meta"><span class="condition"></span> <span class="horizon"></span></div>
+            <ul class="scenario-tickers"></ul>
+          </div>
+        </div>
+
+        <div class="source"><a class="source-link" target="_blank" rel="noopener"></a></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
