@@ -1,85 +1,98 @@
 {
-  "generated_at": "2026-07-14T07:44:41.539525+00:00",
-  "hero_summary": "The biggest story today is on the Healthcare side: Evotec's stock plunges on wider loss and slashed outlook. Also worth watching: Dollar Gains on Iran Tensions and Fed Rate Bets and Jefferies suggests high-dividend stocks for volatile markets. Overall the brief covers 20 stories across Financials, Technology, Macro, Energy, Consumer, Monetary Policy, AI Infra, Healthcare and Geopolitics.",
+  "generated_at": "2026-07-15T07:47:02.121191+00:00",
+  "hero_summary": "Today, cooler-than-expected US inflation data is causing the dollar to weaken, but tensions in the Middle East are pushing up gas prices and short-term bond yields. Meanwhile, China's economy is showing signs of a sharp slowdown, contrasting with surging inflation in India. In the tech world, demand for AI chips is boosting outlooks for some companies, though analysts are warning that others are priced too high.",
   "cards": [
     {
       "source_item": {
         "source": "CNBC Markets",
-        "title": "Protect your portfolio from volatility with these high-dividend stocks, Jefferies says",
-        "link": "https://www.cnbc.com/2026/07/13/protect-your-portfolio-from-volatility-with-these-high-dividend-stocks-jefferies-says.html",
-        "published": "Mon, 13 Jul 2026 19:00:41 GMT",
-        "summary": "These stocks can help investors seek shelter from the rocky market, according to Jefferies."
+        "title": "Morgan Stanley likes these stocks heading into second-quarter earnings",
+        "link": "https://www.cnbc.com/2026/07/14/morgan-stanley-likes-these-stocks-heading-into-second-quarter-earnings.html",
+        "published": "Tue, 14 Jul 2026 20:04:47 GMT",
+        "summary": "GE Vernova, Lam Research and United Airlines are some of the stocks that could reward  investors this earnings season, according to Morgan Stanley."
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Jefferies suggests high-dividend stocks for volatile markets",
-        "what_happened": "Jefferies has identified a list of stocks that they believe can offer investors a refuge from current market turbulence. These stocks are characterized by high dividend payouts, which can provide a steady income stream even when stock prices are fluctuating.",
-        "what_happened_verbose": "In a choppy market environment, where stock prices can swing significantly, investors often look for ways to protect their portfolios. Analysts at Jefferies have recommended certain stocks that pay out a substantial portion of their profits to shareholders in the form of dividends. These high-dividend stocks are seen as a way to generate income and potentially mitigate losses during periods of increased market volatility, offering a more stable return compared to growth stocks that reinvest profits.",
+        "plain_headline": "Morgan Stanley picks stocks for earnings season",
+        "what_happened": "Morgan Stanley has identified GE Vernova, Lam Research, and United Airlines as stocks that could perform well during the upcoming second-quarter earnings season. The firm suggests these companies may offer opportunities for investors.",
+        "what_happened_verbose": "As companies prepare to report their second-quarter financial results, investment bank Morgan Stanley has highlighted specific stocks they believe could be attractive to investors. Their picks include GE Vernova (GE), a company focused on energy transition technologies; Lam Research (LRCX), a key player in semiconductor manufacturing equipment; and United Airlines (UAL), a major airline. Morgan Stanley's analysis suggests these companies might deliver positive surprises or demonstrate resilience during this earnings period.",
         "theme": "Financials",
         "impact": "medium",
-        "affected": [],
+        "affected": [
+          {
+            "ticker": "GE",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "GE Vernova is specifically named as a stock that could reward investors this earnings season."
+          },
+          {
+            "ticker": "UAL",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "United Airlines is highlighted by Morgan Stanley as a stock with potential during the earnings season."
+          }
+        ],
         "scenarios": {
           "base": {
-            "label": "Market volatility persists, favoring dividend payers",
-            "condition": "Continued economic uncertainty and interest rate concerns keep investors cautious about growth stocks.",
+            "label": "Earnings meet or beat expectations",
+            "condition": "GE Vernova, Lam Research, and United Airlines report earnings that align with or exceed analyst expectations.",
             "horizon": "next quarter",
             "likelihood": "most_likely",
             "likelihood_pct": 60,
             "tickers": [
               {
-                "ticker": "XLP",
+                "ticker": "GE",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Consumer staples often have stable earnings and pay dividends, appealing in defensive scenarios."
+                "reason": "Positive earnings report would validate Morgan Stanley's outlook."
               },
               {
-                "ticker": "XLU",
+                "ticker": "UAL",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Utilities are typically defensive, have stable cash flows, and often pay attractive dividends."
+                "reason": "Strong operational performance and outlook would boost the stock."
               }
             ]
           },
           "upside": {
-            "label": "Market sentiment improves, growth stocks rebound",
-            "condition": "Positive economic data and a clearer path for interest rate cuts boost investor confidence in growth-oriented equities.",
+            "label": "Strong earnings and positive forward guidance",
+            "condition": "The selected companies deliver earnings significantly above expectations and provide optimistic outlooks for the next quarter.",
             "horizon": "next quarter",
             "likelihood": "plausible",
             "likelihood_pct": 30,
             "tickers": [
               {
-                "ticker": "QQQ",
+                "ticker": "GE",
                 "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Growth-oriented tech stocks in the Nasdaq 100 tend to outperform when market sentiment is strong."
+                "expected_move": "large",
+                "reason": "Exceeding expectations significantly could lead to a strong upward re-rating."
               },
               {
-                "ticker": "VTI",
+                "ticker": "UAL",
                 "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A broad market ETF like VTI would benefit from a general increase in investor risk appetite."
+                "expected_move": "large",
+                "reason": "Robust demand and cost management could drive substantial stock appreciation."
               }
             ]
           },
           "downside": {
-            "label": "Severe market downturn, flight to safety",
-            "condition": "Unexpected negative economic shocks or geopolitical events trigger a significant sell-off across all asset classes.",
-            "horizon": "next 1-2 weeks",
+            "label": "Earnings miss or weak forward guidance",
+            "condition": "GE Vernova, Lam Research, or United Airlines report earnings below expectations or issue cautious forward guidance.",
+            "horizon": "next quarter",
             "likelihood": "less_likely",
             "likelihood_pct": 10,
             "tickers": [
               {
-                "ticker": "VXX",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Volatility products like VXX surge during sharp market declines as fear increases."
+                "ticker": "GE",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Failure to meet expectations would trigger a sell-off."
               },
               {
-                "ticker": "GLD",
-                "direction": "benefits",
+                "ticker": "UAL",
+                "direction": "hurts",
                 "expected_move": "moderate",
-                "reason": "Gold often acts as a safe-haven asset during periods of extreme market stress."
+                "reason": "Disappointing results could signal broader industry headwinds."
               }
             ]
           }
@@ -89,185 +102,94 @@
     {
       "source_item": {
         "source": "CNBC Markets",
-        "title": "A streaming stock risks diving below its key support level this week. Here's what else Jay Woods is watching",
-        "link": "https://www.cnbc.com/2026/07/13/netflix-risks-diving-below-key-support-level-this-week-jay-woods-says.html",
-        "published": "Mon, 13 Jul 2026 19:08:18 GMT",
-        "summary": "NYSE insider Jay Woods is keeping an eye on Netflix in advance of its latest financial results due out later this week. Here's what else he's watching."
+        "title": "SK Hynix options begin trading. But another group of stocks is stealing its thunder",
+        "link": "https://www.cnbc.com/2026/07/14/sk-hynix-options-begin-trading-but-another-group-of-stocks-is-stealing-its-thunder.html",
+        "published": "Tue, 14 Jul 2026 19:18:57 GMT",
+        "summary": "One explanation for the lack of notable call-buying is that the surge in single-stock ETFs and leveraged funds stole a big chunk of the speculative limelight."
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Streaming stock faces potential drop; analyst watches Netflix",
-        "what_happened": "A prominent streaming company's stock is nearing a critical support level, potentially signaling a significant price decline. Analyst Jay Woods is closely monitoring Netflix ahead of its upcoming earnings report.",
-        "what_happened_verbose": "The stock of a major player in the streaming industry is approaching a key technical price level, below which it could experience a sharp drop. This level is known as a 'support level,' where buying interest has historically emerged to prevent further price declines. Analyst Jay Woods is particularly focused on Netflix as the company is set to release its latest financial results this week, which could significantly impact its stock price and the broader streaming sector.",
+        "plain_headline": "New ETFs divert speculative money from SK Hynix options",
+        "what_happened": "New single-stock Exchange Traded Funds (ETFs) and leveraged funds are attracting speculative investment, potentially drawing attention away from options trading in companies like SK Hynix. This shift in investor focus could explain a lack of significant activity in SK Hynix's options market.",
+        "what_happened_verbose": "The options market for SK Hynix, a major semiconductor manufacturer, has seen less speculative call-buying than might be expected. One theory suggests that the recent launch of single-stock ETFs and other leveraged investment products has siphoned off a portion of the speculative capital. These new products offer different ways for investors to bet on stock price movements, potentially diverting funds that might otherwise have been used for options contracts on individual companies like SK Hynix.",
         "theme": "Technology",
         "impact": "medium",
         "affected": [
           {
-            "ticker": "XLY",
+            "ticker": "MU",
             "direction": "mixed",
+            "expected_move": "small",
+            "reason": "The trend of speculative capital flowing into ETFs rather than options could affect other semiconductor stocks like Micron Technology."
+          },
+          {
+            "ticker": "QQQ",
+            "direction": "benefits",
             "expected_move": "moderate",
-            "reason": "Consumer discretionary stocks, including streaming services, are sensitive to consumer spending and company-specific news like earnings."
+            "reason": "Single-stock ETFs and leveraged funds often track or are related to major tech indices like the Nasdaq 100."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Netflix earnings meet or slightly beat expectations",
-            "condition": "Netflix reports subscriber growth and revenue figures that are in line with or slightly better than analyst consensus.",
+            "label": "ETF trend continues, options activity remains subdued",
+            "condition": "The popularity of single-stock ETFs and leveraged funds persists, drawing speculative interest away from traditional options.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
             "likelihood_pct": 55,
             "tickers": [
               {
-                "ticker": "NFLX",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Meeting or beating expectations would likely stabilize the stock and potentially lead to a rebound from its support level."
-              },
-              {
-                "ticker": "XLY",
+                "ticker": "QQQ",
                 "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Positive sentiment from Netflix's results could spill over to other consumer discretionary companies."
+                "reason": "Increased demand for leveraged products could indirectly boost ETF performance."
+              },
+              {
+                "ticker": "MU",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Investor focus may remain on ETF products, impacting options liquidity for individual tech names."
               }
             ]
           },
           "upside": {
-            "label": "Netflix delivers strong earnings, boosting sector sentiment",
-            "condition": "Netflix significantly surpasses analyst expectations for subscriber growth, revenue, and profitability.",
-            "horizon": "next 1-2 weeks",
+            "label": "Options trading rebounds as ETF appeal wanes",
+            "condition": "Investors return to traditional options trading, perhaps due to perceived risks or limited opportunities in new ETF products.",
+            "horizon": "next quarter",
             "likelihood": "plausible",
-            "likelihood_pct": 30,
+            "likelihood_pct": 35,
             "tickers": [
               {
-                "ticker": "NFLX",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "A blowout earnings report would likely cause a significant upward re-rating of the stock."
-              },
-              {
-                "ticker": "XLY",
+                "ticker": "MU",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Strong performance from a sector leader like Netflix can lift investor sentiment for the entire consumer discretionary sector."
+                "reason": "Increased options activity could signal renewed speculative interest in semiconductor stocks."
+              },
+              {
+                "ticker": "QQQ",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "A shift away from leveraged ETFs could reduce some demand."
               }
             ]
           },
           "downside": {
-            "label": "Netflix earnings disappoint, breaking support level",
-            "condition": "Netflix reports weaker-than-expected subscriber numbers, revenue, or provides a disappointing outlook, causing its stock to fall below its key support.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "NFLX",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "Breaking a key support level on disappointing earnings would likely trigger significant selling pressure."
-              },
-              {
-                "ticker": "XLY",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A major disappointment from Netflix could negatively impact investor sentiment towards the broader streaming and consumer discretionary sectors."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "CNBC Markets",
-        "title": "Brazilian ETF shows constructive chart action, giving a bullish outlook for the third quarter, Katie Stockton says",
-        "link": "https://www.cnbc.com/2026/07/13/brazilian-etf-shows-constructive-chart-action-katie-stockton-says.html",
-        "published": "Mon, 13 Jul 2026 17:01:49 GMT",
-        "summary": "The leading Brazilian exchange-traded fund in the U.S. has a constructive technical setup that suggests its recent corrective phase is maturing."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Brazilian ETF shows positive technical signs for Q3",
-        "what_happened": "The main exchange-traded fund (ETF) tracking Brazilian stocks in the U.S. is displaying positive technical chart patterns. This suggests that a recent period of price correction for Brazilian assets may be nearing its end, pointing to a potentially bullish outlook for the third quarter.",
-        "what_happened_verbose": "Technical analysis involves studying price charts and trading volumes to predict future price movements. According to analyst Katie Stockton, the leading U.S.-listed ETF for Brazilian equities is showing 'constructive chart action.' This means its price patterns and indicators are forming in a way that suggests underlying strength. The recent 'corrective phase,' a period where prices typically fall after a rally, appears to be maturing, indicating that Brazilian stocks could be poised for a rebound in the upcoming quarter.",
-        "theme": "Macro",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "EWZ",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "EWZ is the primary ETF tracking Brazilian equities in the U.S., directly reflecting the technical outlook presented."
-          },
-          {
-            "ticker": "EEM",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Emerging markets ETFs like EEM can benefit from improved sentiment in a major emerging market like Brazil, depending on its weighting."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Technical setup confirms Brazil's recovery continues",
-            "condition": "The positive technical indicators persist, and broader emerging market sentiment remains stable or improves.",
+            "label": "Further shift to ETFs, impacting broader market liquidity",
+            "condition": "The trend of capital flowing into ETFs intensifies, leading to reduced liquidity and potentially higher volatility in options markets.",
             "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "EWZ",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Continued constructive technicals would support a sustained upward move in the Brazilian ETF."
-              },
-              {
-                "ticker": "EEM",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A strengthening Brazil could contribute positively to the performance of broader emerging market ETFs."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Strong economic data fuels Brazil's rally",
-            "condition": "Positive economic surprises from Brazil, such as strong commodity prices or better-than-expected growth figures, align with the technical outlook.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "EWZ",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Positive fundamental catalysts combined with strong technicals could lead to an accelerated rally."
-              },
-              {
-                "ticker": "XLE",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Brazil is a commodity exporter; rising commodity prices would benefit its economy and related ETFs."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Global risk aversion or domestic issues derail Brazil",
-            "condition": "A global economic slowdown, rising geopolitical tensions, or domestic political instability in Brazil causes a reversal of the technical trend.",
-            "horizon": "next 1-2 weeks",
             "likelihood": "less_likely",
             "likelihood_pct": 10,
             "tickers": [
               {
-                "ticker": "EWZ",
-                "direction": "hurts",
+                "ticker": "QQQ",
+                "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "A breakdown in the constructive technical pattern would signal a potential decline."
+                "reason": "Continued strong demand for ETFs could drive their prices higher."
               },
               {
                 "ticker": "VXX",
                 "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Increased global risk aversion often leads to outflows from emerging markets."
+                "expected_move": "moderate",
+                "reason": "Increased speculative activity in ETFs could lead to higher overall market volatility."
               }
             ]
           }
@@ -277,94 +199,547 @@
     {
       "source_item": {
         "source": "CNBC Markets",
-        "title": "Oil volatility is creating a 'win-win' trade strategy",
-        "link": "https://www.cnbc.com/2026/07/13/oil-volatility-is-creating-a-win-win-trade-strategy.html",
-        "published": "Mon, 13 Jul 2026 17:02:10 GMT",
-        "summary": "The United States Oil Fund (USO), the ETF that best tracks oil prices, offers equity options traders a liquid, accessible alternative to the complexities of the futures market."
+        "title": "Caution warranted on this red hot AI cloud data stock that's now 'priced for perfection,' says Todd Gordon",
+        "link": "https://www.cnbc.com/2026/07/14/red-hot-ai-cloud-data-stock-now-priced-for-perfection-says-todd-gordon.html",
+        "published": "Tue, 14 Jul 2026 18:54:49 GMT",
+        "summary": "Datadog runs the control room for modern software: it pulls data from a company's servers, apps and cloud services into one place."
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Oil volatility offers 'win-win' trading strategy",
-        "what_happened": "The article suggests that the fluctuating price of oil is creating a favorable environment for a specific trading strategy. It highlights the United States Oil Fund (USO) as an accessible tool for equity options traders to gain exposure to oil price movements without the complexities of futures contracts.",
-        "what_happened_verbose": "Oil prices have been experiencing significant swings, a condition known as volatility. This volatility, while potentially risky, can also create opportunities for traders. The United States Oil Fund (USO), an exchange-traded fund designed to track the price of West Texas Intermediate (WTI) crude oil futures, is presented as a liquid and straightforward way for traders who typically deal in stock options to participate in the oil market. This approach bypasses the more intricate and capital-intensive world of oil futures trading.",
-        "theme": "Energy",
+        "plain_headline": "AI cloud stock Datadog 'priced for perfection,' says analyst",
+        "what_happened": "Analyst Todd Gordon warns that Datadog, a company providing cloud monitoring services essential for modern software, is currently trading at a valuation that assumes flawless execution. He suggests caution is warranted for investors due to this high valuation.",
+        "what_happened_verbose": "Datadog (DDOG) is a technology company that plays a crucial role in managing and monitoring complex software systems. It aggregates data from a company's servers, applications, and cloud services into a single platform, allowing for better oversight and troubleshooting. Analyst Todd Gordon believes that the stock's current price reflects an overly optimistic scenario, meaning any minor misstep or disappointment in future performance could lead to a significant price correction. He advises investors to be cautious given this 'priced for perfection' valuation.",
+        "theme": "AI Infra",
         "impact": "medium",
         "affected": [
           {
-            "ticker": "USO",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "The article directly discusses USO as a tool for trading oil volatility."
+            "ticker": "DDOG",
+            "direction": "hurts",
+            "expected_move": "large",
+            "reason": "Analyst warning about 'priced for perfection' valuation suggests downside risk if growth falters."
           },
           {
-            "ticker": "XLE",
-            "direction": "benefits",
+            "ticker": "MSFT",
+            "direction": "mixed",
             "expected_move": "small",
-            "reason": "Energy sector ETFs like XLE are influenced by oil prices, and increased trading activity around oil can reflect broader energy market sentiment."
+            "reason": "Datadog's performance is linked to overall cloud adoption and AI infrastructure spending, areas where Microsoft is also a major player."
+          },
+          {
+            "ticker": "AMZN",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "As a key provider of cloud services (AWS), Amazon's performance is indirectly tied to the success of companies like Datadog."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Oil prices remain volatile, favoring options strategies",
-            "condition": "Continued geopolitical events or supply/demand imbalances keep oil prices fluctuating within a defined range, encouraging options trading.",
+            "label": "Datadog meets high expectations",
+            "condition": "Datadog continues to grow its customer base and revenue at a rapid pace, meeting or slightly exceeding current high expectations.",
             "horizon": "next quarter",
             "likelihood": "most_likely",
             "likelihood_pct": 50,
             "tickers": [
               {
-                "ticker": "USO",
+                "ticker": "DDOG",
                 "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Sustained volatility in oil prices would continue to create trading opportunities for USO."
+                "expected_move": "small",
+                "reason": "Meeting expectations would support the current high valuation, preventing a sharp decline."
               },
               {
-                "ticker": "XLE",
-                "direction": "mixed",
+                "ticker": "MSFT",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Energy sector performance would be tied to oil price direction, but volatility itself can create trading opportunities within the sector."
+                "reason": "Continued strong performance in cloud monitoring reflects healthy enterprise IT spending."
               }
             ]
           },
           "upside": {
-            "label": "Oil prices surge due to supply shock",
-            "condition": "A significant geopolitical event or production disruption leads to a sharp and sustained increase in oil prices.",
-            "horizon": "next 1-2 weeks",
+            "label": "Datadog significantly beats expectations with strong guidance",
+            "condition": "Datadog announces earnings and guidance that substantially exceed current analyst projections, demonstrating exceptional growth.",
+            "horizon": "next quarter",
             "likelihood": "plausible",
-            "likelihood_pct": 35,
+            "likelihood_pct": 30,
             "tickers": [
               {
-                "ticker": "USO",
+                "ticker": "DDOG",
                 "direction": "benefits",
                 "expected_move": "large",
-                "reason": "A sharp rise in oil prices would directly benefit USO, which tracks oil futures."
+                "reason": "Exceeding 'perfection' expectations could lead to a significant upward re-rating."
               },
               {
-                "ticker": "XLE",
+                "ticker": "AMZN",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Higher oil prices generally boost the profitability of energy companies, benefiting the XLE."
+                "reason": "Strong performance from cloud monitoring tools indicates robust AWS usage."
               }
             ]
           },
           "downside": {
-            "label": "Oil prices collapse on demand fears",
-            "condition": "A global economic slowdown or a significant increase in oil supply leads to a sharp decline in oil prices.",
+            "label": "Datadog misses expectations or lowers guidance",
+            "condition": "Datadog's earnings report falls short of analyst estimates, or the company provides guidance that is weaker than anticipated.",
+            "horizon": "next quarter",
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "DDOG",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Failing to meet 'perfection' expectations would likely result in a significant sell-off."
+              },
+              {
+                "ticker": "MSFT",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Weakness in a key cloud monitoring player could signal broader slowdowns in cloud spending."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "CNBC Markets",
+        "title": "Barclays believes SK Hynix's U.S. shares can double. Here's why",
+        "link": "https://www.cnbc.com/2026/07/14/barclays-believes-sk-hynixs-us-shares-can-double-heres-why.html",
+        "published": "Tue, 14 Jul 2026 17:09:10 GMT",
+        "summary": "The memory shortage will allow price increases that will boost revenue, Barclays says."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Barclays sees SK Hynix shares doubling on memory shortage",
+        "what_happened": "Barclays analysts predict that SK Hynix's U.S.-listed shares could double in value. They believe a persistent shortage in memory chips will allow the company to increase prices, leading to significant revenue growth.",
+        "what_happened_verbose": "Investment bank Barclays has issued a bullish outlook on SK Hynix, a leading memory chip manufacturer. The firm's analysts forecast that the company's U.S. shares have the potential to double. This optimistic view is based on the expectation that a global shortage of memory chips (like DRAM and NAND) will persist. This shortage is anticipated to give SK Hynix pricing power, enabling them to raise prices and consequently boost their revenue and profitability significantly.",
+        "theme": "Technology",
+        "impact": "high",
+        "affected": [
+          {
+            "ticker": "MU",
+            "direction": "benefits",
+            "expected_move": "large",
+            "reason": "SK Hynix's success in a memory shortage environment directly benefits competitors like Micron Technology."
+          },
+          {
+            "ticker": "ASML",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Increased demand and production for advanced memory chips would benefit ASML, a key supplier of chip manufacturing equipment."
+          },
+          {
+            "ticker": "NVDA",
+            "direction": "mixed",
+            "expected_move": "moderate",
+            "reason": "While NVDA uses memory, its primary driver is AI accelerators; a memory shortage could increase its component costs."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Memory shortage persists, SK Hynix executes well",
+            "condition": "The global memory chip shortage continues, and SK Hynix effectively manages its production and pricing to capitalize on demand.",
+            "horizon": "next 1-2 quarters",
+            "likelihood": "most_likely",
+            "likelihood_pct": 65,
+            "tickers": [
+              {
+                "ticker": "MU",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Sustained shortage benefits all major memory players, including Micron."
+              },
+              {
+                "ticker": "ASML",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Continued high demand for memory chips drives orders for ASML's lithography equipment."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Accelerated demand and supply constraints",
+            "condition": "Demand for memory chips surges beyond current expectations (e.g., due to AI server buildouts), while supply remains constrained.",
+            "horizon": "next 1-2 quarters",
+            "likelihood": "plausible",
+            "likelihood_pct": 25,
+            "tickers": [
+              {
+                "ticker": "MU",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Stronger-than-expected demand could lead to even higher prices and volumes for memory makers."
+              },
+              {
+                "ticker": "NVDA",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Increased demand for AI accelerators would boost NVDA's revenue, potentially offsetting higher memory costs."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Demand falters or supply chain issues resolve",
+            "condition": "Demand for memory chips weakens significantly, or production ramps up faster than expected, easing the shortage and price pressures.",
+            "horizon": "next 1-2 quarters",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "MU",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Easing shortage would lead to price declines and reduced profitability for memory manufacturers."
+              },
+              {
+                "ticker": "ASML",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Reduced chip production plans would decrease demand for ASML's equipment."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "CNBC Economy",
+        "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+        "link": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
+        "published": "Wed, 15 Jul 2026 05:14:11 GMT",
+        "summary": "That second-quarter growth came below Beijing's full-year growth target range of 4.5% to 5%, the least ambitious goal in decades."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "China's Economy Slows Sharply",
+        "what_happened": "China's economic growth in the second quarter was the slowest since early 2022, falling short of the government's annual target. This slowdown is attributed to a slump in investment, leading to increased calls for economic stimulus measures from Beijing.",
+        "what_happened_verbose": "China's economy experienced its weakest quarterly growth since the initial COVID-19 lockdowns in early 2022. The reported growth rate was below Beijing's already modest full-year target of 4.5% to 5%. This deceleration is largely driven by a significant drop in investment, raising concerns about the country's economic momentum and prompting economists to urge the government to implement stimulus packages to boost activity.",
+        "theme": "Macro",
+        "impact": "high",
+        "affected": [
+          {
+            "ticker": "FXI",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Slower economic growth in China directly impacts the performance of large Chinese companies listed in Hong Kong."
+          },
+          {
+            "ticker": "KWEB",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Chinese internet companies are sensitive to domestic economic conditions and consumer spending, which are likely to be affected by the slowdown."
+          },
+          {
+            "ticker": "FCX",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Copper demand is heavily influenced by China's industrial activity and infrastructure spending, both of which are likely to weaken with slower growth."
+          },
+          {
+            "ticker": "TSLA",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Tesla's significant sales and production exposure in China means a domestic economic slowdown will likely hurt its demand and revenue."
+          },
+          {
+            "ticker": "AAPL",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Apple's substantial market and supply chain presence in China makes it vulnerable to a slowdown in Chinese consumer spending and production."
+          },
+          {
+            "ticker": "RIO",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Rio Tinto's iron ore business is heavily dependent on Chinese demand for steel, which is tied to infrastructure and construction activity."
+          },
+          {
+            "ticker": "BHP",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "BHP's significant exposure to iron ore and copper markets makes it sensitive to China's industrial and construction output."
+          },
+          {
+            "ticker": "CYB",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "A weaker Chinese economy could put downward pressure on the yuan, but stimulus measures might counteract this."
+          },
+          {
+            "ticker": "EEM",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Emerging markets, particularly those with significant trade ties to China, are likely to be negatively impacted by its economic slowdown."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "China Stimulus Fails to Ignite Growth",
+            "condition": "Beijing's stimulus measures are insufficient or ineffective in boosting domestic demand and investment.",
+            "horizon": "next quarter",
+            "likelihood": "most_likely",
+            "likelihood_pct": 50,
+            "tickers": [
+              {
+                "ticker": "FXI",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Continued economic weakness directly impacts Chinese corporate earnings."
+              },
+              {
+                "ticker": "FCX",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Weak industrial demand will depress copper prices."
+              },
+              {
+                "ticker": "EEM",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Broader emerging market sentiment suffers from China's drag."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Effective Stimulus Boosts Chinese Economy",
+            "condition": "Aggressive and well-targeted stimulus measures by China lead to a significant rebound in investment and consumer spending.",
+            "horizon": "next quarter",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "FXI",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Stronger economic activity lifts Chinese corporate valuations."
+              },
+              {
+                "ticker": "FCX",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Increased infrastructure and manufacturing drive copper demand."
+              },
+              {
+                "ticker": "TSLA",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Improved consumer sentiment boosts auto sales in China."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Deepening Slowdown and Property Crisis",
+            "condition": "The economic slowdown intensifies, exacerbated by ongoing issues in the property sector and weak global demand.",
             "horizon": "next 1-2 weeks",
             "likelihood": "less_likely",
             "likelihood_pct": 15,
             "tickers": [
               {
-                "ticker": "USO",
+                "ticker": "FXI",
                 "direction": "hurts",
                 "expected_move": "large",
-                "reason": "A sharp fall in oil prices would cause USO to decline significantly."
+                "reason": "Severe economic contraction leads to sharp declines in Chinese equities."
               },
               {
-                "ticker": "XLE",
+                "ticker": "CYB",
                 "direction": "hurts",
                 "expected_move": "moderate",
-                "reason": "Falling oil prices would negatively impact the earnings of energy companies, hurting XLE."
+                "reason": "Capital flight and economic distress weaken the yuan."
+              },
+              {
+                "ticker": "EEM",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Global risk aversion spikes as China's crisis spreads."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "CNBC Economy",
+        "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+        "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+        "published": "Tue, 14 Jul 2026 21:05:13 GMT",
+        "summary": "The consumer price index in June was expected to increase 3.8% from a year ago."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "US Inflation Cools More Than Expected",
+        "what_happened": "Consumer prices in the US rose less than anticipated in June, primarily due to easing energy costs. This cooler inflation reading could influence the Federal Reserve's decisions on interest rates.",
+        "what_happened_verbose": "The latest consumer price index (CPI) report showed that prices increased by 3.5% annually in June, falling short of the 3.8% expected by economists. A significant factor contributing to this moderation was a decrease in energy prices. This development is closely watched by the Federal Reserve as it weighs future monetary policy decisions, potentially reducing the urgency for further rate hikes.",
+        "theme": "Rates",
+        "impact": "high",
+        "affected": [
+          {
+            "ticker": "BAC",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Lower inflation reduces pressure on the Fed to raise rates, which can be beneficial for banks' net interest margins."
+          },
+          {
+            "ticker": "GS",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A less hawkish Fed stance can support capital markets activity and M&A, benefiting investment banks."
+          },
+          {
+            "ticker": "MS",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Stable or falling rates can improve sentiment for wealth management and investment banking clients."
+          },
+          {
+            "ticker": "WFC",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Reduced rate hike pressure can stabilize the bank's funding costs and loan demand."
+          },
+          {
+            "ticker": "XLF",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "The financial sector generally benefits from a stable rate environment and reduced recession fears."
+          },
+          {
+            "ticker": "TLT",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Lower inflation expectations can lead to a decrease in long-term bond yields, boosting bond prices."
+          },
+          {
+            "ticker": "IEF",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Falling yields on intermediate-term Treasuries will increase the value of these bonds."
+          },
+          {
+            "ticker": "SHY",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Short-term bond yields may also decrease, making these instruments more attractive."
+          },
+          {
+            "ticker": "LQD",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Corporate bonds tend to perform better when interest rate hike expectations diminish."
+          },
+          {
+            "ticker": "HYG",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Reduced rate hike pressure and lower recession risk can improve sentiment for high-yield bonds."
+          },
+          {
+            "ticker": "VIX",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Easing inflation and reduced rate hike fears can lower market volatility."
+          },
+          {
+            "ticker": "VXX",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Lower expected market volatility reduces demand for volatility products."
+          },
+          {
+            "ticker": "SPY",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Reduced inflation and rate hike fears can provide a tailwind for the broader stock market."
+          },
+          {
+            "ticker": "QQQ",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Tech stocks, often sensitive to interest rates, may see a boost from lower inflation expectations."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Fed Pauses Rate Hikes, Inflation Stays Moderate",
+            "condition": "Inflation continues to moderate, allowing the Federal Reserve to hold interest rates steady for the foreseeable future.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "TLT",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Lower rate hike expectations boost long-term bond prices."
+              },
+              {
+                "ticker": "XLF",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Financials benefit from a stable rate environment."
+              },
+              {
+                "ticker": "QQQ",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Tech stocks rally on reduced borrowing cost fears."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Inflation Falls Sharply, Rate Cuts Possible",
+            "condition": "Inflation continues to decline rapidly, prompting the Fed to consider interest rate cuts sooner than expected.",
+            "horizon": "next quarter",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "TLT",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Anticipation of rate cuts drives significant bond yield declines."
+              },
+              {
+                "ticker": "HYG",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Lower rates and improved economic outlook boost risk appetite."
+              },
+              {
+                "ticker": "SPY",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Lower borrowing costs and economic optimism fuel equity gains."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Inflation Re-accelerates, Fed Stays Hawkish",
+            "condition": "Inflationary pressures re-emerge, forcing the Federal Reserve to maintain a hawkish stance or even consider further rate hikes.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "TLT",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Renewed rate hike fears push bond yields higher."
+              },
+              {
+                "ticker": "VIX",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Increased uncertainty and hawkish Fed policy raise volatility."
+              },
+              {
+                "ticker": "QQQ",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Higher rates disproportionately impact growth and tech stocks."
               }
             ]
           }
@@ -382,38 +757,62 @@
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "India's Inflation Surges on Food and Energy Costs",
-        "what_happened": "India's inflation rate climbed to 4.38% in June, marking the eighth consecutive month of increases. This rise was driven by higher food and energy prices, influenced by global events like the Iran war and domestic issues such as insufficient rainfall.",
-        "what_happened_verbose": "India's Consumer Price Index (CPI) accelerated to 4.38% in June, surpassing economists' expectations. This marks the eighth consecutive monthly increase in inflation. The primary drivers are rising costs for food and energy, which are being impacted by global supply chain disruptions potentially linked to the Iran war and by adverse weather conditions like deficient rainfall affecting agricultural output domestically.",
+        "plain_headline": "India's Inflation Surges Past Forecasts",
+        "what_happened": "India's inflation rate accelerated in June, exceeding expectations and marking the eighth consecutive month of increases. Rising food and energy prices, exacerbated by geopolitical tensions and adverse weather, are driving this trend.",
+        "what_happened_verbose": "Inflation in India climbed to 4.38% in June, surpassing forecasts and continuing a persistent upward trend for the eighth month in a row. The acceleration is primarily fueled by higher prices for food and energy. These increases are linked to global factors such as the Iran war, which impacts energy supply chains, and domestic issues like deficient rainfall affecting agricultural output.",
         "theme": "Macro",
         "impact": "medium",
         "affected": [
           {
             "ticker": "INDA",
             "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Higher inflation can lead to tighter monetary policy and reduced consumer spending, negatively impacting the Indian stock market."
+          },
+          {
+            "ticker": "EEM",
+            "direction": "hurts",
             "expected_move": "small",
-            "reason": "Higher inflation can lead to tighter monetary policy, potentially slowing economic growth and impacting the broader Indian market."
+            "reason": "Rising inflation in a major emerging market like India can dampen overall emerging market sentiment."
+          },
+          {
+            "ticker": "XLE",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Higher energy prices globally contribute to inflation and can benefit energy producers."
+          },
+          {
+            "ticker": "ITUB",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "While higher rates might benefit bank margins, sustained high inflation can hurt economic growth and loan demand in Brazil."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Inflation persists, prompting cautious monetary policy",
-            "condition": "Global energy prices remain elevated and domestic food supply issues continue.",
+            "label": "Inflation Remains Elevated, RBI Stays Tight",
+            "condition": "Inflationary pressures persist due to ongoing supply chain issues and strong demand, leading the Reserve Bank of India to maintain a tight monetary policy.",
             "horizon": "next quarter",
             "likelihood": "most_likely",
-            "likelihood_pct": 60,
+            "likelihood_pct": 55,
             "tickers": [
               {
                 "ticker": "INDA",
                 "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Persistent inflation and tight policy weigh on Indian equities."
+              },
+              {
+                "ticker": "XLE",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Sustained inflation pressures could lead to higher interest rates, dampening investor sentiment."
+                "reason": "Elevated energy prices continue to support the energy sector."
               }
             ]
           },
           "upside": {
-            "label": "Inflation cools as supply shocks abate",
-            "condition": "Geopolitical tensions ease and rainfall improves agricultural yields.",
+            "label": "Inflation Moderates on Better Harvests and Easing Geopolitics",
+            "condition": "Improved rainfall boosts agricultural output, and geopolitical tensions subside, leading to lower food and energy prices.",
             "horizon": "next quarter",
             "likelihood": "plausible",
             "likelihood_pct": 30,
@@ -421,23 +820,35 @@
               {
                 "ticker": "INDA",
                 "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Easing inflation allows for a more accommodative monetary policy, boosting Indian stocks."
+              },
+              {
+                "ticker": "ITUB",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Easing inflation could allow for a more accommodative monetary stance, supporting market growth."
+                "reason": "A healthier economic outlook in India could indirectly improve global investor sentiment."
               }
             ]
           },
           "downside": {
-            "label": "Inflation accelerates significantly",
-            "condition": "Further escalation of the Iran war or severe domestic climate events.",
-            "horizon": "next quarter",
+            "label": "Inflation Spirals, Triggering Aggressive RBI Hikes",
+            "condition": "Inflation accelerates further due to severe supply shocks or demand surges, forcing the RBI into aggressive rate hikes that could stifle growth.",
+            "horizon": "next 1-2 weeks",
             "likelihood": "less_likely",
-            "likelihood_pct": 10,
+            "likelihood_pct": 15,
             "tickers": [
               {
                 "ticker": "INDA",
                 "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Aggressive rate hikes and economic slowdown crush Indian equity valuations."
+              },
+              {
+                "ticker": "EEM",
+                "direction": "hurts",
                 "expected_move": "moderate",
-                "reason": "Aggressive interest rate hikes to combat runaway inflation could severely impact economic activity."
+                "reason": "A crisis in India could spill over to other emerging markets."
               }
             ]
           }
@@ -455,541 +866,104 @@
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "At-Home Entertainment Gets More Expensive",
-        "what_happened": "The cost of staying in for entertainment, like streaming services and video games, has increased due to recent price hikes. What was once a budget-friendly option is now becoming a notable expense for consumers.",
-        "what_happened_verbose": "Consumers are finding that 'funflation,' or the rising cost of leisure activities, is now affecting at-home entertainment. Services like movie streaming platforms and video game subscriptions have seen price increases, making them less of a cost-saving alternative to going out. This trend means that even seemingly simple pastimes are contributing more significantly to household budgets.",
+        "plain_headline": "Staying Home Costs More Than Expected",
+        "what_happened": "The cost of enjoying leisure activities at home, such as streaming or gaming, has increased due to recent price hikes. What was once a budget-friendly option is now becoming a significant expense.",
+        "what_happened_verbose": "The trend of 'funflation' means that even staying in for entertainment is no longer the cost-saver it used to be. Following a series of price increases across various services and products, common at-home pastimes like subscribing to streaming services, purchasing video games, or in-game purchases are now putting a noticeable strain on household budgets.",
         "theme": "Consumer",
         "impact": "low",
         "affected": [
           {
-            "ticker": "XLY",
+            "ticker": "TGT",
             "direction": "mixed",
             "expected_move": "small",
-            "reason": "Increased costs for entertainment services could slightly dampen consumer discretionary spending, but also potentially benefit companies that offer more affordable alternatives."
+            "reason": "Higher costs for discretionary entertainment could reduce spending on other non-essential items sold at Target, but may also increase demand for lower-cost entertainment options."
+          },
+          {
+            "ticker": "WMT",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Consumers seeking more affordable entertainment options might shift spending towards general merchandise and groceries at Walmart."
+          },
+          {
+            "ticker": "COST",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Costco's value proposition may appeal to consumers looking to save money on various goods, including entertainment-related items."
+          },
+          {
+            "ticker": "XLY",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Increased costs for specific discretionary services like streaming could lead consumers to cut back on other discretionary spending, impacting this sector."
           },
           {
             "ticker": "XLK",
-            "direction": "hurts",
+            "direction": "mixed",
             "expected_move": "small",
-            "reason": "Streaming and gaming companies, often tech-related, may face pressure if price hikes lead to subscriber churn."
+            "reason": "While higher prices for streaming and gaming services might hurt consumer spending on tech, companies providing these services could see revenue increases if demand remains inelastic."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Consumers absorb higher costs for preferred services",
-            "condition": "Consumers continue to prioritize streaming and gaming despite price increases.",
+            "label": "Persistent 'Funflation' Affects Discretionary Spending",
+            "condition": "Price increases for at-home entertainment continue, forcing consumers to re-evaluate their spending on these services.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "XLK",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Companies with strong brand loyalty may pass on costs, while others could see demand soften."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Consumers seek cheaper alternatives, impacting subscription growth",
-            "condition": "Price sensitivity leads consumers to cut back on or switch entertainment services.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 40,
+            "likelihood_pct": 65,
             "tickers": [
               {
                 "ticker": "XLY",
                 "direction": "hurts",
                 "expected_move": "small",
-                "reason": "Reduced spending on discretionary entertainment could impact companies within the sector."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Companies offer promotions to retain subscribers",
-            "condition": "Competitive pressure forces entertainment providers to offer discounts.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "XLK",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Promotions could boost subscriber numbers and revenue, even if margins are temporarily squeezed."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "CNBC Economy",
-        "title": "China consumer price growth weakens in June while producer inflation rises to near 4-year high",
-        "link": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
-        "published": "Thu, 09 Jul 2026 02:31:37 GMT",
-        "summary": "Investors increasingly view China's two-speed growth with robust export and tepid domestic demand as a defining long-term feature of the Chinese economy."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "China's Economy Shows Divergent Growth Trends",
-        "what_happened": "China's economy is exhibiting a 'two-speed' growth pattern. Consumer prices are rising slowly, indicating weak domestic demand, while producer prices are surging, nearing a four-year high, driven by strong export activity.",
-        "what_happened_verbose": "China's economic landscape in June presented a mixed picture. Consumer price growth weakened, suggesting that domestic demand from households remains sluggish. In contrast, producer price inflation accelerated significantly, reaching its highest level in nearly four years. This divergence is increasingly seen by investors as a defining characteristic of China's economy, with robust export performance driving industrial output and prices, while domestic consumption lags.",
-        "theme": "Macro",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "EEM",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Strong exports benefit global trade but weak domestic demand could signal broader economic challenges for emerging markets."
-          },
-          {
-            "ticker": "FXI",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "The divergence highlights potential headwinds for Chinese domestic companies versus those heavily reliant on exports."
-          },
-          {
-            "ticker": "AA",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Rising producer prices, especially if linked to commodity demand, could benefit materials producers if demand is sustained."
-          },
-          {
-            "ticker": "FCX",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Strong export-driven industrial activity in China typically correlates with higher demand for industrial metals like copper."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Export strength continues, domestic demand remains tepid",
-            "condition": "Global demand for Chinese goods stays high, while domestic consumption recovery is slow.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "EEM",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Continued export strength supports emerging markets, but weak domestic demand poses risks."
+                "reason": "Consumers may reduce spending on other discretionary items if entertainment costs rise."
               },
               {
-                "ticker": "FCX",
+                "ticker": "WMT",
                 "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Sustained Chinese industrial activity driven by exports boosts demand for copper."
+                "reason": "Shift towards value retailers as consumers economize."
               }
             ]
           },
           "upside": {
-            "label": "Domestic demand recovers, boosting consumer spending",
-            "condition": "Government stimulus measures or improved consumer confidence lead to increased spending.",
+            "label": "Consumers Prioritize Value, Seek Cheaper Alternatives",
+            "condition": "Consumers actively seek out lower-cost entertainment options or reduce overall spending on leisure activities.",
             "horizon": "next quarter",
             "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "FXI",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A pickup in domestic demand would directly benefit Chinese companies serving the local market."
-              },
-              {
-                "ticker": "KWEB",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Chinese internet companies would see higher user engagement and spending."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Global demand falters, export growth slows",
-            "condition": "A global economic slowdown reduces demand for Chinese manufactured goods.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "EEM",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A significant drop in exports would negatively impact emerging markets heavily reliant on trade."
-              },
-              {
-                "ticker": "AA",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Reduced global manufacturing activity would decrease demand for materials like aluminum."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "CNBC Economy",
-        "title": "Christine Lagarde leaves door open to early ECB exit, as she mulls French politics",
-        "link": "https://www.cnbc.com/2026/07/03/christine-lagarde-ecb-france-election.html",
-        "published": "Fri, 03 Jul 2026 10:34:32 GMT",
-        "summary": "The European Central Bank's Christine Lagarde has declined to rule out an early end to her term as president, as she mulls a foray into French politics."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "ECB Chief Hints at Possible Early Exit",
-        "what_happened": "European Central Bank President Christine Lagarde has not ruled out ending her term early. She is reportedly considering a move into French politics, which could prompt her departure from the ECB.",
-        "what_happened_verbose": "Christine Lagarde, the President of the European Central Bank (ECB), has left the door open to potentially concluding her tenure before her scheduled end date. This speculation arises as she is reportedly contemplating a transition into French politics. While no firm decision has been announced, her comments suggest a possibility of an early exit from her role leading the central bank, which could introduce uncertainty regarding monetary policy continuity.",
-        "theme": "Monetary Policy",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "TLT",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Uncertainty around ECB leadership could lead to volatility in European bond markets, affecting longer-duration Treasuries."
-          },
-          {
-            "ticker": "LQD",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Potential shifts in ECB policy direction could influence credit spreads and corporate bond prices in Europe."
-          },
-          {
-            "ticker": "UUP",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Any perceived instability or policy shift from the ECB could impact the Euro's strength relative to the US Dollar."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Lagarde serves full term, policy continuity prevails",
-            "condition": "Lagarde decides against a political career or delays any move until after her ECB term.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Stability at the ECB head position reduces currency market uncertainty."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Lagarde exits early, new leadership brings policy shift",
-            "condition": "Lagarde announces an early departure and a successor signals a different monetary policy approach.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A more hawkish ECB successor could lead to higher European interest rates, pressuring bond prices."
-              },
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A more hawkish ECB stance could strengthen the Euro, benefiting UUP."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Market overreacts to leadership speculation",
-            "condition": "Heightened political uncertainty in France or Europe leads to significant market volatility.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "VXX",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased uncertainty surrounding ECB leadership could spike volatility measures."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "The U.S. is maxing out its strategic oil reserves as Trump vows to control the Strait of Hormuz",
-        "link": "https://www.marketwatch.com/story/the-u-s-is-maxing-out-its-strategic-oil-reserves-as-trump-vows-to-control-the-strait-of-hormuz-b71f88a9?mod=mw_rss_topstories",
-        "published": "Tue, 14 Jul 2026 02:30:00 GMT",
-        "summary": "Strategic Petroleum Reserve stockpiles are precariously low and have been hit by major equipment failures, leaks and spills, according to a government report."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "US Strategic Oil Reserves Hit Lows Amid Equipment Issues",
-        "what_happened": "The U.S. Strategic Petroleum Reserve (SPR) is at critically low levels due to equipment failures, leaks, and spills. This comes as geopolitical tensions rise, potentially increasing demand for oil reserves.",
-        "what_happened_verbose": "A government report has revealed that the U.S. Strategic Petroleum Reserve (SPR) is facing significant depletion. Stockpiles are precariously low, exacerbated by a series of equipment failures, leaks, and spills. This situation is concerning given the SPR's role as a buffer against supply disruptions, especially in a volatile geopolitical climate where oil supply routes, like the Strait of Hormuz, could face challenges.",
-        "theme": "Energy",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "USO",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Lower strategic reserves could lead to higher crude oil prices if supply is disrupted, benefiting oil futures trackers."
-          },
-          {
-            "ticker": "BNO",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Reduced availability of strategic oil could tighten global supply, potentially increasing Brent crude prices."
-          },
-          {
-            "ticker": "XLE",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Higher oil prices resulting from low reserves and potential supply disruptions would benefit the energy sector ETF."
-          },
-          {
-            "ticker": "OXY",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Oil producers like OXY would benefit from higher crude oil prices driven by reduced strategic reserve availability."
-          },
-          {
-            "ticker": "MPC",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Refiners like MPC benefit from higher crude oil prices, which can translate to wider refining margins if end-product prices keep pace."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Geopolitical tension increases, drawing down reserves",
-            "condition": "A significant geopolitical event occurs in the Middle East, forcing the U.S. to release oil from its reserves.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 40,
-            "tickers": [
-              {
-                "ticker": "USO",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased demand for oil futures to cover SPR releases."
-              },
-              {
-                "ticker": "XLE",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Energy stocks would rise on expectations of higher oil prices."
-              }
-            ]
-          },
-          "upside": {
-            "label": "SPR issues worsen, supply fears rise",
-            "condition": "Further equipment failures or leaks significantly reduce the usable capacity of the SPR, creating supply concerns.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 35,
-            "tickers": [
-              {
-                "ticker": "BNO",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Tightening global oil supply due to SPR limitations would significantly boost Brent crude prices."
-              },
-              {
-                "ticker": "OXY",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Oil producers benefit from sustained higher crude prices."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Geopolitical calm, SPR repairs begin",
-            "condition": "Geopolitical tensions ease, and the U.S. begins a focused effort to repair and replenish the SPR.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
             "likelihood_pct": 25,
             "tickers": [
               {
-                "ticker": "USO",
-                "direction": "hurts",
+                "ticker": "COST",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Reduced need for strategic oil could lead to lower futures prices."
+                "reason": "Warehouse clubs benefit from consumers seeking bulk savings."
               },
               {
-                "ticker": "XLE",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Energy sector could see modest declines if oil prices fall."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "Sandisk’s stock is plunging, but some analysts are getting even more bullish",
-        "link": "https://www.marketwatch.com/story/sandisks-stock-is-plunging-but-some-analysts-are-getting-even-more-bullish-cba3472f?mod=mw_rss_topstories",
-        "published": "Tue, 14 Jul 2026 00:55:00 GMT",
-        "summary": "One new stock-price target implies nearly 85% upside from current levels."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "SanDisk Stock Plunges, But Analysts See Huge Upside",
-        "what_happened": "Despite a significant drop in its stock price, some financial analysts are becoming more optimistic about SanDisk's future. One analyst has set a price target suggesting nearly 85% potential growth from current levels.",
-        "what_happened_verbose": "SanDisk's stock has experienced a sharp decline, indicating investor concern or negative market sentiment. However, a segment of financial analysts believes this downturn presents a buying opportunity. Their revised stock-price targets suggest a substantial potential for recovery and growth, with one target implying an upside of approximately 85% from the current trading price, indicating strong conviction in the company's long-term prospects.",
-        "theme": "Technology",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "XLK",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "While SanDisk is a component of the tech sector, its specific performance may not significantly move the broader ETF unless it's a major component or the issues are sector-wide."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Analyst targets prove accurate, stock rebounds",
-            "condition": "The company meets or exceeds earnings expectations and demonstrates strong demand for its products, validating the bullish analyst targets.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "XLK",
+                "ticker": "XLP",
                 "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Positive performance from a key tech component could slightly lift the sector ETF."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Analyst targets exceeded, strong market adoption",
-            "condition": "SanDisk announces significant new product wins or technological breakthroughs that lead to even greater market share and revenue growth than anticipated.",
-            "horizon": "next 6 months",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "XLK",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Exceptional performance by SanDisk could be a leading indicator for broader tech sector strength."
+                "reason": "Consumers may shift spending towards essential goods."
               }
             ]
           },
           "downside": {
-            "label": "Analyst targets missed, fundamentals weaken",
-            "condition": "SanDisk fails to meet revised expectations, facing increased competition or declining demand for its products, causing the stock to fall further.",
-            "horizon": "next quarter",
+            "label": "Demand for Entertainment Remains Resilient Despite Costs",
+            "condition": "Consumers continue to prioritize entertainment spending, absorbing higher prices for streaming and gaming services.",
+            "horizon": "next 1-2 weeks",
             "likelihood": "less_likely",
-            "likelihood_pct": 20,
+            "likelihood_pct": 10,
             "tickers": [
               {
                 "ticker": "XLK",
-                "direction": "hurts",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "A significant miss by SanDisk could signal broader issues in its sub-sector, impacting the tech ETF."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
-        "link": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
-        "published": "Mon, 13 Jul 2026 23:30:00 GMT",
-        "summary": "“I’ve always been a little skeptical of the government’s encouragement to delay claiming benefits.”"
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Social Security Claim Timing: A Brother's Regret",
-        "what_happened": "A person shares a heartbreaking story about their brother who claimed Social Security at age 70, only to pass away after receiving just one payment. This prompts reflection on the timing of Social Security benefit claims.",
-        "what_happened_verbose": "This story highlights a personal tragedy that raises questions about the optimal strategy for claiming Social Security benefits. The individual's brother, after delaying his claim until age 70, passed away shortly after receiving his first payment. This experience has led the narrator to question the government's advice to delay benefits, suggesting that for some, the financial security gained by claiming earlier might outweigh the potential for higher monthly payments later in life, especially if longevity is uncertain.",
-        "theme": "Macro",
-        "impact": "low",
-        "affected": [
-          {
-            "ticker": "SPY",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "While this is a personal finance story, widespread changes in Social Security claiming behavior could eventually impact consumer spending and thus the broader market."
-          },
-          {
-            "ticker": "VTI",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Similar to SPY, aggregate changes in retirement income strategies could have a marginal impact on the overall stock market."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Individuals continue claiming based on personal circumstances",
-            "condition": "Most individuals continue to make claiming decisions based on their health, financial needs, and life expectancy, with no significant shift in aggregate behavior.",
-            "horizon": "next year",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
+                "reason": "Companies providing entertainment services see continued strong revenue."
+              },
               {
-                "ticker": "SPY",
+                "ticker": "TGT",
                 "direction": "mixed",
                 "expected_move": "small",
-                "reason": "No significant change in aggregate claiming behavior means minimal impact on the broad market."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Increased focus on early claiming, boosting spending",
-            "condition": "More individuals, influenced by stories like this, choose to claim Social Security earlier, leading to increased disposable income and consumer spending.",
-            "horizon": "next 2-3 years",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "TGT",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Higher consumer spending could marginally benefit retailers."
-              },
-              {
-                "ticker": "MCD",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Increased spending power for lower-income consumers could benefit quick-service restaurants."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Increased focus on delayed claiming, impacting spending",
-            "condition": "More individuals prioritize delaying Social Security to maximize benefits, potentially leading to lower immediate consumer spending.",
-            "horizon": "next 2-3 years",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "TGT",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Reduced immediate consumer spending could negatively impact retailers."
+                "reason": "Consumers may cut back on other discretionary items but maintain entertainment spending."
               }
             ]
           }
@@ -1001,147 +975,68 @@
         "source": "MarketWatch Top",
         "title": "I’m 67 with a $140,000 pension. Should I wait until 70 to claim Social Security so my wife gets more?",
         "link": "https://www.marketwatch.com/story/im-67-with-a-140-000-pension-should-i-wait-until-70-to-claim-social-security-so-my-wife-gets-more-63759d48?mod=mw_rss_topstories",
-        "published": "Mon, 13 Jul 2026 23:03:00 GMT",
+        "published": "Wed, 15 Jul 2026 07:19:00 GMT",
         "summary": "“When I pass, all my retirement income is reduced to $30,000 a year.”"
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Pensioner's Social Security Dilemma: Claim Now or Later?",
-        "what_happened": "A 67-year-old with a $140,000 pension is questioning whether to claim Social Security at 67 or wait until age 70. The decision is influenced by the desire to provide a higher survivor benefit for his wife.",
-        "what_happened_verbose": "This individual faces a common retirement planning dilemma: when to start receiving Social Security benefits. At 67, he is eligible to claim, but waiting until age 70 would increase his monthly payments. His primary motivation for considering the delay is to ensure his wife receives a larger survivor benefit after his passing, as his current retirement income of $30,000 per year would be significantly reduced for her if he claims early. This scenario highlights the trade-offs between immediate income needs and long-term spousal benefits.",
+        "plain_headline": "Social Security decision: Delaying benefits for spouse's gain?",
+        "what_happened": "A 67-year-old with a $140,000 pension is considering delaying Social Security until age 70. The goal is to increase the survivor benefit for his wife, but he's concerned about his own income needs and potential longevity.",
+        "what_happened_verbose": "This individual is weighing a common retirement planning dilemma: claiming Social Security benefits earlier versus delaying them to receive a larger monthly payment. By delaying until age 70, his own benefit amount increases, which also translates to a higher survivor benefit for his wife if he passes away first. However, this strategy means foregoing income for several years and carries the risk of not living long enough to recoup the delayed benefits, especially given his current pension income.",
         "theme": "Macro",
         "impact": "low",
         "affected": [
           {
-            "ticker": "SPY",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Similar to the previous story, aggregate decisions on Social Security claiming can influence consumer spending patterns, though individual cases have minimal market impact."
-          },
-          {
-            "ticker": "VTI",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Widespread shifts in retirement income strategies could have a marginal effect on the overall stock market."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Individual prioritizes spousal benefit, delays claim",
-            "condition": "The individual decides to wait until age 70 to claim Social Security to maximize his wife's survivor benefit, accepting lower personal income in the interim.",
-            "horizon": "next 3 years",
-            "likelihood": "most_likely",
-            "likelihood_pct": 55,
-            "tickers": [
-              {
-                "ticker": "SPY",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "This individual's decision has negligible impact on the broader market."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Individual claims early due to immediate needs",
-            "condition": "The individual decides to claim Social Security at 67 due to unforeseen expenses or a desire for higher immediate income, prioritizing personal cash flow over the spousal benefit.",
-            "horizon": "next 3 years",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "SPY",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Slightly increased immediate consumer spending could marginally benefit the market."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Focus shifts to maximizing personal lifetime benefits",
-            "condition": "The individual calculates that claiming at 67 provides the best overall lifetime financial outcome, even if it means a lower survivor benefit.",
-            "horizon": "next 3 years",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "SPY",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "No significant change in spending patterns."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com",
-        "title": "IQE shares climb on $14 million AI order",
-        "link": "https://www.investing.com/news/stock-market-news/iqe-shares-climb-on-14-million-ai-order-93CH-4789817",
-        "published": "2026-07-14 07:33:04",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "AI chip supplier IQE gets $14 million order",
-        "what_happened": "IQE, a semiconductor materials supplier, announced it secured a $14 million order for its products. These materials are crucial for manufacturing chips used in artificial intelligence applications. The order is expected to be fulfilled over the next year.",
-        "what_happened_verbose": "IQE, a company that makes specialized materials for semiconductor chips, has received a significant order worth $14 million. These materials are essential components for chips that power artificial intelligence (AI) systems. The order will be delivered throughout the next 12 months, providing a revenue boost for IQE and signaling continued demand in the AI hardware sector. This news highlights the growing importance of the supply chain for AI development.",
-        "theme": "AI Infra",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "XLK",
+            "ticker": "PRU",
             "direction": "benefits",
             "expected_move": "small",
-            "reason": "Increased demand for AI components benefits the broader technology sector, including chip manufacturers and suppliers."
+            "reason": "Companies like Prudential offer retirement planning services and products that are relevant to individuals making these complex Social Security decisions."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Steady AI demand drives incremental growth",
-            "condition": "Continued investment in AI infrastructure and consistent demand for advanced semiconductor materials.",
-            "horizon": "next 1-2 weeks",
+            "label": "Delaying benefits maximizes lifetime spousal income",
+            "condition": "The individual lives a long life, and his wife outlives him, maximizing her survivor benefit.",
+            "horizon": "next 10-20 years",
             "likelihood": "most_likely",
             "likelihood_pct": 60,
             "tickers": [
               {
-                "ticker": "XLK",
+                "ticker": "PRU",
                 "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Sustained positive sentiment for tech companies involved in AI supply chains."
+                "reason": "Longer retirement periods increase demand for retirement income solutions."
               }
             ]
           },
           "upside": {
-            "label": "Broader adoption of IQE's tech accelerates",
-            "condition": "IQE secures additional large orders or announces technological breakthroughs that increase its market share.",
-            "horizon": "next quarter",
+            "label": "Claiming early provides immediate income security",
+            "condition": "The individual prioritizes current income needs or has concerns about longevity, opting to claim at 67.",
+            "horizon": "next 1-2 years",
             "likelihood": "plausible",
             "likelihood_pct": 30,
             "tickers": [
               {
-                "ticker": "XLK",
+                "ticker": "PRU",
                 "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Positive news from a key supplier boosts confidence in the broader AI hardware ecosystem."
+                "expected_move": "small",
+                "reason": "Immediate income needs can drive demand for annuities or other income-generating products."
               }
             ]
           },
           "downside": {
-            "label": "Supply chain disruptions or competition emerge",
-            "condition": "Global supply chain issues impact IQE's production or new competitors offer superior or cheaper alternatives.",
-            "horizon": "next quarter",
+            "label": "Unexpected health issues limit benefit realization",
+            "condition": "The individual's health deteriorates, and he passes away shortly after claiming, reducing total lifetime benefits received.",
+            "horizon": "next 1-5 years",
             "likelihood": "less_likely",
             "likelihood_pct": 10,
             "tickers": [
               {
-                "ticker": "XLK",
+                "ticker": "PRU",
                 "direction": "hurts",
                 "expected_move": "small",
-                "reason": "Negative news from a supplier can create minor headwinds for the tech sector."
+                "reason": "Reduced lifetime benefits can indirectly impact the broader retirement services market."
               }
             ]
           }
@@ -1150,144 +1045,313 @@
     },
     {
       "source_item": {
-        "source": "Investing.com",
-        "title": "Evotec slumps 32% after H1 loss widens, annual outlook slashed",
-        "link": "https://www.investing.com/news/stock-market-news/evotec-sees-deeper-h1-loss-slashes-annual-guidance-4789748",
-        "published": "2026-07-14 07:32:19",
-        "summary": ""
+        "source": "MarketWatch Top",
+        "title": "Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump",
+        "link": "https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories",
+        "published": "Wed, 15 Jul 2026 00:28:00 GMT",
+        "summary": "Americans got some relief at the gas pump in recent weeks, enough to slow down inflation. That might not last long as the U.S. and Iran continue to vie for control of the Strait of Hormuz."
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Evotec's stock plunges on wider loss and slashed outlook",
-        "what_happened": "Evotec, a drug discovery and development company, saw its stock price drop significantly after reporting a larger-than-expected loss in the first half of the year. The company also drastically reduced its financial forecast for the full year, indicating significant challenges ahead.",
-        "what_happened_verbose": "Evotec, a company that partners with pharmaceutical and biotechnology firms to discover and develop new drugs, experienced a sharp decline in its stock value. This was triggered by its announcement of a wider net loss for the first half of the year than analysts anticipated. Compounding the issue, Evotec significantly lowered its earnings and revenue projections for the entire year, signaling potential operational difficulties or a slowdown in its business pipeline. This news suggests a challenging period for the company's growth prospects.",
-        "theme": "Healthcare",
-        "impact": "high",
-        "affected": [
-          {
-            "ticker": "TLT",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Weakness in a specific healthcare company can sometimes spill over to broader biotech/pharma sentiment, especially if it signals sector-wide issues."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Company-specific issues weigh on stock",
-            "condition": "The company's operational and financial challenges are largely idiosyncratic and do not reflect broader industry trends.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 70,
-            "tickers": [
-              {
-                "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Investor caution may lead to a slight risk-off sentiment affecting speculative healthcare stocks."
-              }
-            ]
-          },
-          "upside": {
-            "label": "New partnerships or pipeline success emerges",
-            "condition": "Evotec announces a significant new partnership or a breakthrough in its drug development pipeline that reassures investors.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "TLT",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Positive news could reignite investor interest in the healthcare and biotech sectors."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Sector-wide slowdown impacts Evotec further",
-            "condition": "Broader economic or regulatory headwinds affect the entire drug development and biotech industry, exacerbating Evotec's problems.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A sector-wide downturn would disproportionately affect companies like Evotec with weak fundamentals."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com",
-        "title": "Why is Pepco stock surging today?",
-        "link": "https://www.investing.com/news/stock-market-news/why-is-pepco-stock-surging-today-93CH-4789812",
-        "published": "2026-07-14 07:31:47",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Pepco's stock jumps on strong earnings report",
-        "what_happened": "Pepco, an energy and electrical services company, experienced a significant rise in its stock price today. This surge is attributed to the company releasing better-than-expected earnings results, indicating strong operational performance and profitability.",
-        "what_happened_verbose": "Pepco, a utility company providing electricity and gas services, saw its stock price climb considerably. The positive movement follows the release of its latest financial report, which revealed earnings per share and revenue figures that surpassed analyst predictions. This outperformance suggests that Pepco is managing its costs effectively and potentially benefiting from increased demand or favorable regulatory conditions. Investors are likely reacting positively to the company's robust financial health and operational efficiency.",
+        "plain_headline": "Gas prices may surge again due to US-Iran tensions",
+        "what_happened": "Recent relief at the gas pump, which helped slow inflation, might be short-lived. Escalating tensions between the U.S. and Iran, particularly concerning the Strait of Hormuz, could disrupt oil supplies and send prices higher.",
+        "what_happened_verbose": "Drivers have enjoyed a reprieve from high gasoline prices recently, contributing to a slowdown in inflation. However, this calm may be temporary as geopolitical risks in the Middle East intensify. The Strait of Hormuz is a critical chokepoint for global oil shipments, and any disruption there due to U.S.-Iran conflict could significantly impact crude oil supply, leading to a sharp increase in gas prices.",
         "theme": "Energy",
         "impact": "medium",
         "affected": [
           {
             "ticker": "XLE",
             "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Higher crude oil prices directly boost revenues and profits for oil and gas producers within the energy sector ETF."
+          },
+          {
+            "ticker": "XOM",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Integrated oil majors like ExxonMobil benefit from higher crude oil prices, especially from their upstream production segments."
+          },
+          {
+            "ticker": "VLO",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Refiners like Valero can benefit from wider crack spreads (the difference between crude oil cost and refined product prices) when crude prices rise."
+          },
+          {
+            "ticker": "EURN",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Crude tanker operators like Euronav see higher day rates as oil supply disruptions can lead to longer shipping routes or increased demand for storage."
+          },
+          {
+            "ticker": "MCD",
+            "direction": "hurts",
             "expected_move": "small",
-            "reason": "Strong earnings from a utility company can provide a positive signal for the broader energy infrastructure and utilities sector."
+            "reason": "Higher energy costs translate to increased transportation and operational expenses for fast-food chains, potentially impacting margins or leading to price increases for consumers."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Solid utility performance continues",
-            "condition": "Pepco maintains its operational efficiency and benefits from stable energy demand and regulated pricing.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 65,
-            "tickers": [
-              {
-                "ticker": "XLE",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Positive earnings from a utility company can support sentiment for the broader energy sector."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Regulatory tailwinds boost future earnings",
-            "condition": "Pepco receives favorable regulatory decisions or secures new infrastructure projects that promise future growth.",
-            "horizon": "next quarter",
+            "label": "Geopolitical tensions escalate, disrupting oil supply",
+            "condition": "Direct conflict or significant disruption occurs in the Strait of Hormuz, impacting global oil flows.",
+            "horizon": "next 1-3 months",
             "likelihood": "plausible",
-            "likelihood_pct": 25,
+            "likelihood_pct": 40,
             "tickers": [
               {
                 "ticker": "XLE",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Strong performance and positive outlook from a key utility player can lift sector valuations."
+                "reason": "Increased oil prices directly benefit energy producers."
+              },
+              {
+                "ticker": "XOM",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Higher crude prices boost upstream profits for integrated oil majors."
+              },
+              {
+                "ticker": "MCD",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Higher fuel costs increase operating expenses for consumer discretionary companies."
               }
             ]
           },
-          "downside": {
-            "label": "Rising operational costs or demand slump",
-            "condition": "Increased fuel costs, unexpected maintenance expenses, or a significant drop in energy consumption negatively impact Pepco's profitability.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
+          "upside": {
+            "label": "Tensions de-escalate, oil prices stabilize",
+            "condition": "Diplomatic efforts succeed, and the risk of supply disruption in the Strait of Hormuz significantly decreases.",
+            "horizon": "next 1-2 months",
+            "likelihood": "plausible",
+            "likelihood_pct": 40,
             "tickers": [
               {
                 "ticker": "XLE",
                 "direction": "hurts",
                 "expected_move": "small",
-                "reason": "Weakness in a major utility could signal broader cost pressures affecting the energy sector."
+                "reason": "Reduced geopolitical risk leads to lower oil prices."
+              },
+              {
+                "ticker": "MCD",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Lower fuel costs reduce operating expenses."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Regional conflict expands, severe supply shock",
+            "condition": "The conflict broadens, leading to sustained and significant disruptions to oil production or transport.",
+            "horizon": "next 3-6 months",
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "XLE",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "A major supply shock would cause a significant spike in oil prices."
+              },
+              {
+                "ticker": "XOM",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Oil majors would see substantial profit increases from extreme price rises."
+              },
+              {
+                "ticker": "MCD",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Sustained high energy costs would severely impact consumer spending and company margins."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "MarketWatch Top",
+        "title": "This overlooked index is a better investment than the S&P 500",
+        "link": "https://www.marketwatch.com/story/this-overlooked-index-is-a-better-investment-than-the-s-p-500-74c7e698?mod=mw_rss_topstories",
+        "published": "Tue, 14 Jul 2026 23:32:00 GMT",
+        "summary": "We did the math over a 30-year period, and it’s not even close."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Index beats S&P 500 over 30 years: What is it?",
+        "what_happened": "A specific, often overlooked investment index has outperformed the S&P 500 significantly over a 30-year period, according to analysis. The article suggests this index represents a better investment strategy.",
+        "what_happened_verbose": "Data analysis over three decades reveals that a particular investment index has delivered superior returns compared to the widely followed S&P 500. While the specific index isn't named in the summary, the implication is that investors might be missing out on potentially higher gains by solely focusing on broad market benchmarks like the S&P 500. This highlights the importance of exploring different investment strategies and indices beyond the most common ones.",
+        "theme": "Other",
+        "impact": "low",
+        "affected": [
+          {
+            "ticker": "SPY",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "The story questions the dominance of the S&P 500, potentially leading investors to diversify away from it."
+          },
+          {
+            "ticker": "QQQ",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "If the outperforming index has a different sector composition (e.g., value or small-cap), it could draw capital from growth-heavy indices like the Nasdaq 100."
+          },
+          {
+            "ticker": "TROW",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Asset managers like T. Rowe Price could benefit if the outperforming index is associated with active management or specific strategies they offer."
+          },
+          {
+            "ticker": "STT",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "State Street, as a major ETF provider, could see increased inflows if the outperforming index is offered as an ETF."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Index's strategy proves consistently superior",
+            "condition": "The underlying factors driving the index's outperformance (e.g., sector allocation, factor tilts) continue to be favorable.",
+            "horizon": "next 1-3 years",
+            "likelihood": "most_likely",
+            "likelihood_pct": 50,
+            "tickers": [
+              {
+                "ticker": "SPY",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Investors may shift assets from S&P 500 tracking to the outperforming index."
+              },
+              {
+                "ticker": "QQQ",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "If the outperforming index is less tech-heavy, capital could flow out of QQQ."
+              },
+              {
+                "ticker": "TROW",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Active managers might see increased interest if the index represents a successful active strategy."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Increased awareness drives significant capital flows",
+            "condition": "The article gains widespread attention, leading to substantial inflows into ETFs or mutual funds tracking the outperforming index.",
+            "horizon": "next 6-12 months",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "SPY",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Significant asset reallocation away from S&P 500 could occur."
+              },
+              {
+                "ticker": "STT",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "If the outperforming index is available as an ETF, State Street could see large AUM growth."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Outperformance was a historical anomaly",
+            "condition": "The factors that led to the index's past outperformance reverse, causing it to underperform going forward.",
+            "horizon": "next 1-3 years",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "SPY",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Investors may return to the S&P 500 if the alternative index falters."
+              },
+              {
+                "ticker": "TROW",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Interest in active management could wane if the highlighted strategy fails."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "MarketWatch Top",
+        "title": "‘It’s heartbreaking’: My brother claimed Social Security at 70. He died from cancer after one payment. Why wait to claim?",
+        "link": "https://www.marketwatch.com/story/its-heartbreaking-my-brother-claimed-social-security-at-70-he-died-from-cancer-after-one-payment-why-wait-to-claim-491669b6?mod=mw_rss_topstories",
+        "published": "Tue, 14 Jul 2026 22:15:00 GMT",
+        "summary": "“I’ve always been a little skeptical of the government’s encouragement to delay claiming benefits.”"
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Brother claimed Social Security at 70, died after one payment",
+        "what_happened": "A person shares a tragic story where their brother, who waited until age 70 to claim Social Security benefits, passed away after receiving only one payment. This experience has made the individual skeptical of advice to delay claiming benefits.",
+        "what_happened_verbose": "This personal anecdote highlights the inherent uncertainty in retirement planning, specifically concerning Social Security. The brother's decision to delay benefits until the maximum age of 70 was intended to secure a higher monthly income, which would also benefit a surviving spouse. However, his untimely death shortly after beginning to receive payments means the full potential of delaying was not realized, leading to regret and skepticism about the standard recommendation to wait.",
+        "theme": "Macro",
+        "impact": "low",
+        "affected": [
+          {
+            "ticker": "PRU",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Stories like this underscore the complexities of retirement planning, potentially increasing demand for financial advisory services."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Individual prioritizes immediate needs over potential future gains",
+            "condition": "People choose to claim Social Security earlier due to health concerns, immediate income needs, or a desire for certainty.",
+            "horizon": "next 1-5 years",
+            "likelihood": "most_likely",
+            "likelihood_pct": 55,
+            "tickers": [
+              {
+                "ticker": "PRU",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Increased focus on immediate retirement income needs can drive demand for annuities and financial planning."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Focus shifts to maximizing lifetime benefits through delay",
+            "condition": "Individuals with good health and longer life expectancies continue to delay Social Security to maximize lifetime income.",
+            "horizon": "next 10-20 years",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "PRU",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Longer retirement horizons increase the value of delayed Social Security benefits."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Unforeseen events negate delayed benefit strategy",
+            "condition": "A significant number of individuals who delay benefits pass away prematurely, similar to the story's anecdote.",
+            "horizon": "next 1-5 years",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "PRU",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Widespread realization of lost potential benefits could lead to dissatisfaction with retirement planning assumptions."
               }
             ]
           }
@@ -1297,191 +1361,70 @@
     {
       "source_item": {
         "source": "Investing.com",
-        "title": "Why is Robert Walters stock sliding today?",
-        "link": "https://www.investing.com/news/stock-market-news/why-is-robert-walters-stock-sliding-today-93CH-4789807",
-        "published": "2026-07-14 07:30:39",
+        "title": "Why is Storebrand stock surging today?",
+        "link": "https://www.investing.com/news/stock-market-news/why-is-storebrand-stock-surging-today-93CH-4792313",
+        "published": "2026-07-15 07:43:11",
         "summary": ""
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Robert Walters stock falls on weak hiring outlook",
-        "what_happened": "Robert Walters, a recruitment and talent acquisition firm, saw its stock price decline today. The drop is due to the company issuing a cautious outlook, signaling a slowdown in the hiring market and potentially lower future revenue.",
-        "what_happened_verbose": "Robert Walters, a global recruitment consultancy specializing in placing professionals in permanent, contract, and temporary roles, experienced a notable drop in its share price. This decline stems from the company's updated financial guidance, which suggests a weaker-than-anticipated performance for the remainder of the year. The cautious outlook indicates that businesses are likely slowing down their hiring activities, leading to reduced demand for recruitment services. This news points to a potential cooling in the labor market, impacting companies that facilitate job placements.",
+        "plain_headline": "Storebrand Stock Surges on Positive News",
+        "what_happened": "Storebrand's stock experienced a significant increase today. The exact reasons for the surge were not detailed in the summary, but it indicates positive investor sentiment towards the company.",
+        "what_happened_verbose": "Storebrand, a financial services company, saw its stock price climb sharply today. While the specific catalyst for this surge wasn't provided in the summary, such movements often stem from positive company-specific news, analyst upgrades, or favorable market conditions for the financial sector. Investors are likely reacting to information that suggests improved future performance or a stronger financial position for Storebrand.",
         "theme": "Financials",
         "impact": "medium",
         "affected": [
           {
             "ticker": "XLF",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "A slowdown in hiring impacts financial services firms that rely on a robust job market for lending and investment banking activities."
-          },
-          {
-            "ticker": "HYG",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Weakness in the labor market and hiring can be an early indicator of broader economic stress, potentially affecting credit risk."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Hiring market cools moderately",
-            "condition": "The current slowdown in hiring is a cyclical adjustment, and demand for recruitment services remains stable at lower levels.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "XLF",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Slightly weaker economic sentiment can lead to minor headwinds for financial services."
-              },
-              {
-                "ticker": "HYG",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Concerns about economic slowdown can put slight pressure on high-yield bonds."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Hiring market recovers faster than expected",
-            "condition": "Businesses resume aggressive hiring, driven by economic optimism or specific industry growth, boosting demand for recruitment services.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "XLF",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "A strong rebound in hiring would signal a healthy economy, benefiting financial institutions."
-              },
-              {
-                "ticker": "HYG",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Improved economic outlook and hiring activity would reduce credit risk for high-yield bonds."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Significant economic downturn impacts hiring",
-            "condition": "A broader economic recession leads to widespread layoffs and a sharp decline in demand for recruitment services.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "XLF",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "A severe economic downturn would significantly hurt financial services firms."
-              },
-              {
-                "ticker": "HYG",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "A recession would lead to widespread defaults, causing large losses in high-yield bonds."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com Forex",
-        "title": "Dollar steadies before U.S. CPI; yen, Asian FX trade in tight ranges",
-        "link": "https://www.investing.com/news/forex-news/asia-fx-yen-steadies-as-intervention-risks-linger-dollar-eyes-cpi-waller-4789678",
-        "published": "2026-07-14 07:22:06",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Dollar Holds Steady Ahead of Inflation Data",
-        "what_happened": "The US dollar remained stable as investors awaited the release of the Consumer Price Index (CPI) report. This key inflation gauge is expected to influence the Federal Reserve's future interest rate decisions. Meanwhile, the Japanese yen and other Asian currencies traded within narrow ranges, indicating caution in the markets.",
-        "what_happened_verbose": "The US dollar index (DXY), which measures the dollar's strength against a basket of major currencies, showed little movement. Traders are holding their positions ahead of the crucial US Consumer Price Index (CPI) data. This inflation report is closely watched as it provides insights into price pressures, which can guide the Federal Reserve's monetary policy, particularly regarding interest rate hikes or cuts. The Japanese yen (FXY) and other Asian currencies were also trading in tight ranges, reflecting a general wait-and-see attitude among market participants ahead of the US inflation figures.",
-        "theme": "Macro",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "A steady dollar suggests no immediate pressure on the US Dollar Index (DXY) ahead of significant economic data."
-          },
-          {
-            "ticker": "FXY",
             "direction": "mixed",
             "expected_move": "small",
-            "reason": "The yen trading in a tight range indicates uncertainty and a lack of strong directional conviction."
+            "reason": "Positive news for a significant financial services company could indicate broader positive sentiment within the financial sector."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Inflation data meets expectations, dollar remains stable",
-            "condition": "US CPI data comes in close to market forecasts, leading to no major shift in Fed rate hike expectations.",
+            "label": "Continued positive investor sentiment for Storebrand",
+            "condition": "The positive news driving the surge is sustainable and reflects underlying business strength.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
             "likelihood_pct": 60,
             "tickers": [
               {
-                "ticker": "UUP",
+                "ticker": "XLF",
                 "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Stable economic outlook supports the dollar."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Lack of strong economic signals keeps the yen range-bound."
+                "reason": "A strong performer like Storebrand can lift sentiment for the broader financial sector ETF."
               }
             ]
           },
           "upside": {
-            "label": "Higher inflation sparks Fed rate hike fears, dollar strengthens",
-            "condition": "US CPI data significantly exceeds expectations, increasing the probability of further Fed rate hikes.",
+            "label": "Further positive catalysts emerge for Storebrand",
+            "condition": "New information or market trends further boost investor confidence in Storebrand.",
             "horizon": "next 1-2 weeks",
             "likelihood": "plausible",
             "likelihood_pct": 30,
             "tickers": [
               {
-                "ticker": "UUP",
+                "ticker": "XLF",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Higher rates attract capital to the US dollar."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Higher US rates make the yen less attractive."
+                "reason": "Sustained strong performance from individual companies can lead to sector-wide re-evaluation."
               }
             ]
           },
           "downside": {
-            "label": "Lower inflation eases Fed fears, dollar weakens",
-            "condition": "US CPI data comes in below expectations, reducing the likelihood of future Fed rate hikes.",
+            "label": "Profit-taking or news reversal for Storebrand",
+            "condition": "Investors decide to sell after the recent gains, or negative news emerges.",
             "horizon": "next 1-2 weeks",
             "likelihood": "less_likely",
             "likelihood_pct": 10,
             "tickers": [
               {
-                "ticker": "UUP",
+                "ticker": "XLF",
                 "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Lower rates reduce the dollar's yield advantage."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Lower US rates make the yen relatively more attractive."
+                "reason": "A sharp reversal in a major financial stock could dampen sector sentiment."
               }
             ]
           }
@@ -1490,216 +1433,319 @@
     },
     {
       "source_item": {
-        "source": "Investing.com Forex",
-        "title": "Dollar steady before US inflation data; yen under pressure",
-        "link": "https://www.investing.com/news/forex-news/dollar-steady-before-us-inflation-data-yen-under-pressure-4789636",
-        "published": "2026-07-14 06:00:27",
+        "source": "Investing.com",
+        "title": "Where authorities are restricting data centres amid AI boom",
+        "link": "https://www.investing.com/news/stock-market-news/factboxwhere-authorities-are-restricting-data-centres-amid-ai-boom-4791043",
+        "published": "2026-07-15 07:36:29",
         "summary": ""
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Dollar Steady, Yen Weakens on Pension Concerns",
-        "what_happened": "The US dollar held its ground as markets awaited inflation data, while the Japanese yen weakened. Concerns about the stability of Japanese pension funds and their potential impact on currency markets contributed to the yen's decline.",
-        "what_happened_verbose": "The US dollar remained relatively stable, with traders cautious ahead of the release of US inflation data (CPI). However, the Japanese yen experienced downward pressure. This weakness was attributed to growing concerns regarding the financial health and investment strategies of Japanese pension funds, which are significant holders of assets. Any perceived instability or shifts in these large funds can lead to capital outflows and put pressure on the yen (FXY).",
-        "theme": "Macro",
+        "plain_headline": "AI Boom Leads to Data Center Restrictions",
+        "what_happened": "Authorities are imposing restrictions on the development of new data centers in various locations. This is a direct response to the massive energy and infrastructure demands driven by the ongoing artificial intelligence (AI) boom.",
+        "what_happened_verbose": "The rapid expansion of artificial intelligence (AI) requires a vast increase in computing power, which in turn necessitates more data centers. However, these facilities consume enormous amounts of electricity and water, leading to concerns about local infrastructure strain and environmental impact. Consequently, some authorities are now restricting the construction of new data centers to manage these demands and ensure sustainable growth.",
+        "theme": "AI Infra",
         "impact": "medium",
         "affected": [
           {
-            "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "A steady dollar benefits the US Dollar Index (DXY) as other currencies face pressure."
+            "ticker": "EQIX",
+            "direction": "mixed",
+            "expected_move": "moderate",
+            "reason": "Restrictions could slow expansion plans for data center REITs, but also highlight the critical need for their services."
           },
           {
-            "ticker": "FXY",
-            "direction": "hurts",
+            "ticker": "DLR",
+            "direction": "mixed",
             "expected_move": "moderate",
-            "reason": "Concerns about Japanese pension funds can lead to outflows and weaken the yen."
+            "reason": "Similar to EQIX, DLR's growth could be impacted by regulatory hurdles, but demand remains high."
+          },
+          {
+            "ticker": "ETN",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Increased demand for power infrastructure to support existing and new data centers could benefit electrical component manufacturers."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Pension concerns persist, yen remains under pressure",
-            "condition": "No major positive news emerges regarding Japanese pension fund stability, and US inflation data is moderate.",
+            "label": "Demand for data centers continues to outstrip supply",
+            "condition": "AI growth remains robust, and regulatory hurdles are managed through innovation or policy adjustments.",
+            "horizon": "next quarter",
+            "likelihood": "most_likely",
+            "likelihood_pct": 50,
+            "tickers": [
+              {
+                "ticker": "EQIX",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Despite restrictions, the fundamental demand for AI infrastructure is a strong tailwind."
+              },
+              {
+                "ticker": "ETN",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "The need for grid upgrades and power solutions for data centers will persist."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Accelerated build-out of AI-optimized data centers",
+            "condition": "Governments streamline approvals for energy-efficient data centers, and AI adoption accelerates even faster.",
+            "horizon": "next quarter",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "DLR",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Faster deployment of new facilities would directly benefit data center operators."
+              },
+              {
+                "ticker": "ETN",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "A surge in construction would significantly boost demand for electrical components."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Widespread restrictions significantly curb data center growth",
+            "condition": "Regulatory bodies impose strict limits, and energy/water scarcity becomes a major bottleneck.",
+            "horizon": "next quarter",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "EQIX",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Severe regulatory headwinds could halt expansion and impact revenue growth for data center REITs."
+              },
+              {
+                "ticker": "DLR",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Similar to EQIX, significant regulatory barriers would directly impede business operations."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com",
+        "title": "Asia FX: Dollar slips after soft U.S. CPI; yuan steady despite weak China GDP",
+        "link": "https://www.investing.com/news/stock-market-news/asian-fx-mixed-as-yuan-outperforms-after-china-data-yen-steadies-near-40year-low-4792136",
+        "published": "2026-07-15 07:32:12",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Dollar Weakens on Soft US Inflation Data",
+        "what_happened": "The US dollar has weakened against Asian currencies following the release of softer-than-expected US inflation data. Meanwhile, the Chinese yuan remains stable despite disappointing economic growth figures from China.",
+        "what_happened_verbose": "US inflation came in lower than anticipated, which often leads investors to expect that the Federal Reserve might consider cutting interest rates sooner. This prospect makes the dollar less attractive, causing it to weaken against other currencies. In contrast, China's Gross Domestic Product (GDP) growth was weaker than expected, but the yuan (CNY) held steady, possibly due to central bank intervention or market expectations that the weak data is already priced in.",
+        "theme": "FX",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "UUP",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Softer US inflation data reduces the likelihood of further Fed rate hikes, weakening the dollar."
+          },
+          {
+            "ticker": "CYB",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A weaker dollar generally supports emerging market currencies like the Chinese yuan."
+          },
+          {
+            "ticker": "EEM",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A weaker dollar can make emerging market assets more attractive to foreign investors."
+          },
+          {
+            "ticker": "FXI",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "While a weaker dollar is generally positive for Chinese equities, weak domestic GDP is a headwind."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "US inflation continues to moderate, supporting dollar weakness",
+            "condition": "Subsequent US economic data reinforces the view that inflation is under control, leading the Fed to signal potential rate cuts.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
             "likelihood_pct": 55,
             "tickers": [
               {
                 "ticker": "UUP",
-                "direction": "benefits",
+                "direction": "hurts",
                 "expected_move": "small",
-                "reason": "Dollar benefits from relative stability compared to the pressured yen."
+                "reason": "Continued dovish signals from the Fed would pressure the dollar lower."
               },
               {
-                "ticker": "FXY",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Ongoing pension fund worries continue to weigh on the yen."
+                "ticker": "CYB",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "A weaker USD generally provides support for the Chinese yuan."
               }
             ]
           },
           "upside": {
-            "label": "Positive pension news boosts yen, dollar faces headwinds",
-            "condition": "Favorable developments or reassurances regarding Japanese pension funds emerge, coupled with weaker-than-expected US inflation.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 35,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Reduced safe-haven demand for the dollar if global risk appetite improves."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Improved sentiment towards Japanese pension funds strengthens the yen."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Escalating pension issues trigger yen sell-off",
-            "condition": "Significant negative news or systemic risk emerges from Japanese pension fund issues, leading to substantial capital flight.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased demand for the dollar as a safe-haven asset."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "Severe concerns about pension funds could lead to a sharp depreciation of the yen."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com Forex",
-        "title": "Dollar edges higher on escalating US-Iran tension, yen slides on pension doubts",
-        "link": "https://www.investing.com/news/forex-news/dollar-jumps-on-renewed-middle-east-attacks-hormuz-closure-4787392",
-        "published": "2026-07-13 21:24:31",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Dollar Rises on Geopolitical Tensions, Yen Falls",
-        "what_happened": "The US dollar strengthened as tensions between the US and Iran escalated, increasing demand for safe-haven assets. Simultaneously, the Japanese yen slid against the dollar due to ongoing doubts about the stability of Japanese pension funds.",
-        "what_happened_verbose": "Heightened geopolitical tensions between the United States and Iran spurred a move towards safer assets, boosting the US dollar. Investors often flock to the dollar during periods of global uncertainty, viewing it as a reliable store of value. In contrast, the Japanese yen weakened further. This decline was exacerbated by persistent concerns surrounding the financial health and investment strategies of Japanese pension funds, which can lead to currency outflows and reduce demand for the yen (FXY).",
-        "theme": "Geopolitics",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Geopolitical risk typically drives demand for the US dollar as a safe-haven asset."
-          },
-          {
-            "ticker": "FXY",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Escalating global tensions and domestic pension concerns weaken the yen."
-          },
-          {
-            "ticker": "GLD",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Increased geopolitical risk often leads investors to gold as a safe-haven asset."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Geopolitical tensions remain elevated, dollar stays strong",
-            "condition": "US-Iran tensions continue without significant de-escalation, and pension fund concerns persist.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Safe-haven demand for the dollar persists amid geopolitical uncertainty."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Continued pension doubts and risk aversion weigh on the yen."
-              },
-              {
-                "ticker": "GLD",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Gold benefits from ongoing geopolitical risk."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Geopolitical de-escalation boosts risk appetite, dollar dips",
-            "condition": "Diplomatic progress is made between the US and Iran, reducing immediate geopolitical risks.",
+            "label": "US inflation re-accelerates, strengthening the dollar",
+            "condition": "New US inflation data shows an unexpected uptick, prompting markets to price in fewer or delayed Fed rate cuts.",
             "horizon": "next 1-2 weeks",
             "likelihood": "plausible",
             "likelihood_pct": 30,
             "tickers": [
               {
                 "ticker": "UUP",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Reduced safe-haven demand leads to dollar weakness."
-              },
-              {
-                "ticker": "FXY",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Improved global sentiment could benefit the yen."
+                "reason": "Resurgent inflation would likely lead to a stronger dollar as rate cut expectations diminish."
               },
               {
-                "ticker": "GLD",
+                "ticker": "CYB",
                 "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Decreased geopolitical risk reduces demand for gold."
+                "expected_move": "small",
+                "reason": "A stronger USD would typically put downward pressure on the yuan."
               }
             ]
           },
           "downside": {
-            "label": "Geopolitical conflict escalates, dollar surges",
-            "condition": "Military conflict significantly escalates between the US and Iran, creating a major global shock.",
+            "label": "China's weak GDP prompts intervention, stabilizing yuan",
+            "condition": "Chinese authorities actively support the yuan to counter negative economic sentiment, despite the weaker dollar trend.",
             "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "CYB",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Direct intervention could stabilize or even strengthen the yuan against the dollar."
+              },
+              {
+                "ticker": "EEM",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "While a weaker dollar is positive, concerns about China's economy could temper emerging market gains."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com",
+        "title": "ASML raises 2026 forecast, expands capacity on AI chip demand",
+        "link": "https://www.investing.com/news/stock-market-news/asml-tops-q2-estimates-on-ai-chip-demand-4792151",
+        "published": "2026-07-15 07:30:30",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "ASML Boosts 2026 Outlook on AI Chip Demand",
+        "what_happened": "ASML, a key supplier of chip manufacturing equipment, has raised its long-term forecast for 2026 and announced plans to increase production capacity. This move is driven by the exceptionally high demand for advanced chips used in artificial intelligence (AI).",
+        "what_happened_verbose": "ASML holds a near-monopoly on the highly specialized Extreme Ultraviolet (EUV) lithography machines essential for producing the most advanced semiconductor chips. These chips are critical for AI applications, powering everything from data centers to advanced computing. The company's decision to raise its 2026 outlook and expand capacity signals strong confidence in the sustained, high demand for AI-driven chip production, indicating significant investment in the semiconductor supply chain.",
+        "theme": "Technology",
+        "impact": "high",
+        "affected": [
+          {
+            "ticker": "ASML",
+            "direction": "benefits",
+            "expected_move": "large",
+            "reason": "Raised forecasts and capacity expansion directly benefit ASML's revenue and market position."
+          },
+          {
+            "ticker": "XLK",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "ASML's positive outlook suggests strong underlying demand for the technology sector, particularly chipmakers."
+          },
+          {
+            "ticker": "NVDA",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Increased capacity for advanced chip manufacturing equipment directly supports the production of AI chips like those made by Nvidia."
+          },
+          {
+            "ticker": "QQQ",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "The tech-heavy Nasdaq 100 benefits from positive news in the semiconductor industry, a key component."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Sustained AI demand drives ASML's capacity expansion",
+            "condition": "The growth in AI applications continues to require cutting-edge semiconductor manufacturing, validating ASML's investment.",
+            "horizon": "next 1-2 years",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "ASML",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Direct beneficiary of increased chip demand and production capacity."
+              },
+              {
+                "ticker": "NVDA",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "More advanced chips can be produced, supporting Nvidia's AI hardware business."
+              }
+            ]
+          },
+          "upside": {
+            "label": "AI adoption accelerates beyond current projections",
+            "condition": "New AI breakthroughs or wider adoption in various industries leads to an even greater surge in demand for advanced chips.",
+            "horizon": "next 1-2 years",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "ASML",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Exceeding current capacity would lead to further investment and growth."
+              },
+              {
+                "ticker": "XLK",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "A broad acceleration in tech demand, especially for AI, would lift the entire sector."
+              }
+            ]
+          },
+          "downside": {
+            "label": "AI development slows or shifts to less advanced chips",
+            "condition": "The pace of AI innovation slows, or alternative, less demanding chip architectures gain traction, reducing the need for ASML's EUV technology.",
+            "horizon": "next 1-2 years",
             "likelihood": "less_likely",
             "likelihood_pct": 10,
             "tickers": [
               {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Extreme safe-haven demand would drive the dollar sharply higher."
-              },
-              {
-                "ticker": "FXY",
+                "ticker": "ASML",
                 "direction": "hurts",
                 "expected_move": "large",
-                "reason": "Severe risk aversion would cause a significant sell-off in the yen."
+                "reason": "Reduced demand for EUV machines would significantly impact ASML's revenue and growth prospects."
               },
               {
-                "ticker": "GLD",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Major geopolitical crisis would likely trigger a surge in gold prices."
+                "ticker": "NVDA",
+                "direction": "mixed",
+                "expected_move": "moderate",
+                "reason": "While still benefiting from AI, a shift away from cutting-edge chips could impact margins."
               }
             ]
           }
@@ -1709,124 +1755,409 @@
     {
       "source_item": {
         "source": "Investing.com Forex",
-        "title": "Dollar firms as U.S.-Iran escalation boosts safe-haven demand, Fed rate hike bets",
-        "link": "https://www.investing.com/news/forex-news/asia-fx-weakens-as-dollar-firms-yen-in-focus-on-gpif-hopes-ahead-of-key-data-4787411",
-        "published": "2026-07-13 20:48:33",
+        "title": "Dollar slips as U.S. consumer inflation cools in June, easing Fed rate hike bets",
+        "link": "https://www.investing.com/news/forex-news/asia-fx-yen-steadies-as-intervention-risks-linger-dollar-eyes-cpi-waller-4789678",
+        "published": "2026-07-14 20:53:22",
         "summary": ""
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Dollar Gains on Iran Tensions and Fed Rate Bets",
-        "what_happened": "The US dollar strengthened as escalating tensions with Iran increased demand for safe-haven assets, and as markets priced in a higher probability of a Federal Reserve interest rate hike. The combination of geopolitical risk and potential monetary tightening supported the dollar's upward move.",
-        "what_happened_verbose": "The US dollar saw a notable increase in strength, driven by two primary factors. Firstly, escalating geopolitical tensions between the US and Iran boosted demand for the dollar as a safe-haven currency amid global uncertainty. Secondly, market participants increased their bets on a potential interest rate hike by the Federal Reserve, possibly due to inflation concerns or economic resilience indicated by other data. Higher interest rate expectations generally make a currency more attractive to investors seeking higher yields.",
+        "plain_headline": "US dollar weakens on cooling inflation",
+        "what_happened": "US consumer inflation in June was lower than expected, leading investors to bet less on aggressive interest rate hikes by the Federal Reserve. This cooling inflation reduces the attractiveness of holding US dollars, causing its value to slip against other major currencies.",
+        "what_happened_verbose": "The latest Consumer Price Index (CPI) report for June showed that inflation in the United States eased more than anticipated. This data suggests that the Federal Reserve might not need to raise interest rates as much as previously feared to control rising prices. As a result, the US dollar weakened because lower interest rates generally make a currency less appealing to foreign investors seeking higher returns. This impacts global markets as a weaker dollar can make US exports cheaper and imports more expensive.",
         "theme": "Macro",
         "impact": "high",
         "affected": [
           {
             "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Geopolitical risk and rising Fed rate hike expectations directly support the US Dollar Index (DXY)."
-          },
-          {
-            "ticker": "FXY",
             "direction": "hurts",
             "expected_move": "moderate",
-            "reason": "A stronger dollar and higher US rates make the yen less attractive."
+            "reason": "A weaker inflation report reduces expectations for Fed rate hikes, making the dollar less attractive."
+          },
+          {
+            "ticker": "TIP",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Cooling inflation expectations can lead to higher demand for Treasury Inflation-Protected Securities."
           },
           {
             "ticker": "GLD",
-            "direction": "mixed",
+            "direction": "benefits",
             "expected_move": "moderate",
-            "reason": "Geopolitical risk supports gold, but higher rates can be a headwind."
-          },
-          {
-            "ticker": "SPY",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Rising interest rate expectations can increase borrowing costs and reduce corporate profitability, potentially pressuring stock markets."
+            "reason": "Lower expected interest rates reduce the opportunity cost of holding non-yielding gold."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Geopolitical tensions and Fed rate bets persist",
-            "condition": "US-Iran tensions remain elevated, and market pricing for Fed rate hikes continues to increase.",
+            "label": "Inflation continues to moderate, Fed pauses hikes",
+            "condition": "Future inflation data remains subdued, and the Federal Reserve signals an end to its rate-hiking cycle.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
-            "likelihood_pct": 65,
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Reduced rate hike expectations will continue to pressure the dollar."
+              },
+              {
+                "ticker": "TLT",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Lower long-term rate expectations would boost long-duration bonds."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Inflation re-accelerates, Fed hikes more aggressively",
+            "condition": "Upcoming inflation reports show prices rising again, forcing the Fed to consider further aggressive rate increases.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
             "tickers": [
               {
                 "ticker": "UUP",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Continued safe-haven demand and higher rate expectations support the dollar."
+                "reason": "Higher rate hike expectations would strengthen the dollar."
               },
               {
-                "ticker": "FXY",
+                "ticker": "TIP",
                 "direction": "hurts",
                 "expected_move": "moderate",
-                "reason": "Stronger dollar and higher US rates pressure the yen."
+                "reason": "Rising inflation expectations would increase yields on TIPS."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Inflation plummets, Fed signals rate cuts",
+            "condition": "Inflation falls sharply, leading the Fed to pivot towards potential interest rate cuts sooner than expected.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Expectations of rate cuts would significantly weaken the dollar."
               },
               {
-                "ticker": "SPY",
+                "ticker": "TLT",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Anticipation of rate cuts would cause long-duration bond prices to surge."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "Dollar slips after soft US inflation data",
+        "link": "https://www.investing.com/news/forex-news/dollar-steady-before-us-inflation-data-yen-under-pressure-4789636",
+        "published": "2026-07-14 20:42:58",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Dollar dips on weak US inflation data",
+        "what_happened": "The US dollar declined in value as recent inflation figures came in softer than anticipated. This suggests that inflationary pressures in the US economy may be easing, which could lead the Federal Reserve to adopt a less aggressive stance on interest rate increases.",
+        "what_happened_verbose": "The US dollar experienced a notable drop following the release of economic data indicating that consumer inflation cooled in June. This 'soft' inflation data reduces the likelihood of the Federal Reserve continuing its aggressive campaign of raising interest rates to combat price increases. Consequently, investors are re-evaluating their positions, leading to a weaker dollar as the prospect of higher yields diminishes. This can have ripple effects on international trade and investment flows.",
+        "theme": "FX",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "UUP",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Softer inflation data reduces expectations for future Federal Reserve interest rate hikes."
+          },
+          {
+            "ticker": "EEM",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A weaker dollar can make emerging market assets more attractive to foreign investors."
+          },
+          {
+            "ticker": "FXI",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A weaker dollar can make Chinese equities listed in Hong Kong more appealing."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Dollar weakness persists on Fed pivot expectations",
+            "condition": "Continued soft inflation data reinforces the view that the Fed will soon end its tightening cycle.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 55,
+            "tickers": [
+              {
+                "ticker": "UUP",
                 "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Sustained lower rate expectations will continue to weigh on the dollar."
+              },
+              {
+                "ticker": "V",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Higher rates and geopolitical uncertainty create headwinds for equities."
+                "reason": "A weaker dollar can boost cross-border travel spend for payment networks."
               }
             ]
           },
           "upside": {
-            "label": "Geopolitical de-escalation, Fed pauses rate hikes",
-            "condition": "Significant diplomatic progress reduces US-Iran tensions, and inflation data suggests the Fed can pause rate hikes.",
+            "label": "Dollar rebounds on hawkish Fed commentary",
+            "condition": "Federal Reserve officials issue statements suggesting a continued need for higher interest rates despite recent data.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 25,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Hawkish Fed signals would support a stronger dollar."
+              },
+              {
+                "ticker": "MA",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "A stronger dollar can reduce the value of international transactions for payment networks."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Dollar plummets on global economic concerns",
+            "condition": "Broader global economic slowdown fears emerge, driving investors away from the dollar towards perceived safer assets.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Flight to safety away from the dollar would cause a sharp decline."
+              },
+              {
+                "ticker": "GLD",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Global economic uncertainty often boosts demand for safe-haven assets like gold."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "South African rand rises as US inflation data weakens dollar",
+        "link": "https://www.investing.com/news/forex-news/south-african-rand-rises-as-us-inflation-data-weakens-dollar-93CH-4791019",
+        "published": "2026-07-14 13:18:37",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "South African rand gains as dollar weakens",
+        "what_happened": "The South African rand strengthened against the US dollar following the release of softer US inflation data. This data led to a weaker dollar globally, which in turn boosted the rand's value as investors seek higher yields in emerging markets.",
+        "what_happened_verbose": "The South African rand saw an increase in its value relative to the US dollar. This appreciation was largely driven by a global weakening of the US dollar, which occurred after US inflation figures came in lower than expected. Lower US inflation reduces the likelihood of aggressive interest rate hikes by the Federal Reserve, making dollar-denominated assets less attractive. This often prompts investors to seek higher returns in emerging market currencies like the rand, thereby increasing demand for it and pushing its value up.",
+        "theme": "FX",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "UUP",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Weak US inflation data reduces expectations for Fed rate hikes, weakening the dollar."
+          },
+          {
+            "ticker": "EEM",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A weaker dollar generally benefits emerging market equities as it increases their relative attractiveness."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Rand strengthens on continued dollar weakness",
+            "condition": "US inflation remains subdued, and the Federal Reserve signals a pause or end to rate hikes.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Persistent dollar weakness will continue to support the rand."
+              },
+              {
+                "ticker": "EEM",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "A weaker dollar environment is typically positive for emerging market assets."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Rand weakens on global risk aversion",
+            "condition": "Renewed concerns about global economic growth or geopolitical instability lead investors to flee to safer assets, weakening emerging market currencies.",
             "horizon": "next 1-2 weeks",
             "likelihood": "plausible",
             "likelihood_pct": 25,
             "tickers": [
               {
                 "ticker": "UUP",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Increased risk aversion can lead to a strengthening dollar as a safe haven."
+              },
+              {
+                "ticker": "EEM",
                 "direction": "hurts",
                 "expected_move": "moderate",
-                "reason": "Reduced geopolitical risk and lower rate expectations weaken the dollar."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Improved risk sentiment and stable US rates could benefit the yen."
-              },
-              {
-                "ticker": "SPY",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Lower rates and reduced geopolitical risk boost equity markets."
+                "reason": "Risk-off sentiment typically hurts emerging market assets."
               }
             ]
           },
           "downside": {
-            "label": "Geopolitical conflict escalates, Fed hikes aggressively",
-            "condition": "Major escalation in US-Iran conflict occurs, and inflation data forces the Fed into aggressive rate hikes.",
+            "label": "Rand strengthens on local economic improvements",
+            "condition": "Positive economic news or policy changes within South Africa boost investor confidence in the rand.",
             "horizon": "next 1-2 weeks",
             "likelihood": "less_likely",
-            "likelihood_pct": 10,
+            "likelihood_pct": 15,
             "tickers": [
               {
-                "ticker": "UUP",
+                "ticker": "EEM",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Positive local sentiment can drive demand for emerging market currencies."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "Short yields strike multi-year highs on U.S.-Iran missile strikes, Hormuz crisis",
+        "link": "https://www.investing.com/news/forex-news/shortdated-yields-hit-onemonth-high-on-trump-blockade-hawkish-fed-4789724",
+        "published": "2026-07-14 11:09:48",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Short-term bond yields jump on geopolitical fears",
+        "what_happened": "Short-term US government bond yields have surged to multi-year highs due to heightened geopolitical tensions, specifically related to US-Iran missile strikes and a potential crisis in the Strait of Hormuz. This suggests investors are demanding higher compensation for holding short-term debt amidst increased global instability.",
+        "what_happened_verbose": "Yields on short-duration US Treasury bonds have reached levels not seen in several years. This sharp increase is attributed to escalating geopolitical risks, including reported US-Iran missile strikes and concerns over the security of the Strait of Hormuz, a critical global oil chokepoint. In times of heightened global uncertainty, investors often seek 'safe-haven' assets like US Treasuries, but they also demand higher yields to compensate for the increased risk of holding these assets, especially in the short term. This rise in short-term yields can impact borrowing costs for businesses and consumers.",
+        "theme": "Rates",
+        "impact": "high",
+        "affected": [
+          {
+            "ticker": "SHY",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "Rising short-term yields cause prices of short-duration Treasuries to fall."
+          },
+          {
+            "ticker": "TLT",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "While long-term bonds are also sensitive to rates, short-term yields are rising faster due to immediate risk premium."
+          },
+          {
+            "ticker": "USO",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Geopolitical tensions in the Strait of Hormuz can disrupt oil supply, potentially driving up crude oil prices."
+          },
+          {
+            "ticker": "XLE",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Higher oil prices typically boost the profitability of energy companies."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Geopolitical tensions persist, yields remain elevated",
+            "condition": "The US-Iran situation remains tense, and concerns about the Strait of Hormuz continue to weigh on markets.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 50,
+            "tickers": [
+              {
+                "ticker": "SHY",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Sustained geopolitical risk premium will keep short-term yields high."
+              },
+              {
+                "ticker": "USO",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Ongoing supply disruption fears will support oil prices."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Geopolitical tensions de-escalate rapidly",
+            "condition": "Diplomatic efforts successfully resolve the immediate US-Iran tensions and secure passage through the Strait of Hormuz.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "SHY",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "De-escalation would reduce the risk premium, causing yields to fall."
+              },
+              {
+                "ticker": "USO",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Reduced supply fears would likely cause oil prices to decline."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Geopolitical conflict expands, supply severely disrupted",
+            "condition": "The conflict widens, leading to significant disruptions in oil supply from the Middle East.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "SHY",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Extreme geopolitical risk would drive yields to new highs."
+              },
+              {
+                "ticker": "USO",
                 "direction": "benefits",
                 "expected_move": "large",
-                "reason": "Extreme safe-haven demand and aggressive rate hikes would significantly boost the dollar."
+                "reason": "Severe supply disruptions would cause a sharp spike in oil prices."
               },
               {
-                "ticker": "FXY",
-                "direction": "hurts",
+                "ticker": "XLE",
+                "direction": "benefits",
                 "expected_move": "large",
-                "reason": "Severe risk aversion and widening rate differentials would crush the yen."
-              },
-              {
-                "ticker": "SPY",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "Geopolitical crisis combined with aggressive rate hikes would severely impact stocks."
+                "reason": "Significantly higher oil prices would greatly benefit energy stocks."
               }
             ]
           }
