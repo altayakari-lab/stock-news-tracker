@@ -1,231 +1,110 @@
 {
-  "generated_at": "2026-07-17T07:49:45.526117+00:00",
-  "hero_summary": "Tech companies are facing a tough day, pulling down major stock indexes, while concerns over Middle East tensions are also impacting European markets and global yields. On a brighter note, falling gas prices led to an unexpected drop in wholesale prices, and some companies are seeing growth in areas like defense and AI cybersecurity. Meanwhile, a major streaming service is making changes to data sharing that are not sitting well with investors.",
+  "generated_at": "2026-07-18T07:24:09.799002+00:00",
+  "hero_summary": "Concerns about rising prices are back in the news, fueled by global events and unexpected increases in import costs. Meanwhile, the tech world is buzzing with mixed news for SpaceX, with its IPO outlook uncertain, while some analysts have differing views on Tesla's stock. In consumer news, a contamination scare has led to lettuce being pulled from shelves, and the World Cup is providing a boost for bars but not the broader economy.",
   "cards": [
     {
       "source_item": {
         "source": "CNBC Markets",
-        "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
-        "link": "https://www.cnbc.com/2026/07/16/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
-        "published": "Thu, 16 Jul 2026 22:52:31 GMT",
-        "summary": "The S&P 500 and the Nasdaq Composite fell on Thursday, weighed down by declines in chip stocks and shares of Alphabet."
+        "title": "Prepare your portfolio for inflation risk with these moves",
+        "link": "https://www.cnbc.com/2026/07/17/prepare-your-portfolio-for-inflation-risk-with-these-moves.html",
+        "published": "Fri, 17 Jul 2026 20:34:10 GMT",
+        "summary": "Recent economic data shows pricing pressures are starting to cool, but inflation could still be  a risk as hostilities in the Middle East reignite."
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Tech Stocks Drag Down Major Indexes",
-        "what_happened": "The S&P 500 and Nasdaq Composite experienced declines on Thursday. This downturn was primarily influenced by significant drops in chip manufacturers and Alphabet's stock.",
-        "what_happened_verbose": "On Thursday, major U.S. stock market indexes like the S&P 500 (tracked by SPY) and the Nasdaq Composite (which heavily influences QQQ) saw a decrease in their values. The primary drivers of this decline were weakness in the technology sector, specifically chip stocks, and a notable drop in shares of Alphabet (GOOGL), the parent company of Google. This suggests investor concerns are currently focused on the technology and semiconductor industries.",
-        "theme": "Technology",
+        "plain_headline": "Inflation fears resurface amid Middle East tensions",
+        "what_happened": "Despite recent signs of cooling inflation, geopolitical events in the Middle East could reignite price pressures. Investors are advised to adjust their portfolios to account for this renewed inflation risk.",
+        "what_happened_verbose": "While economic indicators have suggested that inflation might be easing, the situation in the Middle East has become a new concern. Escalating conflicts in the region can disrupt global supply chains, particularly for energy, which could lead to higher prices across the economy. This means investors should consider strategies to protect their portfolios from potential inflation spikes.",
+        "theme": "Macro",
         "impact": "medium",
         "affected": [
           {
-            "ticker": "SPY",
-            "direction": "hurts",
+            "ticker": "TIP",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Treasury Inflation-Protected Securities (TIP) are designed to increase in value with rising inflation expectations."
+          },
+          {
+            "ticker": "XLE",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Increased geopolitical risk in the Middle East often leads to higher oil prices, benefiting energy sector companies."
+          },
+          {
+            "ticker": "GLD",
+            "direction": "benefits",
             "expected_move": "small",
-            "reason": "The S&P 500 index was negatively impacted by broad market declines, particularly in tech."
-          },
-          {
-            "ticker": "QQQ",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "The Nasdaq 100, heavily weighted in tech, was dragged down by chip stock weakness and Alphabet's decline."
-          },
-          {
-            "ticker": "GOOGL",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Alphabet's stock experienced a decline, contributing to the broader market's downturn."
-          },
-          {
-            "ticker": "AMD",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Chip stocks, including AI-focused companies like AMD, were a key driver of the market's decline."
-          },
-          {
-            "ticker": "XLK",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "The technology sector ETF was negatively affected by declines in its constituent companies, especially chipmakers and Alphabet."
+            "reason": "Gold (GLD) is often seen as a safe-haven asset that can perform well during periods of economic uncertainty and inflation."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Tech weakness persists, market sentiment remains cautious",
-            "condition": "Continued concerns about chip demand and specific tech company performance weigh on the sector.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "QQQ",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Tech-heavy index likely to underperform if sector weakness continues."
-              },
-              {
-                "ticker": "AMD",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Semiconductor stocks are sensitive to demand and supply chain news."
-              },
-              {
-                "ticker": "GOOGL",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Specific company performance can drag down tech sector sentiment."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Tech stocks rebound on positive news or broader market strength",
-            "condition": "New positive catalysts emerge for chipmakers or Alphabet, or overall market sentiment improves.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "QQQ",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "A strong rebound in tech components would lift the Nasdaq 100."
-              },
-              {
-                "ticker": "AMD",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Positive AI developments or strong earnings could boost chip stocks."
-              },
-              {
-                "ticker": "GOOGL",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Any positive news regarding Google's AI or advertising business could support the stock."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Broader market sell-off exacerbates tech declines",
-            "condition": "Negative macroeconomic data or geopolitical events trigger a wider market retreat.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "SPY",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "A broad market sell-off would impact all indexes, including the S&P 500."
-              },
-              {
-                "ticker": "QQQ",
-                "direction": "hurts",
-                "expected_move": "large",
-                "reason": "Tech-heavy ETFs are often more volatile during market downturns."
-              },
-              {
-                "ticker": "VXX",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased market fear and volatility would likely drive up volatility products."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "CNBC Markets",
-        "title": "Nearly 80 S&P 500 companies report earnings next week. These names tend to beat expectations",
-        "link": "https://www.cnbc.com/2026/07/16/nearly-80-sp-500-companies-report-earnings-next-week-these-names-tend-to-beat-expectations.html",
-        "published": "Thu, 16 Jul 2026 20:00:59 GMT",
-        "summary": "These 14 stocks are reporting earnings next week and have a history of surpassing analyst expectations."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Key Companies Set to Report Earnings Next Week",
-        "what_happened": "Nearly 80 companies within the S&P 500 are scheduled to release their earnings reports in the upcoming week. A select group of 14 of these companies have a historical tendency to exceed analyst profit expectations.",
-        "what_happened_verbose": "The financial markets are gearing up for a busy earnings season, with approximately 80 companies listed in the S&P 500 (tracked by SPY) due to report their quarterly financial results next week. Investors will be closely watching these announcements for insights into company performance and future outlook. Notably, a specific subset of 14 companies has demonstrated a consistent track record of surpassing earnings per share estimates, suggesting they may be more resilient or have better execution than anticipated by Wall Street analysts.",
-        "theme": "Financials",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "SPY",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Aggregate earnings reports from S&P 500 companies can influence overall market sentiment and index performance."
-          },
-          {
-            "ticker": "XLF",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Financial sector earnings are a significant component of the S&P 500 and can impact sector ETFs."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Earnings season meets expectations, market reacts to guidance",
-            "condition": "Most companies report in line with or slightly above expectations, with guidance being the key differentiator.",
+            "label": "Inflation remains contained despite geopolitical noise",
+            "condition": "Middle East tensions do not significantly disrupt global energy supply or broader trade routes.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
             "likelihood_pct": 60,
             "tickers": [
               {
-                "ticker": "SPY",
+                "ticker": "TIP",
                 "direction": "mixed",
                 "expected_move": "small",
-                "reason": "Market reaction will depend on the breadth of earnings beats and forward-looking guidance."
+                "reason": "Inflation expectations might tick up slightly but not enough to drive significant gains in TIP."
               },
               {
-                "ticker": "XLF",
-                "direction": "mixed",
+                "ticker": "XLE",
+                "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Financial sector performance will be a key indicator for broader market health."
+                "reason": "Energy prices may see a minor bump but without major supply disruptions, the impact is limited."
               }
             ]
           },
           "upside": {
-            "label": "Broad earnings beats and strong guidance boost market confidence",
-            "condition": "A significant number of companies, especially those with a history of beating expectations, deliver strong results and optimistic outlooks.",
+            "label": "Geopolitical shock causes significant inflation surge",
+            "condition": "Major escalation in the Middle East leads to substantial oil supply disruptions.",
             "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 25,
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
             "tickers": [
               {
-                "ticker": "SPY",
+                "ticker": "TIP",
                 "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Widespread positive earnings surprises can lead to a rally in the S&P 500."
+                "expected_move": "large",
+                "reason": "A sharp rise in inflation expectations would directly benefit TIP."
               },
               {
-                "ticker": "QQQ",
+                "ticker": "XLE",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Oil prices would surge, significantly boosting energy sector profits."
+              },
+              {
+                "ticker": "GLD",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Strong tech earnings, if present, would significantly boost the tech-heavy index."
+                "reason": "Safe-haven demand would increase, driving gold prices higher."
               }
             ]
           },
           "downside": {
-            "label": "Disappointing earnings and weak guidance trigger sell-off",
-            "condition": "A notable number of companies miss expectations or provide cautious forward guidance, indicating economic headwinds.",
+            "label": "De-escalation and cooling inflation trends resume",
+            "condition": "Geopolitical tensions ease, and underlying inflation data continues to show moderation.",
             "horizon": "next 1-2 weeks",
             "likelihood": "plausible",
-            "likelihood_pct": 15,
+            "likelihood_pct": 20,
             "tickers": [
               {
-                "ticker": "SPY",
+                "ticker": "TIP",
                 "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Broad earnings misses can lead to a market correction."
+                "expected_move": "small",
+                "reason": "Easing inflation fears would reduce demand for inflation-protected assets."
               },
               {
-                "ticker": "HYG",
+                "ticker": "XLE",
                 "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Weak corporate performance can increase credit risk concerns for high-yield bonds."
+                "expected_move": "small",
+                "reason": "Reduced geopolitical risk would likely lead to lower oil prices."
               }
             ]
           }
@@ -235,215 +114,415 @@
     {
       "source_item": {
         "source": "CNBC Markets",
-        "title": "How Morgan Stanley is positioning its income portfolio right now",
-        "link": "https://www.cnbc.com/2026/07/16/morgan-stanleys-income-playbook-.html",
-        "published": "Thu, 16 Jul 2026 19:53:38 GMT",
-        "summary": "Investors seeking income should diversify beyond the traditional 60/40, according to Morgan Stanley. Here is how its portfolio breaks down."
+        "title": "SpaceX's sagging stock 'dampens the mood' for blockbuster IPOs",
+        "link": "https://www.cnbc.com/2026/07/17/spacexs-sagging-stock-dampens-the-mood-for-blockbuster-ipos.html",
+        "published": "Fri, 17 Jul 2026 18:45:01 GMT",
+        "summary": "The stock on Friday traded near $126 — about 7% below its IPO price of $135."
       },
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Morgan Stanley Recommends Diversified Income Strategy",
-        "what_happened": "Morgan Stanley suggests investors diversify their income portfolios beyond the traditional 60% stocks/40% bonds mix. They have outlined a specific portfolio breakdown for achieving income.",
-        "what_happened_verbose": "For investors focused on generating income, Morgan Stanley is advising a departure from the conventional 60/40 portfolio strategy, which typically allocates 60% to stocks and 40% to bonds. They believe a more diversified approach is necessary in the current market environment. The firm has detailed a specific allocation strategy, likely incorporating a broader range of asset classes and potentially alternative investments, to enhance income generation and manage risk more effectively.",
-        "theme": "Financials",
-        "impact": "low",
+        "plain_headline": "SpaceX stock price drop dims IPO outlook",
+        "what_happened": "SpaceX's stock is trading below its initial offering price, creating a negative sentiment for upcoming large initial public offerings (IPOs). This performance suggests caution among investors for highly anticipated new stock market listings.",
+        "what_happened_verbose": "The private stock of SpaceX, a company often discussed as a potential future IPO candidate, has seen its valuation decrease. It's currently trading at roughly 7% below its last valuation price. This decline 'dampens the mood' for other companies planning to go public, as it signals potential investor hesitancy and could lead to lower valuations for future IPOs.",
+        "theme": "Technology",
+        "impact": "medium",
         "affected": [
+          {
+            "ticker": "QQQ",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "A weaker sentiment around high-growth tech IPOs could indirectly affect investor appetite for the broader tech-heavy Nasdaq 100."
+          },
           {
             "ticker": "SPY",
             "direction": "mixed",
             "expected_move": "small",
-            "reason": "Diversification strategies can influence flows into broad market ETFs."
-          },
-          {
-            "ticker": "TLT",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Shifts in bond allocation strategies can impact demand for long-duration Treasuries."
-          },
-          {
-            "ticker": "LQD",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Changes in fixed-income allocation can affect investment-grade corporate bond markets."
-          },
-          {
-            "ticker": "O",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Real estate investment trusts (REITs) like O are often considered for income generation and diversification."
-          },
-          {
-            "ticker": "STT",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Asset managers like State Street (STT) could benefit from increased AUM if their products are part of the diversified strategy."
-          },
-          {
-            "ticker": "BLK",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "BlackRock (BLK), a major ETF provider, could see increased inflows if its diversified income products are favored."
+            "reason": "General market sentiment towards risk assets, including IPOs, can influence the broader S&P 500."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Gradual adoption of diversified income strategies",
-            "condition": "Investors slowly incorporate alternative income sources and reduce reliance on traditional 60/40.",
-            "horizon": "next quarter",
+            "label": "SpaceX stock stabilizes, IPO market remains cautious",
+            "condition": "SpaceX's stock price finds a floor, but investor sentiment for new listings remains subdued due to broader market conditions.",
+            "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
-            "likelihood_pct": 55,
+            "likelihood_pct": 50,
             "tickers": [
               {
-                "ticker": "SPY",
+                "ticker": "QQQ",
                 "direction": "mixed",
                 "expected_move": "small",
-                "reason": "Moderate shifts in asset allocation will have a limited impact on broad market ETFs."
-              },
-              {
-                "ticker": "LQD",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Demand for corporate bonds may see slight adjustments."
-              },
-              {
-                "ticker": "O",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Income-focused REITs may see steady, modest inflows."
+                "reason": "Tech sector performance will be more driven by fundamental earnings than IPO sentiment."
               }
             ]
           },
           "upside": {
-            "label": "Strong market performance drives demand for income alternatives",
-            "condition": "Increased market volatility or lower expected returns from traditional assets push investors aggressively towards diversified income solutions.",
+            "label": "SpaceX stock rebounds, boosting IPO confidence",
+            "condition": "SpaceX's stock price recovers significantly, signaling strong investor demand for innovative companies.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "QQQ",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Renewed confidence in high-growth tech could spill over into the broader tech sector."
+              }
+            ]
+          },
+          "downside": {
+            "label": "SpaceX stock continues to fall, IPO market freezes",
+            "condition": "SpaceX's stock price declines further, leading to widespread investor fear and a halt in new IPOs.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "QQQ",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "A significant downturn in a high-profile tech company could trigger broader sell-offs in growth stocks."
+              },
+              {
+                "ticker": "SPY",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Negative sentiment around a major tech player could weigh on overall market risk appetite."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "CNBC Markets",
+        "title": "Tesla and Intel among stocks with earnings momentum reporting next week. Here are the others",
+        "link": "https://www.cnbc.com/2026/07/17/tesla-and-intel-are-among-the-companies-reporting-next-week-with-positive-earnings-momentum-here-are-the-others.html",
+        "published": "Fri, 17 Jul 2026 16:37:41 GMT",
+        "summary": "Ahead of quarterly releases next week, analysts have been raising their estimates for a small group of companies which include Tesla and Intel."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Tesla, Intel see rising earnings estimates",
+        "what_happened": "Analysts are increasing their earnings per share forecasts for a select group of companies, including Tesla and Intel, ahead of their upcoming quarterly reports. This suggests positive sentiment and potential for strong performance.",
+        "what_happened_verbose": "As companies prepare to release their quarterly financial results, analysts who cover them have been revising their expectations. For a few companies, notably Tesla (an electric vehicle maker) and Intel (a semiconductor manufacturer), analysts have been raising their predictions for how much profit they will report. This 'earnings momentum' often signals that these companies might be performing better than previously thought, potentially leading to positive stock reactions.",
+        "theme": "Technology",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "TSLA",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Positive analyst estimate revisions ahead of earnings can lead to increased investor confidence and stock price appreciation."
+          },
+          {
+            "ticker": "INTC",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "Upward revisions in earnings estimates suggest potential for a strong earnings report, which could boost Intel's stock."
+          },
+          {
+            "ticker": "NVDA",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Positive sentiment around earnings momentum in the broader tech sector, especially semiconductors, could indirectly benefit Nvidia."
+          },
+          {
+            "ticker": "XLK",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Positive earnings surprises from key tech components like Tesla and Intel can lift the technology sector ETF."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Companies meet or slightly beat revised estimates",
+            "condition": "Tesla and Intel deliver earnings that align with or modestly exceed the recently raised analyst expectations.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "TSLA",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Meeting expectations may lead to a stable stock price, with limited upside unless guidance is exceptionally strong."
+              },
+              {
+                "ticker": "INTC",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "A solid report meeting revised estimates could provide a modest boost to Intel's stock."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Companies significantly beat estimates and raise guidance",
+            "condition": "Tesla and Intel report earnings well above revised estimates and provide optimistic forward-looking guidance.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "TSLA",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Strong beat and guidance would likely trigger a significant positive reaction in Tesla's stock."
+              },
+              {
+                "ticker": "INTC",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Exceeding expectations and strong guidance could lead to a notable increase in Intel's share price."
+              },
+              {
+                "ticker": "NVDA",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Positive news from peers like Intel could reinforce the bullish narrative for the semiconductor sector."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Companies miss estimates or provide weak guidance",
+            "condition": "Tesla and Intel fail to meet the raised earnings expectations or issue disappointing future outlooks.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "TSLA",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Missing raised expectations could lead to a sharp sell-off in Tesla stock."
+              },
+              {
+                "ticker": "INTC",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "A disappointing earnings report could cause a significant drop in Intel's share price."
+              },
+              {
+                "ticker": "XLK",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Negative surprises from major tech players could drag down the broader tech sector."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "CNBC Markets",
+        "title": "Tesla's charts point to a decline ahead, says Carter Worth",
+        "link": "https://www.cnbc.com/2026/07/17/teslas-charts-point-to-a-decline-ahead-says-carter-worth.html",
+        "published": "Fri, 17 Jul 2026 17:00:01 GMT",
+        "summary": "The technical analyst breaks down where he sees Tesla shares going."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Technical analyst sees Tesla stock decline",
+        "what_happened": "A technical analyst, Carter Worth, has analyzed Tesla's stock charts and predicts a downward trend. This analysis is based on patterns and indicators within the stock's price history.",
+        "what_happened_verbose": "Carter Worth, a technical analyst, uses chart patterns and historical price movements to forecast future stock performance. His current analysis of Tesla's stock charts suggests that the shares are poised for a decline. Technical analysis focuses on market psychology and trends reflected in price action, rather than a company's fundamental financial health.",
+        "theme": "Technology",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "TSLA",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "A bearish technical outlook from a respected analyst can lead to increased selling pressure and a decline in stock price."
+          },
+          {
+            "ticker": "QQQ",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "Negative sentiment on a major tech component like Tesla could contribute to a broader cautious mood in the tech-heavy Nasdaq 100."
+          },
+          {
+            "ticker": "MSTR",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "A bearish outlook on a high-profile tech stock like Tesla could indirectly influence sentiment for other volatile tech-related assets."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Technical forecast plays out, Tesla stock declines",
+            "condition": "Tesla's stock price follows the bearish patterns identified by the technical analyst.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 55,
+            "tickers": [
+              {
+                "ticker": "TSLA",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "The technical indicators suggest a downward trend, leading to selling pressure."
+              },
+              {
+                "ticker": "QQQ",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "A decline in a major tech stock could create minor headwinds for the Nasdaq 100."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Technical analysis proves incorrect, stock rallies",
+            "condition": "Tesla's stock price breaks through resistance levels, invalidating the bearish technical signals.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "TSLA",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "A rally would indicate that fundamental factors or new positive catalysts are overriding the technical outlook."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Technical decline accelerates, broader tech weakness",
+            "condition": "Tesla's stock experiences a sharp sell-off, triggering further technical selling and impacting other tech stocks.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "TSLA",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "A breakdown below key technical support levels could lead to a significant price drop."
+              },
+              {
+                "ticker": "QQQ",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "A sharp decline in Tesla, a major component, could drag down the Nasdaq 100."
+              },
+              {
+                "ticker": "XLK",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Negative technical momentum in a key tech stock can contribute to sector-wide weakness."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "CNBC Economy",
+        "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
+        "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
+        "published": "Fri, 17 Jul 2026 14:13:49 GMT",
+        "summary": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Import prices rise unexpectedly",
+        "what_happened": "Import prices saw a surprise increase of 0.3% in the latest month, driven by higher costs for goods from China. This rise occurred despite a decrease in energy import costs, indicating broader inflationary pressures.",
+        "what_happened_verbose": "The latest data shows that import prices, a key indicator of inflation, unexpectedly rose by 0.3% month-over-month. While falling energy prices helped to temper the overall increase, costs for other imported goods, particularly those originating from China, reached their highest levels since 2008. This suggests that supply chain pressures and global demand are contributing to rising costs for U.S. businesses and consumers.",
+        "theme": "Macro",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "WMT",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Higher import costs for goods, especially from China, can increase cost of goods sold for large retailers like Walmart."
+          },
+          {
+            "ticker": "FXI",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Higher prices for goods from China could reflect increased demand or production costs, potentially benefiting Chinese companies."
+          },
+          {
+            "ticker": "KWEB",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Increased costs for Chinese goods might signal stronger demand or pricing power for Chinese internet companies."
+          },
+          {
+            "ticker": "UUP",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Rising import prices can contribute to inflation, potentially leading to a stronger dollar if the Federal Reserve tightens policy."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Persistent import cost pressures",
+            "condition": "Global supply chain issues and strong consumer demand continue to drive up costs for imported goods.",
+            "horizon": "next quarter",
+            "likelihood": "most_likely",
+            "likelihood_pct": 50,
+            "tickers": [
+              {
+                "ticker": "WMT",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Sustained higher import costs directly impact margins for large retailers reliant on imported goods."
+              },
+              {
+                "ticker": "FXI",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Increased prices for Chinese exports suggest potential for higher revenues for Chinese firms."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Easing global inflation and trade",
+            "condition": "Geopolitical tensions de-escalate and global supply chains normalize, leading to lower import costs.",
+            "horizon": "next quarter",
+            "likelihood": "less_likely",
+            "likelihood_pct": 20,
+            "tickers": [
+              {
+                "ticker": "WMT",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Lower import costs would improve margins for retailers."
+              },
+              {
+                "ticker": "FXI",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Falling prices for Chinese goods could indicate weaker demand or increased competition."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Accelerating import inflation",
+            "condition": "New supply shocks or robust global demand significantly push up import prices across more categories.",
             "horizon": "next quarter",
             "likelihood": "plausible",
             "likelihood_pct": 30,
             "tickers": [
               {
-                "ticker": "STT",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Asset managers with diversified income products could see significant AUM growth."
-              },
-              {
-                "ticker": "BLK",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased demand for ETFs and alternative income strategies would boost BlackRock."
-              },
-              {
-                "ticker": "O",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Income-seeking investors might favor stable dividend payers like REITs."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Traditional 60/40 proves effective, reducing need for alternatives",
-            "condition": "A strong bull market in both stocks and bonds reduces the perceived need for complex income strategies.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "SPY",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A strong stock market would benefit broad market ETFs."
-              },
-              {
-                "ticker": "TLT",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A strong bond market rally would benefit long-duration Treasuries."
-              },
-              {
-                "ticker": "STT",
+                "ticker": "WMT",
                 "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Reduced demand for alternative income products could slow AUM growth for asset managers."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "CNBC Markets",
-        "title": "Buy the contractor before the renovation is complete: This stock's next growth phase is taking shape",
-        "link": "https://www.cnbc.com/2026/07/16/buy-the-contractor-before-the-renovation-is-complete-this-stocks-next-growth-phase-is-taking-shape.html",
-        "published": "Thu, 16 Jul 2026 17:59:16 GMT",
-        "summary": "The stock is trading near the low end of historical multiples despite improving fundamentals and catalysts ahead."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Contractor Stock Poised for Growth Amid Improving Fundamentals",
-        "what_happened": "A contractor stock is trading at a discount relative to its historical valuation multiples, despite improving company fundamentals and upcoming growth catalysts. The analysis suggests the stock is attractive before its next growth phase.",
-        "what_happened_verbose": "The article highlights a specific contractor stock that is currently trading near the lower end of its historical price-to-earnings or price-to-sales ratios. This valuation is considered attractive because the company's underlying business fundamentals are improving, and there are identifiable catalysts expected to drive future growth. The recommendation is to consider buying the stock now, as it is seen as being at an inflection point before its next significant expansion phase.",
-        "theme": "Industrials",
-        "impact": "low",
-        "affected": [
-          {
-            "ticker": "DE",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Industrial companies like Deere & Company (DE) can benefit from increased infrastructure spending and construction activity, which often follows renovation trends."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Stock performs in line with improving fundamentals",
-            "condition": "The company executes on its growth catalysts, and its valuation gradually moves towards historical averages.",
-            "horizon": "next 3-6 months",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "DE",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Steady execution and market recognition of value could lead to modest gains."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Growth catalysts exceed expectations, driving stock higher",
-            "condition": "New contracts, successful product launches, or unexpected market demand significantly boost the company's growth trajectory.",
-            "horizon": "next 3-6 months",
-            "likelihood": "plausible",
-            "likelihood_pct": 35,
-            "tickers": [
-              {
-                "ticker": "DE",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Stronger-than-expected growth could lead to a re-rating of the stock's valuation multiples."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Catalysts fail to materialize, or market sentiment shifts",
-            "condition": "The anticipated growth drivers do not materialize, or broader economic concerns lead to a de-rating of industrial stocks.",
-            "horizon": "next 3-6 months",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "DE",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Failure to meet growth expectations could cause the stock to underperform."
+                "expected_move": "large",
+                "reason": "Rapidly rising import costs would severely compress margins for retailers."
               },
               {
-                "ticker": "HYG",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "A general economic slowdown could negatively impact industrial and construction sectors."
+                "ticker": "UUP",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Higher inflation could prompt more aggressive Fed tightening, strengthening the dollar."
               }
             ]
           }
@@ -461,104 +540,92 @@
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "World Cup boosted bars, but not the whole economy, Fed says",
-        "what_happened": "The Federal Reserve's Beige Book report noted that while major sporting events like the World Cup provided a temporary lift to bars and restaurants, this did not translate into broader economic growth. Consumer spending showed some warning signs, indicating a potential slowdown.",
-        "what_happened_verbose": "The Federal Reserve's latest Beige Book, a report summarizing economic conditions across the U.S., highlighted that while specific sectors like bars and restaurants saw a boost from events such as the World Cup, this was not indicative of widespread economic strength. The report also pointed to 'warning signs' in consumer spending, suggesting that the overall economic expansion might be slowing down, despite localized positive impacts from events.",
-        "theme": "Macro",
+        "plain_headline": "World Cup boost for bars, not economy",
+        "what_happened": "The Federal Reserve's Beige Book report indicated that while bars and restaurants saw a boost from the World Cup, this did not translate into broader economic growth. Consumer spending showed warning signs, suggesting a mixed economic picture.",
+        "what_happened_verbose": "According to the Federal Reserve's latest Beige Book, a survey of economic conditions across the U.S., the recent World Cup provided a temporary lift to the hospitality sector, particularly bars and restaurants. However, this positive impact was localized and did not spill over into wider economic activity. The report also highlighted 'warning signs' in consumer spending, suggesting that overall economic momentum may be slowing despite isolated sector strengths.",
+        "theme": "Consumer",
         "impact": "low",
         "affected": [
           {
             "ticker": "MCD",
             "direction": "mixed",
             "expected_move": "small",
-            "reason": "While the World Cup provided a temporary boost to some food service establishments, the broader warning signs in consumer spending could impact discretionary spending at QSR chains."
-          },
-          {
-            "ticker": "COST",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "The report's mention of consumer spending warning signs could affect warehouse retailers, though their value proposition might offer some resilience."
-          },
-          {
-            "ticker": "TGT",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Retailers skewed to discretionary categories may be more sensitive to the 'warning signs' in consumer spending mentioned by the Fed."
+            "reason": "While the World Cup provided a temporary boost to some consumer discretionary spending, broader warning signs in consumer spending could impact QSR chains."
           },
           {
             "ticker": "XLY",
             "direction": "hurts",
             "expected_move": "small",
-            "reason": "Discretionary consumer spending is a key driver for this sector ETF, and warning signs could lead to reduced demand."
+            "reason": "Broader warning signs in consumer spending could negatively impact the consumer discretionary sector."
           },
           {
             "ticker": "XLP",
             "direction": "benefits",
             "expected_move": "small",
-            "reason": "Defensive consumer staples may perform relatively better if consumers cut back on discretionary items."
+            "reason": "If consumer spending weakens, defensive consumer staples might see relatively better performance."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Consumer spending holds up despite mixed signals",
-            "condition": "The 'warning signs' in consumer spending are temporary, and overall demand remains robust.",
-            "horizon": "next quarter",
+            "label": "Consumer spending remains cautious",
+            "condition": "Inflationary pressures and economic uncertainty lead consumers to pull back on discretionary spending.",
+            "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
-            "likelihood_pct": 50,
+            "likelihood_pct": 60,
             "tickers": [
               {
-                "ticker": "COST",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Resilient consumer spending at value-oriented retailers."
+                "ticker": "XLY",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "A broad slowdown in discretionary spending directly impacts companies in this sector."
               },
               {
                 "ticker": "XLP",
                 "direction": "benefits",
                 "expected_move": "small",
-                "reason": "Defensive sectors outperform if consumers become more cautious."
+                "reason": "Consumers may shift spending towards essential goods during uncertain economic times."
               }
             ]
           },
           "upside": {
-            "label": "Localized boosts spread to broader economy",
-            "condition": "The positive impact from events like the World Cup proves to be more widespread and sustainable.",
+            "label": "Consumer spending rebounds strongly",
+            "condition": "Inflation eases significantly, and consumer confidence improves, leading to increased spending across the board.",
             "horizon": "next quarter",
             "likelihood": "less_likely",
-            "likelihood_pct": 20,
+            "likelihood_pct": 15,
             "tickers": [
-              {
-                "ticker": "MCD",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Broader economic uplift leads to increased dining out."
-              },
               {
                 "ticker": "XLY",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Increased consumer confidence drives spending on discretionary goods."
+                "reason": "A strong consumer rebound would boost sales for discretionary goods and services."
+              },
+              {
+                "ticker": "MCD",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Improved consumer sentiment could lead to increased traffic and spending at QSRs."
               }
             ]
           },
           "downside": {
-            "label": "Warning signs signal a consumer slowdown",
-            "condition": "The warning signs in consumer spending intensify, leading to a more significant pullback.",
+            "label": "Consumer spending contracts",
+            "condition": "Rising costs, job losses, or other economic shocks cause consumers to sharply reduce spending.",
             "horizon": "next quarter",
             "likelihood": "plausible",
-            "likelihood_pct": 30,
+            "likelihood_pct": 25,
             "tickers": [
               {
-                "ticker": "TGT",
+                "ticker": "XLY",
                 "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Discretionary retail sales decline due to reduced consumer spending."
+                "expected_move": "large",
+                "reason": "A significant contraction in consumer spending would severely impact discretionary sectors."
               },
               {
-                "ticker": "HYG",
-                "direction": "hurts",
+                "ticker": "XLP",
+                "direction": "mixed",
                 "expected_move": "small",
-                "reason": "A consumer slowdown could increase credit risk for lower-rated companies."
+                "reason": "While staples are defensive, extreme contraction could still impact volumes."
               }
             ]
           }
@@ -576,128 +643,110 @@
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Wholesale prices fall unexpectedly on lower gas costs",
-        "what_happened": "Wholesale prices, as measured by the Producer Price Index (PPI), unexpectedly decreased by 0.3% in June. This decline was primarily driven by a significant drop in gasoline prices, mirroring trends seen in consumer inflation.",
-        "what_happened_verbose": "The Producer Price Index (PPI), which tracks the average selling prices received by domestic producers for their output, fell by 0.3% in June, defying expectations of a slight increase. The primary driver for this unexpected dip was a substantial decrease in energy costs, particularly gasoline. This easing of energy prices at the wholesale level suggests that inflationary pressures may be moderating, which could eventually translate to lower consumer prices.",
+        "plain_headline": "Wholesale prices fall on lower gas costs",
+        "what_happened": "Wholesale prices, measured by the Producer Price Index (PPI), unexpectedly declined by 0.3% in June. This decrease was primarily driven by a significant drop in gasoline prices, mirroring trends seen in consumer inflation data.",
+        "what_happened_verbose": "The Producer Price Index (PPI), which tracks the average change over time in the selling prices received by domestic producers for their output, unexpectedly fell by 0.3% in June. This decline was largely attributed to a sharp decrease in energy costs, particularly gasoline. This cooling at the wholesale level suggests that inflationary pressures may be easing for businesses, potentially leading to lower consumer prices in the future.",
         "theme": "Energy",
         "impact": "medium",
         "affected": [
           {
-            "ticker": "XLE",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Lower energy prices at the wholesale level can indicate weakening demand or increased supply, potentially pressuring energy sector profits."
-          },
-          {
-            "ticker": "USO",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "A decline in wholesale prices, especially driven by gasoline, suggests lower crude oil prices or refining margins."
-          },
-          {
-            "ticker": "BNO",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "The drop in wholesale prices, linked to energy costs, can signal downward pressure on global oil benchmarks like Brent."
-          },
-          {
             "ticker": "VLO",
             "direction": "hurts",
             "expected_move": "small",
-            "reason": "Refiners like VLO benefit from wide crack spreads, and falling energy prices can compress these margins."
+            "reason": "Lower gasoline prices at the wholesale level can compress refining margins for companies like VLO."
           },
           {
             "ticker": "PSX",
             "direction": "hurts",
             "expected_move": "small",
-            "reason": "Similar to VLO, falling energy prices can negatively impact refining margins for PSX."
+            "reason": "Declining wholesale prices, especially for refined products like gasoline, can negatively impact refiner margins."
           },
           {
             "ticker": "MPC",
             "direction": "hurts",
             "expected_move": "small",
-            "reason": "Refining margins, often tied to energy price differentials, could be squeezed by falling wholesale energy costs."
+            "reason": "Lower wholesale prices for gasoline can reduce profitability for refiners."
           },
           {
-            "ticker": "XLF",
-            "direction": "mixed",
+            "ticker": "XLE",
+            "direction": "hurts",
             "expected_move": "small",
-            "reason": "Lower inflation can reduce pressure on the Federal Reserve to raise rates, which is generally positive for financials, but lower energy prices could hurt some companies within the sector."
+            "reason": "Falling energy prices at the wholesale level can pressure the broader energy sector."
           },
           {
-            "ticker": "BAC",
-            "direction": "mixed",
+            "ticker": "USO",
+            "direction": "hurts",
             "expected_move": "small",
-            "reason": "Lower inflation might reduce the need for further rate hikes, which could benefit banks' net interest margins, but a broad economic slowdown signaled by falling prices could be negative."
+            "reason": "A drop in gasoline prices is often correlated with lower crude oil prices (WTI)."
           },
           {
-            "ticker": "WFC",
-            "direction": "mixed",
+            "ticker": "BNO",
+            "direction": "hurts",
             "expected_move": "small",
-            "reason": "Similar to BAC, rate sensitivity is a factor, but broader economic implications of falling prices matter."
+            "reason": "Falling energy costs at the wholesale level can indicate lower crude oil prices (Brent)."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Inflation continues to moderate due to energy",
-            "condition": "Energy prices remain subdued, and the PPI decline reflects a broader trend of easing inflation.",
+            "label": "Energy prices stabilize at lower levels",
+            "condition": "Global oil supply remains ample and geopolitical tensions do not escalate significantly, keeping energy prices subdued.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
-            "likelihood_pct": 60,
+            "likelihood_pct": 55,
             "tickers": [
               {
-                "ticker": "USO",
+                "ticker": "VLO",
                 "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Continued downward pressure on crude oil prices."
+                "expected_move": "moderate",
+                "reason": "Sustained lower energy prices would continue to pressure refining margins."
               },
-              {
-                "ticker": "XLF",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Reduced pressure on the Fed to hike rates."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Energy price drop signals demand weakness",
-            "condition": "The decline in energy prices is a sign of weakening global demand, potentially leading to broader economic slowdown.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
               {
                 "ticker": "XLE",
                 "direction": "hurts",
                 "expected_move": "moderate",
-                "reason": "Sustained lower energy prices negatively impact energy company revenues."
-              },
-              {
-                "ticker": "EEM",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Weak global demand is particularly detrimental to emerging markets."
+                "reason": "Persistent weakness in energy prices would drag down the sector ETF."
               }
             ]
           },
-          "downside": {
-            "label": "Temporary energy price blip, inflation to re-accelerate",
-            "condition": "The drop in energy prices is a short-term anomaly, and underlying inflation pressures remain strong.",
-            "horizon": "next 1-2 weeks",
+          "upside": {
+            "label": "Energy prices rebound sharply",
+            "condition": "Geopolitical events or unexpected supply disruptions cause a rapid increase in oil and gas prices.",
+            "horizon": "next quarter",
             "likelihood": "less_likely",
-            "likelihood_pct": 10,
+            "likelihood_pct": 20,
             "tickers": [
               {
-                "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Resurgent inflation would likely lead to higher long-term interest rates."
+                "ticker": "VLO",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Higher oil prices often lead to wider crack spreads, benefiting refiners."
               },
               {
                 "ticker": "XLE",
                 "direction": "benefits",
-                "expected_move": "small",
-                "reason": "If energy prices rebound, the sector could see positive price action."
+                "expected_move": "large",
+                "reason": "Rising energy prices would significantly boost the energy sector."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Wholesale prices fall further",
+            "condition": "Global demand weakens significantly, leading to further price drops across energy and other wholesale goods.",
+            "horizon": "next quarter",
+            "likelihood": "plausible",
+            "likelihood_pct": 25,
+            "tickers": [
+              {
+                "ticker": "VLO",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "A sharp decline in wholesale prices could indicate severe margin compression for refiners."
+              },
+              {
+                "ticker": "USO",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Further drops in wholesale energy prices would likely correspond to falling crude oil prices."
               }
             ]
           }
@@ -715,17 +764,17 @@
       "card": {
         "skip": false,
         "skip_reason": "",
-        "plain_headline": "Middle East tensions complicate European Central Bank's rate decision",
-        "what_happened": "Escalating tensions in the Strait of Hormuz, involving strikes between the U.S. and Iran, have created significant uncertainty for the European Central Bank (ECB). This geopolitical risk is forcing policymakers to reconsider their upcoming interest rate decision.",
-        "what_happened_verbose": "Recent military exchanges between the U.S. and Iran in the Strait of Hormuz have heightened geopolitical risks, creating an 'extremely volatile' outlook. This uncertainty is directly impacting the European Central Bank's (ECB) monetary policy deliberations. Policymakers are now re-evaluating their planned interest rate adjustments, as the potential for oil price spikes and broader economic disruption could complicate efforts to manage inflation and growth in the Eurozone.",
+        "plain_headline": "Middle East tensions impact ECB rates",
+        "what_happened": "Escalating tensions in the Strait of Hormuz have created significant uncertainty around the European Central Bank's upcoming interest rate decision. The volatile outlook is prompting a rethink of monetary policy due to potential impacts on energy prices and global trade.",
+        "what_happened_verbose": "Recent military exchanges between the U.S. and Iran, particularly concerning the Strait of Hormuz, a critical chokepoint for global oil shipments, have injected considerable uncertainty into financial markets. This geopolitical instability is causing European Central Bank (ECB) policymakers to re-evaluate their strategy for setting interest rates. The primary concern is that escalating conflict could lead to a surge in energy prices and disrupt global trade, complicating the ECB's efforts to manage inflation and economic growth.",
         "theme": "Geopolitics",
-        "impact": "medium",
+        "impact": "high",
         "affected": [
           {
             "ticker": "ECB",
             "direction": "mixed",
             "expected_move": "large",
-            "reason": "Geopolitical events directly influence central bank policy decisions, creating volatility around interest rate expectations."
+            "reason": "Geopolitical risk and potential energy price shocks directly influence the ECB's monetary policy decisions."
           },
           {
             "ticker": "XLE",
@@ -734,1448 +783,1229 @@
             "reason": "Increased geopolitical risk in the Middle East often leads to higher oil prices, benefiting energy companies."
           },
           {
+            "ticker": "EQNR",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "As a key European gas supplier, Norway's EQNR could benefit from supply disruptions elsewhere."
+          },
+          {
+            "ticker": "TLT",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Increased global uncertainty and potential rate cuts by the ECB could lead investors to safe-haven bonds."
+          },
+          {
+            "ticker": "UUP",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "If the ECB is forced to hold rates or cut due to geopolitical shocks, it could weaken the Euro relative to the USD."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Tensions de-escalate, ECB proceeds cautiously",
+            "condition": "The immediate geopolitical crisis in the Strait of Hormuz subsides, allowing the ECB to focus on domestic economic conditions.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 40,
+            "tickers": [
+              {
+                "ticker": "ECB",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "ECB may proceed with a measured rate hike or hold, depending on inflation data."
+              },
+              {
+                "ticker": "XLE",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Energy prices may stabilize as immediate geopolitical fears recede."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Significant de-escalation, ECB hikes rates",
+            "condition": "Geopolitical tensions resolve quickly, and strong inflation data allows the ECB to pursue more aggressive rate hikes.",
+            "horizon": "next quarter",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "ECB",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Successful rate hikes would signal confidence in economic stability."
+              },
+              {
+                "ticker": "TLT",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Higher rates would decrease the attractiveness of long-duration bonds."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Escalation leads to energy shock, ECB pauses",
+            "condition": "Conflict in the Strait of Hormuz intensifies, causing a major spike in oil prices and forcing the ECB to pause rate hikes.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 45,
+            "tickers": [
+              {
+                "ticker": "ECB",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "An energy shock complicates inflation control and may force a pause or cut in rates."
+              },
+              {
+                "ticker": "XLE",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "Escalating conflict would likely drive oil and gas prices significantly higher."
+              },
+              {
+                "ticker": "TLT",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Flight to safety amid geopolitical crisis would boost demand for government bonds."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "MarketWatch Top",
+        "title": "Meet Kimi K3, the newest Chinese AI model haunting Silicon Valley",
+        "link": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738?mod=mw_rss_topstories",
+        "published": "Sat, 18 Jul 2026 01:17:00 GMT",
+        "summary": "Moonshot AI’s new open model is catching up to Anthropic and OpenAI, raising questions about the future of the AI race."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "New AI model challenges tech giants",
+        "what_happened": "A new open-source AI model called Kimi K3 has been released, showing capabilities that rival those of established players like OpenAI and Anthropic. This development intensifies competition in the AI race and could impact the market share of major technology companies.",
+        "what_happened_verbose": "Moonshot AI, a startup, has launched Kimi K3, an open-source artificial intelligence (AI) model. This new model is demonstrating performance that is competitive with leading proprietary AI models from companies like OpenAI and Anthropic. The release of powerful open-source alternatives like Kimi K3 raises questions about the future dominance of closed-model AI developers and could accelerate innovation and adoption across the tech industry, potentially affecting cloud providers and AI software developers.",
+        "theme": "Technology",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "MSFT",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "Increased competition from open-source AI models could pressure margins for cloud AI services like Azure, though MSFT's broad AI integration may also benefit."
+          },
+          {
+            "ticker": "GOOGL",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "Competition from new AI models could impact GOOGL's search and cloud AI market share, but also spurs innovation."
+          },
+          {
+            "ticker": "NVDA",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "The development and adoption of new AI models, regardless of their origin, typically drives demand for high-performance GPUs."
+          },
+          {
+            "ticker": "AMD",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Increased competition and innovation in AI models can lead to greater demand for AI accelerator chips like AMD's MI300."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Open-source AI gains traction, driving hardware demand",
+            "condition": "Kimi K3 and similar open-source models prove widely adoptable and performant, leading to increased AI development.",
+            "horizon": "next quarter",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "NVDA",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Widespread AI model adoption directly increases demand for AI training and inference hardware."
+              },
+              {
+                "ticker": "AMD",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "New AI models create opportunities for alternative hardware providers to gain market share."
+              },
+              {
+                "ticker": "MSFT",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Cloud providers may see increased demand but also face pressure from open-source alternatives."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Kimi K3 becomes a dominant open-source standard",
+            "condition": "Kimi K3 significantly outperforms competitors and becomes the go-to open-source model for developers.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "NVDA",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "A surge in adoption of a leading open-source model would rapidly increase demand for GPUs."
+              },
+              {
+                "ticker": "AMD",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "This scenario would create a significant opportunity for AMD to capture market share in AI accelerators."
+              },
+              {
+                "ticker": "MSFT",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Dominance of open-source could reduce demand for proprietary cloud AI services."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Kimi K3 fails to gain significant traction",
+            "condition": "Kimi K3's performance or adoption proves limited, and established players maintain their lead.",
+            "horizon": "next quarter",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "NVDA",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Continued dominance of existing AI leaders ensures steady demand for their hardware."
+              },
+              {
+                "ticker": "MSFT",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Established AI providers continue to capture market share without significant open-source disruption."
+              },
+              {
+                "ticker": "AMD",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Without a major shift to open-source, AMD's AI growth may be slower than anticipated."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "MarketWatch Top",
+        "title": "The World Cup–winning side will make $50 million — and the IRS gets a cut",
+        "link": "https://www.marketwatch.com/story/the-world-cupwinning-side-will-make-50-million-and-the-irs-gets-a-cut-10f0780b?mod=mw_rss_topstories",
+        "published": "Fri, 17 Jul 2026 23:05:00 GMT",
+        "summary": "“It doesn’t make a difference who wins the game. The IRS will get a piece.”"
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "World Cup prize money taxed",
+        "what_happened": "The winners of the World Cup will receive $50 million in prize money, a portion of which will be subject to U.S. taxes. This highlights how even international sporting events generate taxable income for participants.",
+        "what_happened_verbose": "The winning team of the World Cup is set to receive a substantial prize of $50 million. However, the article points out that the Internal Revenue Service (IRS) will claim a portion of these winnings as taxes. This illustrates that income earned from international sporting events, even by foreign athletes or teams competing in the U.S. or earning income through U.S. channels, can be subject to U.S. taxation, impacting the net winnings.",
+        "theme": "Fiscal",
+        "impact": "low",
+        "affected": [
+          {
+            "ticker": "CME",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "While not directly impacted, the global nature of such events and their financial flows are facilitated by derivatives markets."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Standard taxation applies to international prize winnings",
+            "condition": "Existing tax treaties and U.S. tax laws are applied consistently to international athletes and organizations.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 80,
+            "tickers": [
+              {
+                "ticker": "CME",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "The financial infrastructure supporting global events remains stable."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Increased tax scrutiny on global sports income",
+            "condition": "Governments, including the U.S., increase efforts to collect taxes on international prize money and endorsements.",
+            "horizon": "next quarter",
+            "likelihood": "plausible",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "CME",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Heightened focus on international financial flows could indirectly affect trading volumes on exchanges."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Tax loopholes or exemptions reduce government take",
+            "condition": "International agreements or specific exemptions significantly reduce the tax burden on World Cup prize money.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 5,
+            "tickers": [
+              {
+                "ticker": "CME",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "No direct impact, but a reduction in taxable income could slightly alter financial flows."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "MarketWatch Top",
+        "title": "SpaceX postponed a crucial launch — and its stock went on to close below IPO price for second day",
+        "link": "https://www.marketwatch.com/story/spacex-postponed-a-crucial-launch-now-its-stock-is-set-to-slide-even-further-below-the-ipo-price-143adfe0?mod=mw_rss_topstories",
+        "published": "Fri, 17 Jul 2026 22:55:00 GMT",
+        "summary": "Shares in SpaceX declined about 4% in premarket trading on Friday after aborted mission."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "SpaceX launch delay impacts stock",
+        "what_happened": "SpaceX postponed a critical launch, causing its stock to fall for the second consecutive day below its initial public offering (IPO) price. This indicates investor concern over operational execution and potential future revenue.",
+        "what_happened_verbose": "SpaceX experienced a setback when a crucial launch mission was postponed. Following this news, the company's stock price declined by approximately 4% in premarket trading, marking the second day in a row that its shares closed below the price set during its initial public offering (IPO). This reaction suggests that investors are closely monitoring operational performance and are sensitive to delays that could impact future growth prospects and revenue generation, especially for a company valued highly on its execution capabilities.",
+        "theme": "Technology",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "BA",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "Delays in rocket launches can create uncertainty in the aerospace sector, though BA's primary business is commercial aircraft."
+          },
+          {
+            "ticker": "LDOS",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "If SpaceX faces significant operational challenges, government contracts for space services might be re-evaluated, potentially benefiting competitors."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Launch delays are temporary, stock recovers",
+            "condition": "The postponed launch is successfully rescheduled and executed soon, and no further operational issues arise.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "BA",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "The aerospace sector is resilient, and a single launch delay is unlikely to cause lasting damage."
+              },
+              {
+                "ticker": "LDOS",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Competitors may see a slight benefit if delays are prolonged, but overall demand for space services remains."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Successful launch and strong future outlook",
+            "condition": "The launch is successfully completed, and SpaceX provides positive guidance on future missions and commercial contracts.",
+            "horizon": "next quarter",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "BA",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Positive developments in the space sector can boost sentiment across aerospace companies."
+              },
+              {
+                "ticker": "LDOS",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "A successful SpaceX launch could signal strong demand for government space contracts, benefiting other contractors."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Recurring launch issues erode investor confidence",
+            "condition": "Multiple launch delays occur, or the postponed launch fails, leading to significant questions about SpaceX's reliability.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "BA",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Persistent issues in the space launch sector could raise concerns about overall industry reliability and investment."
+              },
+              {
+                "ticker": "LDOS",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "If SpaceX's reliability is questioned, government agencies might diversify contracts, benefiting competitors."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "MarketWatch Top",
+        "title": "The average stock is having a moment as semiconductors struggle. It’s a sign of a healthy market.",
+        "link": "https://www.marketwatch.com/story/the-average-stock-is-having-a-moment-as-semiconductors-struggle-its-a-sign-of-a-healthy-market-0dc01e9a?mod=mw_rss_topstories",
+        "published": "Fri, 17 Jul 2026 21:55:00 GMT",
+        "summary": "It has been a good week to be average on Wall Street."
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Average stocks outperform chipmakers",
+        "what_happened": "The broader stock market, represented by 'average' stocks, is performing well while semiconductor stocks are struggling. This divergence suggests a healthier, more diversified market rally beyond just a few tech leaders.",
+        "what_happened_verbose": "In a sign of a potentially more robust market, stocks that are not part of the high-flying tech sector are currently outperforming. While semiconductor companies, which have led much of the recent market gains, are experiencing a slowdown, the performance of a wider range of companies indicates that the rally is broadening. This diversification is often seen as a positive indicator of market health, suggesting that gains are not solely reliant on a narrow group of stocks.",
+        "theme": "Technology",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "XLK",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Underperformance of semiconductor stocks within the tech sector ETF would drag down its performance."
+          },
+          {
+            "ticker": "SMH",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "This ETF is heavily weighted towards semiconductor companies, which are currently struggling according to the report."
+          },
+          {
+            "ticker": "VTI",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A broadening market rally where 'average' stocks perform well would positively impact the total stock market ETF."
+          },
+          {
+            "ticker": "SPY",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A healthy, broadening market rally would lift the performance of the S&P 500 index."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Market rally broadens, tech consolidates",
+            "condition": "Economic conditions support a wider range of industries, and investors rotate into less concentrated sectors.",
+            "horizon": "next quarter",
+            "likelihood": "most_likely",
+            "likelihood_pct": 55,
+            "tickers": [
+              {
+                "ticker": "VTI",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Broad market strength lifts all boats, including the total market ETF."
+              },
+              {
+                "ticker": "XLK",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Tech sector may see mixed performance as some areas lag while others continue to innovate."
+              },
+              {
+                "ticker": "SMH",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Semiconductor companies face cyclical headwinds or increased competition, leading to underperformance."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Broad market strength continues, tech finds new drivers",
+            "condition": "Economic growth remains steady, and new technological advancements or applications emerge, revitalizing semiconductor demand.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "VTI",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "A strong economy and broad market participation would lead to significant gains."
+              },
+              {
+                "ticker": "SPY",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "A healthy market rally would see the S&P 500 reach new highs."
+              },
+              {
+                "ticker": "SMH",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "New innovations or demand drivers could quickly boost semiconductor stocks."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Tech sector leads downturn, broad market follows",
+            "condition": "Economic slowdown or specific industry shocks cause a broad market sell-off, with tech stocks leading the decline.",
+            "horizon": "next quarter",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "VTI",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "A market downturn would negatively impact all broad market ETFs."
+              },
+              {
+                "ticker": "XLK",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "If tech is the source of weakness, the tech sector ETF would suffer significantly."
+              },
+              {
+                "ticker": "SMH",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "Semiconductor stocks, often sensitive to economic cycles, could see sharp declines."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com",
+        "title": "UBS projects the space economy’s TAM at $1.3TN by 2040",
+        "link": "https://www.investing.com/news/stock-market-news/ubs-projects-the-space-economys-tam-at-13tn-by-2040-4799570",
+        "published": "2026-07-18 06:53:40",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Space Economy Poised for Massive Growth",
+        "what_happened": "UBS predicts the total addressable market (TAM) for the space economy will reach $1.3 trillion by 2040. This growth is driven by advancements in satellite technology, space tourism, and resource utilization.",
+        "what_happened_verbose": "Investment bank UBS has released a projection indicating that the global space economy's total addressable market (TAM) could hit $1.3 trillion by the year 2040. This ambitious forecast is fueled by expected innovations and expansions in areas such as satellite manufacturing and services, space tourism, and potentially even in-space resource extraction. This signifies a significant long-term growth opportunity for companies involved in aerospace and related technologies.",
+        "theme": "Other",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "UBS",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "UBS is the source of the projection, potentially benefiting from increased investor interest in the space sector it covers."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Steady growth in space economy continues",
+            "condition": "Technological advancements and commercial investment in space continue at a consistent pace.",
+            "horizon": "next 5-10 years",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "XLK",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Technology companies developing components and software for the space economy could see increased demand."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Breakthroughs accelerate space economy expansion",
+            "condition": "Major technological breakthroughs or significant government/private funding accelerate growth beyond current expectations.",
+            "horizon": "next 5-10 years",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "XLK",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Rapid innovation in AI, materials science, and propulsion could unlock new markets faster than anticipated."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Space economy growth stalls due to costs or regulation",
+            "condition": "High development costs, regulatory hurdles, or geopolitical tensions impede the growth of the space economy.",
+            "horizon": "next 5-10 years",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "XLK",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Reduced investment and slower adoption of space technologies would impact related tech companies."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com",
+        "title": "Taylor Farms, Sysco pull iceberg lettuce from central Mexico linked to US parasite outbreak",
+        "link": "https://www.investing.com/news/stock-market-news/wendys-chipotle-say-they-are-not-affected-by-cyclosporiasisoutbreak-4798704",
+        "published": "2026-07-18 00:18:30",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Lettuce Removed from Shelves Due to Contamination Risk",
+        "what_happened": "Taylor Farms and Sysco are voluntarily pulling iceberg lettuce from central Mexico due to a potential parasite outbreak linked to a U.S. contamination issue. This action is a precautionary measure to ensure consumer safety.",
+        "what_happened_verbose": "Major food distributors Taylor Farms and Sysco are taking proactive steps by removing iceberg lettuce sourced from central Mexico from their supply chains. This decision stems from a potential parasite outbreak that has been linked to a contamination issue within the United States. The companies are prioritizing consumer health and safety by halting distribution of the affected product while investigations continue.",
+        "theme": "Consumer",
+        "impact": "low",
+        "affected": [],
+        "scenarios": {
+          "base": {
+            "label": "Limited impact from temporary lettuce recall",
+            "condition": "The recall is contained to a specific region and product, with minimal disruption to overall food supply chains.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 70,
+            "tickers": [
+              {
+                "ticker": "TGT",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Retailers like TGT may experience minor short-term supply disruptions or increased costs for alternative produce."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Broader agricultural supply chain concerns emerge",
+            "condition": "The contamination is found to be more widespread, affecting other produce or leading to broader import restrictions.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "TGT",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Widespread supply chain issues could lead to higher food prices and reduced availability for consumers."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Swift resolution and no lasting impact",
+            "condition": "The source of the contamination is quickly identified and resolved, with minimal impact on consumer confidence or supply.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 15,
+            "tickers": []
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com",
+        "title": "Top US prosecutor will not dispute DOJ decision to drop Indian tycoon Gautam Adani’s criminal case",
+        "link": "https://www.investing.com/news/stock-market-news/top-us-prosecutor-will-not-dispute-doj-decision-to-drop-indian-tycoon-gautam-adanis-criminal-case-4799444",
+        "published": "2026-07-18 00:06:50",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "US Won't Challenge Dropping Case Against Indian Tycoon",
+        "what_happened": "The top US prosecutor has stated they will not contest the Justice Department's decision to drop criminal charges against Indian industrialist Gautam Adani. This development relates to a case that had been under investigation.",
+        "what_happened_verbose": "A significant legal development has occurred as the top US prosecutor has indicated they will not oppose the Department of Justice's (DOJ) move to dismiss the criminal case against Gautam Adani, a prominent Indian industrialist. The case had been the subject of an ongoing investigation. This decision suggests a potential end to the legal proceedings against Adani in the United States.",
+        "theme": "Geopolitics",
+        "impact": "low",
+        "affected": [
+          {
+            "ticker": "EEM",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A reduction in legal uncertainty for a major emerging market industrialist could be viewed positively by emerging market investors."
+          },
+          {
+            "ticker": "FXI",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "While Adani is Indian, a reduction in perceived regulatory risk for major international business figures can be a positive signal for emerging markets generally."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Case dropped with minimal market reaction",
+            "condition": "The dropping of the case is seen as a procedural or evidence-based decision with no broader implications for corporate governance.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 65,
+            "tickers": [
+              {
+                "ticker": "EEM",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Reduced legal overhang for a significant figure in an emerging market can be a minor positive for investor sentiment."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Positive sentiment boost for emerging markets",
+            "condition": "The resolution of the case is interpreted as a sign of improved regulatory clarity or reduced geopolitical risk in emerging markets.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 25,
+            "tickers": [
+              {
+                "ticker": "EEM",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "A perception of reduced risk for major international business dealings could encourage more investment into emerging markets."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Concerns over fairness or influence arise",
+            "condition": "The decision to drop the case raises questions about the fairness of the legal process or potential undue influence.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "EEM",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Negative sentiment regarding regulatory environments in emerging markets could arise if the decision is perceived as unfair."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com",
+        "title": "GameStop owns nearly 10% of eBay, SEC filing shows",
+        "link": "https://www.investing.com/news/stock-market-news/gamestop-owns-nearly-10-of-ebay-sec-filing-shows-4799464",
+        "published": "2026-07-17 23:12:30",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "GameStop Holds Significant Stake in eBay",
+        "what_happened": "A recent SEC filing revealed that GameStop now owns nearly 10% of eBay. This disclosure indicates a substantial investment by the video game retailer into the online marketplace.",
+        "what_happened_verbose": "In a surprising move, a filing with the Securities and Exchange Commission (SEC) has shown that GameStop, the video game retailer known for its meme stock status, has acquired a significant ownership stake in eBay. The filing indicates that GameStop now holds close to 10% of eBay's outstanding shares. This represents a considerable investment and raises questions about GameStop's strategy and its relationship with eBay.",
+        "theme": "Financials",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "GS",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Investment banks like GS that advise on M&A or capital markets activity could see increased business if this leads to strategic moves by either company."
+          },
+          {
+            "ticker": "SCHW",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "Brokers like SCHW will see increased trading volume and potentially AUM fluctuations as investors react to this news."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Passive investment with limited strategic impact",
+            "condition": "GameStop's stake is a passive financial investment, and no significant strategic collaboration or activist pressure occurs.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 55,
+            "tickers": [
+              {
+                "ticker": "SCHW",
+                "direction": "mixed",
+                "expected_move": "small",
+                "reason": "Increased investor interest and trading activity around both GME and EBAY will drive volume for brokers."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Strategic partnership or activist pressure drives value",
+            "condition": "GameStop leverages its stake to push for strategic changes at eBay, leading to improved performance or a potential acquisition.",
+            "horizon": "next 1-3 months",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "SCHW",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Successful strategic initiatives or activist campaigns could boost the stock prices of both companies, increasing AUM for brokers."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Investment proves costly, impacting GameStop",
+            "condition": "The investment in eBay does not yield expected returns, or it distracts from GameStop's core business, leading to financial strain.",
+            "horizon": "next 1-3 months",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "SCHW",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "A significant decline in GameStop's stock price due to this investment would negatively impact brokerages holding its shares or facilitating trades."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "Dollar set for weekly loss as softer U.S. inflation tempers Fed hike bets",
+        "link": "https://www.investing.com/news/forex-news/asian-fx-subdued-as-middle-east-tensions-offset-softer-dollar-yen-under-pressure-4797385",
+        "published": "2026-07-17 20:57:06",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Dollar Weakens on Lower Inflation Data",
+        "what_happened": "The U.S. dollar is expected to end the week lower as recent inflation data came in softer than anticipated. This has led investors to scale back expectations for aggressive interest rate hikes by the Federal Reserve.",
+        "what_happened_verbose": "The U.S. dollar is on track for a weekly decline against other major currencies. This movement is driven by recent economic reports showing a slowdown in U.S. inflation. Lower inflation reduces the pressure on the Federal Reserve to continue raising interest rates aggressively, which in turn makes dollar-denominated assets less attractive to investors seeking higher yields elsewhere.",
+        "theme": "FX",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "UUP",
+            "direction": "hurts",
+            "expected_move": "moderate",
+            "reason": "A weaker dollar means the U.S. Dollar Index (DXY), which UUP tracks, is likely to fall."
+          },
+          {
+            "ticker": "TIP",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Softer inflation reduces the immediate need for Fed rate hikes, which can be positive for inflation-protected securities."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Inflation stays moderate, Fed pauses hikes",
+            "condition": "Inflation continues to trend downwards, and the Federal Reserve signals a pause or end to its rate-hiking cycle.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Reduced rate hike expectations weaken the dollar."
+              },
+              {
+                "ticker": "TLT",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Lower expected rates make long-duration bonds more attractive."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Inflation falls faster, Fed pivots",
+            "condition": "Inflation drops significantly faster than expected, prompting the Fed to consider rate cuts sooner than anticipated.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 30,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "large",
+                "reason": "A strong signal of Fed easing would significantly weaken the dollar."
+              },
+              {
+                "ticker": "SPY",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Lower rates and a weaker dollar are generally supportive of equities."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Inflation re-accelerates, Fed stays hawkish",
+            "condition": "Inflationary pressures prove more persistent, forcing the Fed to maintain its aggressive rate-hiking stance.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Resurgent inflation would support further Fed tightening and a stronger dollar."
+              },
+              {
+                "ticker": "TIP",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Higher inflation expectations would erode the value of existing TIPS."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "Canadian dollar hits one-month high on oil gains",
+        "link": "https://www.investing.com/news/forex-news/canadian-dollar-hits-onemonth-high-on-oil-gains-93CH-4799003",
+        "published": "2026-07-17 19:47:35",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Canadian Dollar Surges on Oil Price Rally",
+        "what_happened": "The Canadian dollar has reached a one-month high, primarily driven by a significant increase in oil prices. As Canada is a major oil exporter, rising crude prices tend to boost the value of its currency.",
+        "what_happened_verbose": "The Canadian dollar (CAD) has strengthened considerably, reaching its highest point in a month. This appreciation is directly linked to a rally in global oil prices. Canada is one of the world's largest producers and exporters of crude oil, so when oil prices go up, the demand for Canadian dollars often increases as international buyers need CAD to purchase Canadian oil, or as the value of Canadian oil exports rises.",
+        "theme": "Energy",
+        "impact": "medium",
+        "affected": [
+          {
             "ticker": "USO",
             "direction": "benefits",
             "expected_move": "moderate",
-            "reason": "Tensions in the Strait of Hormuz, a key oil shipping route, can directly drive up crude oil prices."
+            "reason": "Rising oil prices directly increase the value of oil futures contracts that USO tracks."
           },
           {
             "ticker": "BNO",
             "direction": "benefits",
             "expected_move": "moderate",
-            "reason": "Brent crude, a global benchmark, is highly sensitive to supply disruptions in the Middle East."
-          },
-          {
-            "ticker": "SHEL",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Integrated oil majors with significant exposure to global energy markets benefit from higher oil prices."
-          },
-          {
-            "ticker": "XLF",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Higher energy prices can fuel inflation, potentially forcing central banks to maintain or increase interest rates, which can be a headwind for financials."
-          },
-          {
-            "ticker": "BAC",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Higher inflation from energy shocks could lead to higher interest rates, impacting loan demand and potentially increasing credit risk."
-          },
-          {
-            "ticker": "TLT",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Increased inflation expectations due to oil price spikes would likely lead to higher long-term bond yields."
-          },
-          {
-            "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Geopolitical uncertainty often leads to a flight to safety, strengthening the US dollar."
-          },
-          {
-            "ticker": "EWJ",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "A stronger USD and potential global economic slowdown would negatively impact Japanese equities."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Tensions de-escalate, ECB proceeds with rate plans",
-            "condition": "The geopolitical situation in the Strait of Hormuz calms down, allowing the ECB to proceed with its planned monetary policy adjustments.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 40,
-            "tickers": [
-              {
-                "ticker": "USO",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Reduced geopolitical risk leads to lower oil prices."
-              },
-              {
-                "ticker": "XLF",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Less inflationary pressure allows for a more accommodative rate path."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Escalation leads to significant oil price surge",
-            "condition": "Geopolitical tensions significantly worsen, leading to major disruptions in oil supply and a sharp rise in energy prices.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "XLE",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Substantial increase in oil prices drives significant gains for energy companies."
-              },
-              {
-                "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Inflationary surge forces higher long-term interest rates."
-              },
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Flight to safety strengthens the US dollar significantly."
-              }
-            ]
-          },
-          "downside": {
-            "label": "ECB pauses hikes amid uncertainty, Euro weakens",
-            "condition": "The ECB, facing extreme uncertainty, pauses its rate hike cycle, leading to a weaker Euro and potential for inflation.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 40,
-            "tickers": [
-              {
-                "ticker": "CYB",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A weaker Euro against the USD would benefit the offshore Chinese Yuan."
-              },
-              {
-                "ticker": "XLF",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Lower rates or a pause in hikes could pressure bank profitability."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "CNBC Economy",
-        "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
-        "link": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
-        "published": "Wed, 15 Jul 2026 05:14:11 GMT",
-        "summary": "That second-quarter growth came below Beijing's full-year growth target range of 4.5% to 5%, the least ambitious goal in decades."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "China's economy grows slowest since 2022, missing targets",
-        "what_happened": "China's economy experienced its slowest quarterly growth since 2022, with investment slumping. The reported growth rate fell below the government's own target range, fueling calls for increased economic stimulus measures.",
-        "what_happened_verbose": "China's Gross Domestic Product (GDP) expanded at its slowest pace since the initial stages of the COVID-19 pandemic in 2022. This deceleration, particularly a slump in investment, meant that the second-quarter growth fell short of Beijing's already modest full-year target of 4.5% to 5%. This underperformance is intensifying pressure on the Chinese government to implement further stimulus measures to boost economic activity and meet its growth objectives.",
-        "theme": "Macro",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "EEM",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Slower Chinese growth negatively impacts emerging market economies, which have significant trade ties with China."
-          },
-          {
-            "ticker": "FXI",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "This ETF tracks large Chinese stocks, which are directly affected by domestic economic performance and stimulus expectations."
-          },
-          {
-            "ticker": "KWEB",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Chinese internet stocks are highly sensitive to domestic economic conditions and consumer spending."
-          },
-          {
-            "ticker": "WMT",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Slower Chinese growth could impact the cost of goods imported by Walmart, but also signals weaker consumer demand globally."
-          },
-          {
-            "ticker": "FCX",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Copper demand is heavily influenced by China's industrial activity and infrastructure investment, which appears to be slowing."
-          },
-          {
-            "ticker": "AA",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Aluminum prices are sensitive to Chinese demand, and slower growth suggests reduced industrial consumption."
-          },
-          {
-            "ticker": "TSLA",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Tesla has significant sales and production in China, making it vulnerable to a slowdown in the Chinese market."
-          },
-          {
-            "ticker": "RIO",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Iron ore prices, a key commodity for RIO, are heavily driven by Chinese steel production and infrastructure spending."
-          },
-          {
-            "ticker": "BHP",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Similar to RIO, BHP's performance is tied to Chinese demand for commodities like iron ore and copper."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Stimulus measures boost China's growth",
-            "condition": "The Chinese government implements effective stimulus measures that lead to a recovery in investment and consumption.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 40,
-            "tickers": [
-              {
-                "ticker": "FXI",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Stimulus boosts confidence and economic activity for Chinese companies."
-              },
-              {
-                "ticker": "FCX",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased infrastructure spending drives demand for copper."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Stronger-than-expected stimulus leads to rapid recovery",
-            "condition": "Aggressive and highly effective stimulus measures are deployed, leading to a sharp rebound in China's economic growth.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "EEM",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "A strong Chinese rebound would significantly lift emerging markets."
-              },
-              {
-                "ticker": "TSLA",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Robust Chinese consumer demand and economic activity boost Tesla's sales."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Stimulus fails to revive flagging growth",
-            "condition": "Government stimulus measures are insufficient or ineffective, leading to continued economic stagnation or further slowdown in China.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 45,
-            "tickers": [
-              {
-                "ticker": "KWEB",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Continued weakness in the Chinese economy weighs heavily on tech stocks."
-              },
-              {
-                "ticker": "WMT",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Slower Chinese growth could lead to lower consumer spending and potentially higher import costs."
-              },
-              {
-                "ticker": "AA",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Persistent weakness in Chinese industrial demand depresses aluminum prices."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "Micron has turned into ‘the most important stock in the market.’ So is it time to worry?",
-        "link": "https://www.marketwatch.com/story/micron-has-turned-into-the-most-important-stock-in-the-market-so-is-it-time-to-worry-71e335bf?mod=mw_rss_topstories",
-        "published": "Fri, 17 Jul 2026 02:11:00 GMT",
-        "summary": "While investors are concerned about a memory peak, analysts say the stock still looks cheap relative to various earnings scenarios."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Micron Stock: Cheap or Risky?",
-        "what_happened": "Micron Technology (MU) is facing investor concerns about a potential peak in memory chip demand. However, analysts believe the stock remains undervalued when considering various future earnings possibilities.",
-        "what_happened_verbose": "Micron Technology (MU), a major producer of memory chips like DRAM and NAND, is at a crossroads. Some investors worry that the current boom in memory chip demand might be nearing its end, which could hurt future sales. Despite these worries, many analysts argue that MU's stock price is still attractive because it appears cheap relative to its potential earnings, even if the market conditions change.",
-        "theme": "Technology",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "MU",
-            "direction": "mixed",
-            "expected_move": "moderate",
-            "reason": "The stock's valuation is debated, with potential for upside if earnings hold up but downside risk if memory demand truly peaks."
-          },
-          {
-            "ticker": "XLK",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "As a major memory chip producer, MU's performance can influence sentiment for the broader technology sector ETF."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Memory demand holds steady, MU valuation attracts buyers",
-            "condition": "Demand for memory chips, especially for AI applications, remains robust, and the market recognizes MU's attractive valuation.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "MU",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Continued strong demand and perceived undervaluation should drive the stock higher."
-              },
-              {
-                "ticker": "XLK",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Positive sentiment around MU can spill over to the tech sector."
-              }
-            ]
-          },
-          "upside": {
-            "label": "AI boom accelerates memory demand beyond expectations",
-            "condition": "The demand for High Bandwidth Memory (HBM) for AI accelerators significantly outstrips current supply, leading to higher prices and volumes for MU.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 35,
-            "tickers": [
-              {
-                "ticker": "MU",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Explosive growth in AI-driven memory demand would significantly boost earnings and stock price."
-              },
-              {
-                "ticker": "NVDA",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased demand for AI accelerators directly benefits chip designers like NVDA, which use MU's memory."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Memory market enters cyclical downturn",
-            "condition": "Global demand for consumer electronics and enterprise IT slows, leading to falling memory prices and inventory build-up for MU.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "MU",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A cyclical downturn would pressure earnings and stock valuation."
-              },
-              {
-                "ticker": "QQQ",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "A significant downturn in a major tech component like memory could weigh on the tech-heavy Nasdaq 100."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "Netflix is getting stingier about its viewing data, and Wall Street isn’t happy",
-        "link": "https://www.marketwatch.com/story/netflix-is-getting-stingier-about-its-viewing-data-and-wall-street-isnt-happy-15033db1?mod=mw_rss_topstories",
-        "published": "Fri, 17 Jul 2026 00:14:00 GMT",
-        "summary": "Netflix’s stock is falling in the wake of mixed earnings and a new plan to cut back on the publication of ‘What We Watched’ reports."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Netflix Cuts Data Sharing, Investors Unhappy",
-        "what_happened": "Netflix's stock declined after the company announced it would reduce the amount of viewing data it publicly shares. This move comes alongside mixed earnings results, causing concern among Wall Street analysts.",
-        "what_happened_verbose": "Netflix (NFLX) is facing investor skepticism after a recent earnings report that was only partially positive. Adding to the unease, the streaming giant plans to stop publishing its detailed 'What We Watched' reports, which provided granular insights into subscriber viewing habits. Wall Street analysts are unhappy because this lack of transparency makes it harder to assess the company's performance and predict future trends, leading to a sell-off in the stock.",
-        "theme": "Consumer",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "NFLX",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Reduced data transparency can lead to investor uncertainty and potentially lower valuations."
-          },
-          {
-            "ticker": "QQQ",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "While not a direct component, significant news from a major consumer discretionary company like Netflix can affect sentiment for growth-oriented ETFs."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Reduced data has minimal impact on subscriber growth",
-            "condition": "Netflix's core business continues to grow subscribers and revenue despite less data transparency, and other streaming services maintain similar disclosure levels.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "NFLX",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "If subscriber growth remains strong, the market may overlook the data reduction."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Netflix pivots to new growth drivers effectively",
-            "condition": "The company successfully integrates new revenue streams (e.g., advertising, gaming) that offset concerns about data transparency and drive overall profitability.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "NFLX",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Successful diversification into new business areas would boost investor confidence."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Competitors gain an edge due to data transparency",
-            "condition": "Rival streaming services continue to provide detailed viewing data, allowing them to better tailor content and marketing, thus attracting Netflix subscribers.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "NFLX",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Loss of competitive insight due to data reduction could lead to subscriber attrition."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "10 U.S. metro areas where builders are slashing prices on new homes",
-        "link": "https://www.marketwatch.com/story/10-u-s-metro-areas-where-builders-are-slashing-prices-on-new-homes-1eb19355?mod=mw_rss_topstories",
-        "published": "Fri, 17 Jul 2026 00:10:00 GMT",
-        "summary": "Existing-home prices just hit a new record high — but there are plenty of newly built homes selling at a discount, as desperate builders cut prices."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Homebuilders Slash Prices Despite High Existing Home Costs",
-        "what_happened": "While prices for existing homes have reached record highs, builders in certain U.S. metro areas are significantly cutting prices on new homes. This indicates a disconnect between the new and existing housing markets.",
-        "what_happened_verbose": "In a surprising turn of events, new home prices are falling in some parts of the U.S., even as the overall market for existing homes hits record highs. Builders in specific metropolitan areas are resorting to deep discounts to sell their newly constructed properties. This suggests that either demand for new construction is weaker than anticipated in these areas, or builders are facing pressure from excess inventory and rising costs, forcing them to clear stock despite the high prices of pre-owned homes.",
-        "theme": "Real Estate",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "KBHome",
-            "direction": "mixed",
-            "expected_move": "moderate",
-            "reason": "Homebuilders are directly impacted by price changes and inventory levels."
-          },
-          {
-            "ticker": "XHB",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "A sector-wide trend of price cuts would negatively impact homebuilder ETFs."
-          },
-          {
-            "ticker": "TLT",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Falling home prices can sometimes signal broader economic weakness, potentially influencing interest rate expectations."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Builders clear inventory with targeted price cuts",
-            "condition": "Builders successfully reduce excess inventory in specific markets without a broad collapse in new home prices, and demand for existing homes remains strong.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 55,
-            "tickers": [
-              {
-                "ticker": "XHB",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Sector performance will be mixed, with some builders benefiting from inventory reduction while others struggle."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Price cuts stimulate demand, boosting builder sales",
-            "condition": "The price reductions attract buyers who were previously priced out, leading to a significant increase in sales volume for new homes across affected regions.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 35,
-            "tickers": [
-              {
-                "ticker": "KBHome",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Successful sales at discounted prices would improve revenue and profitability for homebuilders."
-              },
-              {
-                "ticker": "XHB",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Increased sales volume would boost the performance of homebuilder ETFs."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Price cuts signal broader housing market weakness",
-            "condition": "The price cuts are a precursor to a wider slowdown in the housing market, indicating falling demand and potentially impacting existing home prices.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "XHB",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A broad housing market downturn would significantly hurt homebuilder stocks."
-              },
-              {
-                "ticker": "TLT",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Signs of housing market weakness could lead to expectations of lower interest rates, benefiting long-term bonds."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "MarketWatch Top",
-        "title": "Palo Alto Networks’ stock has been on a tear — and it could go even higher, according to these bulls",
-        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-has-been-on-a-tear-and-it-could-go-even-higher-according-to-these-bulls-1ddde6f4?mod=mw_rss_topstories",
-        "published": "Thu, 16 Jul 2026 23:38:00 GMT",
-        "summary": "The company’s shares have roughly doubled over the past three months, as investors have warmed to the idea that AI is increasing the need for cybersecurity products."
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Palo Alto Networks Stock Soars on AI Cybersecurity Demand",
-        "what_happened": "Palo Alto Networks' stock has surged dramatically, roughly doubling in three months, as investors increasingly believe that the rise of Artificial Intelligence (AI) is boosting demand for cybersecurity solutions.",
-        "what_happened_verbose": "Palo Alto Networks (PANW) has experienced an exceptional run in its stock price, nearly doubling in value over the past three months. This impressive performance is driven by a growing market sentiment that the rapid advancements and adoption of Artificial Intelligence (AI) are creating new and complex cybersecurity challenges. Investors are betting that companies like Palo Alto Networks, a leader in cybersecurity, are well-positioned to benefit from increased spending on advanced security products needed to protect AI systems and data.",
-        "theme": "AI Infra",
-        "impact": "high",
-        "affected": [
-          {
-            "ticker": "PANW",
-            "direction": "benefits",
-            "expected_move": "large",
-            "reason": "The narrative of AI driving cybersecurity demand directly benefits Palo Alto Networks' growth prospects and valuation."
-          },
-          {
-            "ticker": "XLK",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Strong performance from a major cybersecurity player can lift sentiment for the entire technology sector."
-          },
-          {
-            "ticker": "PLTR",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Palo Alto Networks' success reinforces the broader AI-driven growth theme, which also benefits companies like Palantir."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "AI adoption continues, cybersecurity spending increases",
-            "condition": "Companies continue to invest heavily in AI, leading to sustained demand for advanced cybersecurity solutions from providers like Palo Alto Networks.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 65,
-            "tickers": [
-              {
-                "ticker": "PANW",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Continued strong demand and execution will support further stock appreciation."
-              },
-              {
-                "ticker": "XLK",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Positive AI and cybersecurity trends will likely benefit the broader tech sector."
-              }
-            ]
-          },
-          "upside": {
-            "label": "New AI threats accelerate cybersecurity spending",
-            "condition": "Emergence of significant new AI-powered cyber threats prompts an urgent and accelerated increase in cybersecurity spending by enterprises and governments.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 25,
-            "tickers": [
-              {
-                "ticker": "PANW",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Increased urgency and spending would disproportionately benefit leading cybersecurity firms."
-              },
-              {
-                "ticker": "PLTR",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Enhanced demand for AI-driven defense and analytics solutions would boost Palantir."
-              }
-            ]
-          },
-          "downside": {
-            "label": "AI growth slows, cybersecurity spending moderates",
-            "condition": "The pace of AI adoption slows, or companies face economic headwinds, leading to a moderation in cybersecurity spending and a reassessment of valuations.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 10,
-            "tickers": [
-              {
-                "ticker": "PANW",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A slowdown in AI adoption would reduce the expected growth rate for cybersecurity companies."
-              },
-              {
-                "ticker": "QQQ",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "A slowdown in AI investment could negatively impact the growth-oriented tech stocks in the Nasdaq 100."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com",
-        "title": "European shares slip as tech stocks, Mideast tensions weigh",
-        "link": "https://www.investing.com/news/stock-market-news/european-shares-slip-as-tech-stocks-mideast-tensions-weigh-4797502",
-        "published": "2026-07-17 07:25:02",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "European stocks dip amid tech weakness and Middle East worries",
-        "what_happened": "European stock markets saw a decline, pulled down by weaker performance in technology stocks. Heightened tensions in the Middle East also contributed to investor caution, leading to a broader market downturn.",
-        "what_happened_verbose": "European stock markets experienced a downturn as investors reacted to a combination of factors. Technology stocks, which have been a significant driver of market gains, faced selling pressure. Simultaneously, rising geopolitical tensions in the Middle East created a 'risk-off' sentiment, prompting investors to move away from riskier assets. This dual pressure led to a general slip in major European indices.",
-        "theme": "Macro",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "QQQ",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Tech-heavy ETFs like QQQ are sensitive to broad weakness in the technology sector."
-          },
-          {
-            "ticker": "VXX",
-            "direction": "benefits",
-            "expected_move": "small",
-            "reason": "Geopolitical tensions and market dips often lead to increased demand for volatility products like VXX."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Mideast tensions ease, tech stabilizes",
-            "condition": "Geopolitical concerns in the Middle East de-escalate, and technology stocks find support.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "QQQ",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Stabilization in tech would support tech-heavy ETFs."
-              },
-              {
-                "ticker": "VXX",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Easing geopolitical fears reduce demand for volatility."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Tech rebound, geopolitical calm",
-            "condition": "Stronger-than-expected earnings from tech giants and a significant de-escalation of Middle East conflicts.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "QQQ",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Positive catalysts for tech would drive significant gains in tech ETFs."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Mideast conflict escalates, tech sells off",
-            "condition": "Further escalation of Middle East tensions and continued weakness in major technology companies.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "VXX",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Heightened risk aversion would significantly boost volatility."
-              },
-              {
-                "ticker": "QQQ",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "A tech sell-off combined with risk-off sentiment would heavily impact tech ETFs."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com",
-        "title": "Saab profit beats forecast as defence boom spurs surge in orders",
-        "link": "https://www.investing.com/news/stock-market-news/saab-profit-beats-forecast-as-defence-boom-spurs-surge-in-orders-4797396",
-        "published": "2026-07-17 07:24:46",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Saab's profits rise on strong defense orders",
-        "what_happened": "Swedish defense company Saab reported profits that exceeded forecasts, driven by a surge in new orders. This reflects a global increase in defense spending.",
-        "what_happened_verbose": "Saab, a prominent defense contractor, announced financial results that surpassed analyst expectations, largely due to a significant increase in its order backlog. The company is experiencing a boom in demand for its products, a trend attributed to heightened global security concerns and increased defense budgets in many countries. This surge in orders suggests a sustained period of growth for the company and the broader defense sector.",
-        "theme": "Defence",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "RHM.DE",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "As a European defense prime, RHM.DE is likely benefiting from similar trends in increased defense spending."
-          },
-          {
-            "ticker": "LMT",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Global increases in defense spending positively impact major US defense contractors like LMT."
-          },
-          {
-            "ticker": "BA.L",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "The global defense boom benefits UK-based defense primes like BA.L."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Defense spending remains elevated globally",
-            "condition": "Geopolitical tensions continue to drive sustained high levels of government defense spending worldwide.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "RHM.DE",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Continued high defense spending benefits European defense firms."
-              },
-              {
-                "ticker": "LMT",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Sustained demand for defense products will benefit major US contractors."
-              }
-            ]
-          },
-          "upside": {
-            "label": "New major defense contracts awarded",
-            "condition": "Saab or other defense companies secure significant new, large-scale defense contracts beyond current expectations.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 25,
-            "tickers": [
-              {
-                "ticker": "RHM.DE",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Securing major new contracts would significantly boost future revenue and stock price."
-              },
-              {
-                "ticker": "LMT",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Broader positive sentiment from major contract awards could lift other defense stocks."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Defense budgets face cuts or delays",
-            "condition": "Major economies experience fiscal constraints leading to cuts or significant delays in planned defense spending.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "RHM.DE",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Reduced government spending directly impacts defense company order books."
-              },
-              {
-                "ticker": "LMT",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Cuts in defense budgets would negatively affect revenue and growth prospects for US defense primes."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com",
-        "title": "Chipotle is entering the land of the taco. Will Mexicans bite?",
-        "link": "https://www.investing.com/news/stock-market-news/chipotle-is-entering-the-land-of-the-taco-will-mexicans-bite-4797353",
-        "published": "2026-07-17 07:18:40",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Chipotle eyes Mexican market entry",
-        "what_happened": "Fast-casual chain Chipotle is planning to expand into Mexico, a market already saturated with established taco and Mexican food brands. The success of this venture is uncertain.",
-        "what_happened_verbose": "Chipotle Mexican Grill is reportedly exploring an expansion into Mexico, the birthplace of many of the cuisine styles it offers. This move into a highly competitive market, dominated by local eateries and established chains specializing in authentic Mexican food, presents a significant challenge. Investors will be watching closely to see if Chipotle's adapted menu and brand appeal can resonate with Mexican consumers, who have deep-rooted culinary traditions.",
-        "theme": "Consumer",
-        "impact": "low",
-        "affected": [
-          {
-            "ticker": "SAN",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "If Chipotle's expansion is successful, it could signal a positive trend for international consumer brands, potentially benefiting banks with strong Latin American operations like SAN."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Chipotle enters Mexico cautiously",
-            "condition": "Chipotle begins a pilot program in select Mexican cities with a localized menu, facing moderate competition.",
-            "horizon": "next 6-12 months",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "SAN",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Limited initial impact on banks, but successful expansion could be a positive signal for international consumer growth."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Chipotle achieves rapid market acceptance",
-            "condition": "Chipotle's entry is met with strong consumer demand, leading to rapid store openings and market share gains.",
-            "horizon": "next 1-2 years",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "SAN",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Strong international growth for a major consumer brand could boost sentiment for companies with emerging market exposure."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Chipotle struggles against local competition",
-            "condition": "Chipotle faces significant challenges adapting to local tastes and intense competition, leading to poor sales and potential withdrawal.",
-            "horizon": "next 1-2 years",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "SAN",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "A failed expansion could dampen investor sentiment towards international consumer ventures, potentially affecting banks with exposure to such markets."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com",
-        "title": "Burberry’s strong US sales offset Iran war impact in Europe",
-        "link": "https://www.investing.com/news/stock-market-news/burberry-sales-boosted-by-us-while-iran-war-hits-european-spending-4797428",
-        "published": "2026-07-17 07:18:25",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Burberry sales strong in US, offsetting European weakness",
-        "what_happened": "Luxury fashion brand Burberry reported robust sales in the United States, which helped to counteract weaker performance in its European markets. The company's results were also impacted by geopolitical events.",
-        "what_happened_verbose": "Burberry, the British luxury fashion house, has announced that its strong sales performance in the United States has successfully compensated for a slowdown in its European business. The company cited the impact of geopolitical tensions, potentially referring to the conflict in the Middle East and its effect on travel and consumer spending in Europe. Despite these headwinds, the resilience of the US market, particularly among affluent consumers, provided a crucial boost to Burberry's overall revenue.",
-        "theme": "Consumer",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "FXI",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Luxury goods performance can be a bellwether for consumer spending in key markets like the US and China, indirectly affecting sentiment for Chinese stocks."
-          },
-          {
-            "ticker": "UUP",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Strong US sales for a European company could indicate a stronger US dollar relative to European currencies, benefiting UUP."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "US luxury demand holds, Europe recovers slowly",
-            "condition": "US consumer spending on luxury goods remains strong, while European markets show gradual improvement.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "FXI",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Continued US strength could offer some positive spillover for global consumer sentiment, but China-specific factors remain dominant for FXI."
-              },
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Sustained US economic outperformance relative to Europe would likely keep the dollar strong."
-              }
-            ]
-          },
-          "upside": {
-            "label": "US luxury boom continues, Europe rebounds",
-            "condition": "Exceptional growth in US luxury sales and a significant recovery in European consumer confidence and spending.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "FXI",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "A broad global consumer upswing could positively influence markets like China, though direct impact is limited."
-              },
-              {
-                "ticker": "UUP",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "A strong global recovery could weaken the US dollar as investors seek opportunities elsewhere."
-              }
-            ]
-          },
-          "downside": {
-            "label": "US luxury cools, Europe struggles",
-            "condition": "US consumer spending on discretionary items like luxury goods falters, and European economic conditions worsen.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "FXI",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "A global consumer slowdown would likely negatively impact demand for goods from export-oriented economies like China."
-              },
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Weakness in other major economies would likely lead to a stronger US dollar as a safe haven."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com Forex",
-        "title": "Asia FX subdued as Middle East tensions offset softer dollar; yen under pressure",
-        "link": "https://www.investing.com/news/forex-news/asian-fx-subdued-as-middle-east-tensions-offset-softer-dollar-yen-under-pressure-4797385",
-        "published": "2026-07-17 05:27:36",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Asian currencies struggle amid Middle East tensions",
-        "what_happened": "Asian currencies saw little movement as rising tensions in the Middle East overshadowed a weaker US dollar. The Japanese yen, typically a safe-haven asset, also faced pressure, indicating broader market caution.",
-        "what_happened_verbose": "Asian foreign exchange markets were subdued as investors weighed geopolitical risks in the Middle East against a slightly weaker US dollar. Despite the dollar's softening, the Japanese yen (FXY) failed to strengthen, suggesting that safe-haven demand was being overshadowed by broader risk aversion. This complex interplay of factors points to a cautious market environment where regional conflicts are a significant concern for currency traders.",
-        "theme": "FX",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "FXY",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Geopolitical tensions can lead to risk-off sentiment, which may pressure safe-haven currencies like the yen."
-          },
-          {
-            "ticker": "UUP",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "A weaker dollar would typically hurt UUP, but Middle East tensions could also drive some demand for USD as a safe haven."
-          },
-          {
-            "ticker": "CYB",
-            "direction": "mixed",
-            "expected_move": "small",
-            "reason": "Asian currencies like the yuan can be sensitive to regional geopolitical events and global risk sentiment."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Geopolitical risks keep Asian FX under pressure",
-            "condition": "Middle East tensions persist or escalate, and the US dollar remains relatively stable.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 50,
-            "tickers": [
-              {
-                "ticker": "FXY",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Safe-haven demand for yen is offset by broader risk aversion."
-              },
-              {
-                "ticker": "CYB",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Regional instability creates uncertainty for emerging market currencies."
-              }
-            ]
-          },
-          "upside": {
-            "label": "De-escalation in Middle East boosts Asian currencies",
-            "condition": "Tensions in the Middle East significantly de-escalate, leading to improved global risk sentiment.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
-            "tickers": [
-              {
-                "ticker": "FXY",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Reduced geopolitical risk increases demand for safe-haven assets like the yen."
-              },
-              {
-                "ticker": "CYB",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Improved global sentiment supports emerging market currencies."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Middle East conflict escalates, driving USD strength",
-            "condition": "Conflict in the Middle East intensifies, leading to a flight to safety and a stronger US dollar.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Increased global uncertainty drives demand for the US dollar as a safe haven."
-              },
-              {
-                "ticker": "FXY",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Safe-haven demand shifts to the dollar over the yen amid escalating conflict."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com Forex",
-        "title": "Dollar rises after Dallas Fed’s Logan calls for ’modestly higher’ interest rates",
-        "link": "https://www.investing.com/news/forex-news/asian-fx-muted-as-weaker-dollar-offsets-iran-jitters-yuan-won-in-focus-4794622",
-        "published": "2026-07-16 19:41:38",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Fed official hints at more rate hikes, boosting dollar",
-        "what_happened": "A statement from Dallas Fed President Logan suggesting a need for 'modestly higher' interest rates caused the US dollar to strengthen. This indicates that the Federal Reserve might not be done with its rate-hiking cycle.",
-        "what_happened_verbose": "The US dollar gained ground after Dallas Federal Reserve President Lorie Logan indicated that interest rates may need to rise further to combat inflation. Her remarks suggest a hawkish stance from a key Federal Reserve official, implying that the central bank is still concerned about price pressures and is open to additional rate increases. This prospect of higher rates makes dollar-denominated assets more attractive to investors, thus boosting the currency.",
-        "theme": "Rates",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Higher expected interest rates make the US dollar more attractive to investors."
-          },
-          {
-            "ticker": "TLT",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Expectations of higher interest rates increase bond yields, pushing down the price of long-duration bonds."
-          },
-          {
-            "ticker": "LQD",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Higher rates increase borrowing costs for corporations, potentially hurting bond prices."
-          },
-          {
-            "ticker": "HYG",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Higher rates and potential economic slowdown increase credit risk for high-yield bonds."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "Fed signals continued hawkishness, dollar stays strong",
-            "condition": "More Fed officials echo Logan's sentiment, and inflation data remains elevated.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "most_likely",
-            "likelihood_pct": 60,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Sustained hawkish rhetoric supports a stronger dollar."
-              },
-              {
-                "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Bond yields rise on persistent inflation and rate hike expectations."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Fed pivots to dovish stance, dollar weakens",
-            "condition": "Inflation data unexpectedly falls sharply, prompting Fed officials to signal a pause or cut in rates.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Dovish Fed signals reduce demand for the dollar."
-              },
-              {
-                "ticker": "TLT",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Lower rate expectations boost bond prices."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Market digests Logan's comments, dollar consolidates",
-            "condition": "No further strong signals from the Fed, and market participants absorb the implications of Logan's remarks.",
-            "horizon": "next 1-2 weeks",
-            "likelihood": "plausible",
-            "likelihood_pct": 25,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Dollar strength may moderate as the market digests the news."
-              },
-              {
-                "ticker": "TLT",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Bond market reaction stabilizes after initial move."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com Forex",
-        "title": "BofA sees 3 potential bullish USD themes into H2",
-        "link": "https://www.investing.com/news/forex-news/bofa-sees-3-potential-bullish-usd-themes-into-h2-4795930",
-        "published": "2026-07-16 13:18:21",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Bank of America sees 3 reasons for dollar strength",
-        "what_happened": "Bank of America strategists have identified three key themes that could drive the US dollar higher in the second half of the year. This suggests a potential for continued dollar appreciation.",
-        "what_happened_verbose": "Analysts at Bank of America have outlined three distinct scenarios or themes that they believe could lead to a stronger US dollar (UUP) in the latter half of the year. These themes likely revolve around factors such as persistent US economic outperformance, global economic uncertainty, or continued hawkishness from the Federal Reserve. Investors will be watching these themes closely as they could influence currency markets and the attractiveness of dollar-denominated assets.",
-        "theme": "FX",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "UUP",
-            "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "The identified themes are expected to directly support the US Dollar Index."
-          },
-          {
-            "ticker": "FXY",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "A stronger dollar generally puts downward pressure on other major currencies like the yen."
-          },
-          {
-            "ticker": "FXE",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "A stronger dollar typically leads to a weaker euro against the US dollar."
-          },
-          {
-            "ticker": "EEM",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "A stronger dollar can make emerging market debt and equities more expensive for foreign investors."
-          }
-        ],
-        "scenarios": {
-          "base": {
-            "label": "US economic resilience drives dollar higher",
-            "condition": "US economic data continues to outperform global peers, and the Fed maintains a relatively hawkish stance.",
-            "horizon": "next quarter",
-            "likelihood": "most_likely",
-            "likelihood_pct": 55,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Strong US growth attracts capital, boosting the dollar."
-              },
-              {
-                "ticker": "EEM",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Capital outflows from emerging markets due to stronger US opportunities."
-              }
-            ]
-          },
-          "upside": {
-            "label": "Global uncertainty fuels flight to USD safety",
-            "condition": "Significant geopolitical or economic shocks occur globally, increasing demand for the US dollar as a safe haven.",
-            "horizon": "next quarter",
-            "likelihood": "plausible",
-            "likelihood_pct": 30,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Extreme global risk aversion drives significant capital into USD."
-              },
-              {
-                "ticker": "GLD",
-                "direction": "mixed",
-                "expected_move": "small",
-                "reason": "Gold is also a safe haven, but USD often benefits more in acute crises."
-              }
-            ]
-          },
-          "downside": {
-            "label": "Global recovery strengthens, reducing USD appeal",
-            "condition": "Other major economies show robust growth, and global risk appetite improves, reducing the need for USD.",
-            "horizon": "next quarter",
-            "likelihood": "less_likely",
-            "likelihood_pct": 15,
-            "tickers": [
-              {
-                "ticker": "UUP",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Reduced demand for USD as global alternatives become more attractive."
-              },
-              {
-                "ticker": "FXE",
-                "direction": "benefits",
-                "expected_move": "small",
-                "reason": "Euro strengthens as global economic outlook improves."
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "source_item": {
-        "source": "Investing.com Forex",
-        "title": "Global yields edge higher as Middle East escalation fuels inflation fears",
-        "link": "https://www.investing.com/news/forex-news/euro-yields-edge-higher-as-middle-east-escalation-fuels-inflation-fears-4794739",
-        "published": "2026-07-16 12:39:49",
-        "summary": ""
-      },
-      "card": {
-        "skip": false,
-        "skip_reason": "",
-        "plain_headline": "Middle East tensions push global yields higher on inflation fears",
-        "what_happened": "Global bond yields are rising as escalating tensions in the Middle East fuel concerns about potential inflation spikes, particularly in energy prices. This suggests markets are pricing in higher future inflation and interest rates.",
-        "what_happened_verbose": "Bond yields across the globe are ticking higher, driven by fears that renewed conflict in the Middle East could disrupt oil supplies and lead to higher energy prices. This anticipated rise in inflation prompts investors to demand higher yields on their bonds to compensate for the eroding purchasing power of future payments. Consequently, the prices of existing bonds, especially longer-duration ones, are likely to fall.",
-        "theme": "Rates",
-        "impact": "medium",
-        "affected": [
-          {
-            "ticker": "TLT",
-            "direction": "hurts",
-            "expected_move": "moderate",
-            "reason": "Rising inflation expectations and potential rate hikes increase yields, pressuring long-term bond prices."
-          },
-          {
-            "ticker": "LQD",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Higher yields increase borrowing costs for corporations, negatively impacting investment-grade bonds."
-          },
-          {
-            "ticker": "HYG",
-            "direction": "hurts",
-            "expected_move": "small",
-            "reason": "Increased inflation and potential rate hikes raise credit risk and borrowing costs for high-yield issuers."
+            "reason": "Rising oil prices directly increase the value of oil futures contracts that BNO tracks."
           },
           {
             "ticker": "XLE",
             "direction": "benefits",
-            "expected_move": "moderate",
-            "reason": "Higher oil prices resulting from Middle East tensions directly benefit energy companies."
+            "expected_move": "small",
+            "reason": "Higher oil prices generally improve the profitability and outlook for energy companies."
           },
           {
-            "ticker": "GLD",
+            "ticker": "ENB",
             "direction": "benefits",
             "expected_move": "small",
-            "reason": "Gold often benefits from inflation fears and geopolitical uncertainty as a safe-haven asset."
+            "reason": "Higher oil prices can lead to increased volumes and potentially higher fees for oil pipeline operators like ENB."
           }
         ],
         "scenarios": {
           "base": {
-            "label": "Inflation fears persist, keeping yields elevated",
-            "condition": "Middle East tensions remain high, leading to sustained elevated energy prices and inflation expectations.",
+            "label": "Oil prices remain elevated, demand steady",
+            "condition": "Oil prices continue to trade at current high levels or rise further, supported by steady global demand and supply constraints.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 55,
+            "tickers": [
+              {
+                "ticker": "USO",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Sustained high oil prices directly benefit oil futures ETFs."
+              },
+              {
+                "ticker": "ENB",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Higher oil prices and volumes support pipeline infrastructure companies."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Oil prices spike due to supply shock",
+            "condition": "A significant geopolitical event or supply disruption causes a sharp and rapid increase in oil prices.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
+            "tickers": [
+              {
+                "ticker": "USO",
+                "direction": "benefits",
+                "expected_move": "large",
+                "reason": "A major supply shock would likely cause a substantial spike in oil prices."
+              },
+              {
+                "ticker": "FRO",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Disruptions leading to rerouting or longer shipping times would increase tanker rates."
+              },
+              {
+                "ticker": "ENB",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Increased oil production and transport would benefit midstream operators."
+              }
+            ]
+          },
+          "downside": {
+            "label": "Oil prices fall on demand fears",
+            "condition": "Concerns about a global economic slowdown or increased supply lead to a significant drop in oil prices.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "USO",
+                "direction": "hurts",
+                "expected_move": "moderate",
+                "reason": "Falling oil prices would negatively impact oil futures ETFs."
+              },
+              {
+                "ticker": "ENB",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Lower oil prices could reduce transport volumes and profitability for midstream companies."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "Global yields edge lower on safe-haven flows; oil spike caps gains",
+        "link": "https://www.investing.com/news/forex-news/euro-yields-edge-lower-on-safehaven-flows-but-post-sharp-weekly-rise-on-oil-spike-4797416",
+        "published": "2026-07-17 12:25:14",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Global Bond Yields Dip Amid Safe-Haven Demand",
+        "what_happened": "Global government bond yields are slightly lower as investors seek safety amid market uncertainty. However, a spike in oil prices is capping further gains in bonds.",
+        "what_happened_verbose": "Yields on global government bonds have edged down, indicating increased demand for these typically safer assets. This 'safe-haven flow' suggests investors are becoming more cautious about riskier assets, possibly due to geopolitical tensions or economic worries. Despite this, a sharp rise in oil prices is preventing bond yields from falling further, as higher energy costs can sometimes signal inflationary pressures, which are generally negative for bonds.",
+        "theme": "Rates",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "TLT",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Falling yields on long-duration Treasuries increase the price of TLT."
+          },
+          {
+            "ticker": "LQD",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "Lower overall interest rates are generally positive for corporate bonds."
+          },
+          {
+            "ticker": "HYG",
+            "direction": "hurts",
+            "expected_move": "small",
+            "reason": "Increased risk aversion, even if yields fall, can hurt higher-risk assets like junk bonds."
+          },
+          {
+            "ticker": "USO",
+            "direction": "benefits",
+            "expected_move": "moderate",
+            "reason": "A spike in oil prices is a direct positive for oil prices."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Moderate risk aversion, oil prices stable",
+            "condition": "Investors maintain a cautious stance, leading to continued demand for safe-haven assets, while oil prices stabilize around current levels.",
             "horizon": "next 1-2 weeks",
             "likelihood": "most_likely",
             "likelihood_pct": 50,
             "tickers": [
               {
                 "ticker": "TLT",
-                "direction": "hurts",
-                "expected_move": "moderate",
-                "reason": "Inflationary pressures keep bond yields elevated."
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Continued safe-haven flows support bond prices."
               },
               {
-                "ticker": "XLE",
-                "direction": "benefits",
-                "expected_move": "moderate",
-                "reason": "Sustained high energy prices boost energy sector profits."
+                "ticker": "HYG",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Lingering risk aversion can pressure high-yield bonds."
               }
             ]
           },
           "upside": {
-            "label": "De-escalation eases inflation fears, yields fall",
-            "condition": "Geopolitical tensions in the Middle East quickly de-escalate, leading to a drop in oil prices and inflation expectations.",
+            "label": "Major geopolitical event, oil spikes",
+            "condition": "A significant geopolitical crisis erupts, driving investors heavily into safe-haven bonds and causing oil prices to surge due to supply concerns.",
             "horizon": "next 1-2 weeks",
-            "likelihood": "less_likely",
-            "likelihood_pct": 20,
+            "likelihood": "plausible",
+            "likelihood_pct": 35,
             "tickers": [
               {
                 "ticker": "TLT",
                 "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Easing inflation fears lead to lower bond yields."
+                "reason": "Extreme risk-off sentiment would drive significant demand for Treasuries."
               },
               {
-                "ticker": "XLE",
-                "direction": "hurts",
-                "expected_move": "small",
-                "reason": "Falling oil prices negatively impact energy sector profitability."
+                "ticker": "VXX",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Increased market volatility and fear would benefit VXX."
+              },
+              {
+                "ticker": "USO",
+                "direction": "benefits",
+                "expected_move": "moderate",
+                "reason": "Supply disruption fears would push oil prices higher."
               }
             ]
           },
           "downside": {
-            "label": "Conflict escalates, triggering significant inflation shock",
-            "condition": "A major escalation of the Middle East conflict leads to substantial oil supply disruptions and a sharp spike in inflation.",
+            "label": "Inflation fears resurface, risk-on",
+            "condition": "Concerns about persistent inflation outweigh safe-haven demand, leading investors to favor riskier assets and sell bonds.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 15,
+            "tickers": [
+              {
+                "ticker": "TLT",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Rising inflation expectations would lead to higher bond yields."
+              },
+              {
+                "ticker": "HYG",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "A 'risk-on' environment would benefit high-yield corporate bonds."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "source_item": {
+        "source": "Investing.com Forex",
+        "title": "Sterling today: Pound slips against strong dollar as Fed tightening bets hold firm",
+        "link": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-against-strong-dollar-as-fed-tightening-bets-hold-firm-4798154",
+        "published": "2026-07-17 11:34:51",
+        "summary": ""
+      },
+      "card": {
+        "skip": false,
+        "skip_reason": "",
+        "plain_headline": "Pound Falls as Dollar Strengthens on Fed Bets",
+        "what_happened": "The British pound has weakened against the U.S. dollar today. This is because expectations for continued interest rate hikes by the U.S. Federal Reserve remain strong, boosting the dollar's appeal.",
+        "what_happened_verbose": "Sterling (GBP) has experienced a decline in value relative to the U.S. dollar (USD). This move is attributed to persistent market expectations that the Federal Reserve will continue its policy of raising interest rates to combat inflation. Higher interest rates in the U.S. make dollar-denominated assets more attractive to investors, increasing demand for the dollar and consequently weakening other currencies like the pound.",
+        "theme": "FX",
+        "impact": "medium",
+        "affected": [
+          {
+            "ticker": "UUP",
+            "direction": "benefits",
+            "expected_move": "small",
+            "reason": "A stronger dollar against other currencies means UUP, which tracks the dollar index, is likely to rise."
+          },
+          {
+            "ticker": "HSBC",
+            "direction": "mixed",
+            "expected_move": "small",
+            "reason": "A stronger dollar can impact the translation of earnings from non-dollar regions, while higher US rates could benefit its US operations."
+          }
+        ],
+        "scenarios": {
+          "base": {
+            "label": "Fed hikes continue, dollar stays strong",
+            "condition": "The Federal Reserve maintains its hawkish stance and continues to signal or implement further interest rate hikes, keeping the dollar supported.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "most_likely",
+            "likelihood_pct": 60,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Continued Fed tightening supports a stronger dollar."
+              },
+              {
+                "ticker": "TLT",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "Higher rates make long-duration bonds less attractive."
+              }
+            ]
+          },
+          "upside": {
+            "label": "Fed signals pause, dollar weakens",
+            "condition": "The Federal Reserve unexpectedly signals a pause or end to its rate-hiking cycle, leading to a broad weakening of the U.S. dollar.",
             "horizon": "next 1-2 weeks",
             "likelihood": "plausible",
             "likelihood_pct": 30,
             "tickers": [
               {
-                "ticker": "TLT",
+                "ticker": "UUP",
                 "direction": "hurts",
-                "expected_move": "large",
-                "reason": "Severe inflation shock forces aggressive rate hikes, crushing bond prices."
-              },
-              {
-                "ticker": "XLE",
-                "direction": "benefits",
-                "expected_move": "large",
-                "reason": "Significant oil price surge due to supply shock."
-              },
-              {
-                "ticker": "GLD",
-                "direction": "benefits",
                 "expected_move": "moderate",
-                "reason": "Extreme inflation fears and safe-haven demand boost gold."
+                "reason": "A Fed pivot would significantly weaken the dollar."
+              },
+              {
+                "ticker": "SPY",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "A weaker dollar and potential for lower rates can be positive for equities."
+              }
+            ]
+          },
+          "downside": {
+            "label": "UK inflation surprises, BoE hikes more",
+            "condition": "Higher-than-expected inflation in the UK forces the Bank of England to adopt a more aggressive rate-hiking path than the Fed.",
+            "horizon": "next 1-2 weeks",
+            "likelihood": "less_likely",
+            "likelihood_pct": 10,
+            "tickers": [
+              {
+                "ticker": "UUP",
+                "direction": "hurts",
+                "expected_move": "small",
+                "reason": "If the BoE becomes more hawkish than the Fed, GBP could strengthen against USD."
+              },
+              {
+                "ticker": "LQD",
+                "direction": "benefits",
+                "expected_move": "small",
+                "reason": "Higher UK rates could support UK corporate bonds."
               }
             ]
           }
